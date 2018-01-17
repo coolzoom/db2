@@ -26,6 +26,7 @@ struct field_storage_info
 {
 	std::uint16_t offset_bits;
 	std::uint16_t field_size;
+	std::uint32_t additional_data_size;
 	field_compression type;
 	std::array<std::uint32_t,3> values;
 };
@@ -89,13 +90,13 @@ struct wdc1
 	std::vector<copy_table_entry> copy_table;
 	std::uint16_t flags;
 	std::uint16_t id_index;
+	std::uint32_t total_field_count;
 	std::uint32_t bitpacked_data_offset,lookup_column_count,offset_map_offset;
 	std::vector<std::uint32_t> ids;
 	std::vector<field_storage_info> field_storages;
 	std::vector<offset_map_entry> offsets;
 	std::string pallet,common;
 	relationship_mapping relationship_map;
-	
 	wdc1(const std::string &s)
 	{
 		if(s.front()!='W'||s[1]!='D'||s[2]!='C'||s[3]!='1')
@@ -111,6 +112,7 @@ struct wdc1
 		max_id = header.max_id;
 		flags = header.flags;
 		id_index = header.id_index;
+		total_field_count = header.total_field_count;
 		bitpacked_data_offset = header.bitpacked_data_offset;
 		lookup_column_count = header.lookup_column_count;
 		offset_map_offset = header.offset_map_offset;
@@ -132,7 +134,7 @@ struct wdc1
 		{
 			throw std::logic_error("currently unsupported flag :"s+std::to_string(flags));
 		}
-		lmd(ids,header.record_count);
+		lmd(ids,header.id_list_size/4);
 		lmd(copy_table,header.copy_table_size/sizeof(copy_table_entry));
 		lmd(field_storages,header.field_storage_info_size/sizeof(field_storage_info));
 		lmd(pallet,header.pallet_data_size);
@@ -158,11 +160,11 @@ struct wdc1
 		h.copy_table_size=copy_table.size()*sizeof(copy_table_entry);
 		h.flags=flags;                  // possible values are listed in Known Flag Meanings
 		h.id_index=id_index;               // this is the index of the field containing ID values; this is ignored if flags & 0x04 != 0
-		h.total_field_count=fields.size();      // in WDC1 this value seems to always be the same as the 'field_count' value
+		h.total_field_count=total_field_count;      // in WDC1 this value seems to always be the same as the 'field_count' value
 		h.bitpacked_data_offset=bitpacked_data_offset;  // relative position in record where bitpacked data begins; not important for parsing the file
 		h.lookup_column_count=lookup_column_count;
 		h.offset_map_offset=offset_map_offset;      // Offset to array of struct {	h.offset; uint16_t size;}[max_id - min_id + 1];
-		h.id_list_size=ids.size();           // List of ids present in the DB file
+		h.id_list_size=ids.size()*4;           // List of ids present in the DB file
 		h.field_storage_info_size=field_storages.size()*sizeof(field_storage_info);
 		h.common_data_size=common.size();
 		h.pallet_data_size=pallet.size();
@@ -172,6 +174,7 @@ struct wdc1
 		{
 			r.append(reinterpret_cast<const char*>(vec.data()),reinterpret_cast<const char*>(vec.data()+vec.size()));
 		});
+		lmd(fields);
 		lmd(records);
 		lmd(name);
 		lmd(ids);
