@@ -16,7 +16,9 @@ int main()
 		for(int ch;(ch=rdbuf.sbumpc())!=EOF;s.push_back(ch));
 		db2::wdc1::wdc1<db2::chrraces> chr(s);
 		auto b(chr.serialize());
-		std::cout<<s.size()<<' '<<b.size()<<'\n';
+		db2::wdc1::wdc1<db2::chrraces> chr2(b);
+		auto c(chr2.serialize());
+		std::cout<<s.size()<<' '<<b.size()<<' '<<c.size()<<'\n';
 	}
 	catch(const std::exception& e)
 	{

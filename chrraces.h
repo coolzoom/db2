@@ -6,7 +6,7 @@ namespace db2
 struct chrraces
 {
 	uint32_t m_flags;
-	std::array<uint8_t,112> com;
+	std::array<uint8_t,100> com;
 };
 
 template<typename ostrm>
