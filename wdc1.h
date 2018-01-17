@@ -37,7 +37,6 @@ struct relationship_entry
 };
 struct relationship_mapping
 {
-//	uint32_t            num_entries;
 	uint32_t            min_id;
 	uint32_t            max_id;
 	std::vector<relationship_entry>  entries;
@@ -82,6 +81,14 @@ struct dheader
 	std::uint32_t pallet_data_size;
 	std::uint32_t relationship_data_size;
 };
+
+struct relationship_map_header
+{
+	uint32_t num_entries;
+	uint32_t min_id;
+	uint32_t max_id;
+};
+
 template<typename T>
 struct wdc1
 {
@@ -100,6 +107,7 @@ struct wdc1
 	std::vector<field_storage_info> field_storages;
 	std::vector<offset_map_entry> offsets;
 	std::string pallet,common;
+	std::size_t relationship_data_size;
 	relationship_mapping relationship_map;
 	wdc1(const std::string &s)
 	{
@@ -120,6 +128,7 @@ struct wdc1
 		bitpacked_data_offset = header.bitpacked_data_offset;
 		lookup_column_count = header.lookup_column_count;
 		offset_map_offset = header.offset_map_offset;
+		relationship_data_size = header.relationship_data_size;
 		auto lmd([&p](auto &vec,std::size_t size)
 		{
 			auto b(reinterpret_cast<typename std::remove_reference_t<decltype(vec)>::const_pointer>(p));
@@ -145,7 +154,12 @@ struct wdc1
 		lmd(common,header.common_data_size);
 		if(header.relationship_data_size)
 		{
-			throw std::logic_error("currently unsupported relationship_data_size :"s+std::to_string(header.relationship_data_size));
+//			throw std::logic_error("currently unsupported relationship_data_size :"s+std::to_string(header.relationship_data_size));
+			decltype(auto) rhd(*reinterpret_cast<const relationship_map_header*>(p));
+			relationship_map.min_id=rhd.min_id;
+			relationship_map.max_id=rhd.max_id;
+			p+=sizeof(relationship_map_header);
+			lmd(relationship_map.entries,rhd.num_entries);
 		}
 	}
 	std::string serialize() const
@@ -172,7 +186,7 @@ struct wdc1
 		h.field_storage_info_size=field_storages.size()*sizeof(field_storage_info);
 		h.common_data_size=common.size();
 		h.pallet_data_size=pallet.size();
-		h.relationship_data_size=0;
+		h.relationship_data_size=relationship_data_size;
 		r.append(reinterpret_cast<const char*>(&h),reinterpret_cast<const char*>(&h+1));
 		auto lmd([&r](auto &vec)
 		{
@@ -186,6 +200,15 @@ struct wdc1
 		lmd(field_storages);
 		lmd(pallet);
 		lmd(common);
+		if(relationship_data_size)
+		{
+			std::array<relationship_map_header,1> rhd;
+			rhd.front().num_entries=relationship_map.entries.size();
+			rhd.front().min_id=relationship_map.min_id;
+			rhd.front().max_id=relationship_map.max_id;
+			lmd(rhd);
+			lmd(relationship_map.entries);
+		}
 		return r;
 	}
 };
