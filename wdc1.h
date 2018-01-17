@@ -46,6 +46,11 @@ struct field_structure
 {
 	std::uint16_t size,position;
 };
+template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const field_structure& fs)
+{
+	return o<<fs.position<<"\tsize:"<<((32-fs.size)>>3);
+}
 
 struct offset_map_entry
 {
@@ -55,7 +60,6 @@ struct offset_map_entry
 
 struct dheader
 {
-//	std::uint32_t magic;                   'WDC1'
 	std::uint32_t record_count;
 	std::uint32_t field_count;
 	std::uint32_t record_size;
