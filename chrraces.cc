@@ -19,6 +19,7 @@ int main()
 		db2::wdc1::wdc1<db2::chrraces> chr2(b);
 		auto c(chr2.serialize());
 		std::cout<<s.size()<<' '<<b.size()<<' '<<c.size()<<'\n';
+		std::cout<<(b==c)<<'\n';
 	}
 	catch(const std::exception& e)
 	{
