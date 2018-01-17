@@ -16,9 +16,10 @@ struct copy_table_entry
 	uint32_t id_of_new_row;
 	uint32_t id_of_copied_row;
 };
+
 enum class field_compression
 {
-	none,bitpacked,common_data,indexed,indexed_array;
+	none,bitpacked,common_data,indexed,indexed_array
 };
 
 struct field_storage_info
@@ -85,11 +86,9 @@ struct wdc1
 	std::uint32_t locale;
 	std::uint32_t table_hash,layout_hash;
 	std::uint32_t min_id,max_id;
-//		std::uint32_t copy_table_size;
 	std::vector<copy_table_entry> copy_table;
 	std::uint16_t flags;
 	std::uint16_t id_index;
-//		std::uint32_t bitpacked_data_offset;
 	std::uint32_t bitpacked_data_offset,lookup_column_count,offset_map_offset;
 	std::vector<std::uint32_t> ids;
 	std::vector<field_storage_info> field_storages;
@@ -104,7 +103,7 @@ struct wdc1
 		auto p(s.data()+4);
 		decltype(auto) header(*reinterpret_cast<const dheader*>(p));
 		if(header.record_size!=sizeof(T))
-			throw std::runtime_error("record_type incorrect size : ("s+std::to_string(sizeof(T))+") which should be("s+std::tostring(header.record_size)+')'));
+			throw std::runtime_error("record_type incorrect size : ("s+std::to_string(sizeof(T))+") which should be("s+std::to_string(header.record_size)+')');
 		locale = header.locale;
 		table_hash = header.table_hash;
 		layout_hash = header.layout_hash;
@@ -117,12 +116,12 @@ struct wdc1
 		offset_map_offset = header.offset_map_offset;
 		auto lmd([&p](auto &vec,std::size_t size)
 		{
-			auto b(reinterpret_cast<decltype(vec)::const_pointer>(p));
+			auto b(reinterpret_cast<typename std::remove_reference_t<decltype(vec)>::const_pointer>(p));
 			auto e(b+size);
 			vec.assign(b,e);
 			p=reinterpret_cast<const char*>(e);
 		});
-		p+=reinterpret_cast<const char*>(1+reinterpret_cast<const dheader*>(header));
+		p+=sizeof(dheader);
 		lmd(fields,header.field_count);
 		if(!(flags&1))
 		{
@@ -146,15 +145,28 @@ struct wdc1
 	std::string serialize() const
 	{
 		auto r("WDC1"s);
-		dheader h
-		{
-			records.size(),fields.size(),sizeof(T),name.size(),table_hash,layout_hash,
-			min_id,max_id,locale,copy_table.size()*sizeof(decltype(copy_table)::size_type),
-			flags,id_index,fields.size(),bitpacked_data_offset,lookup_column_count,ids.size(),
-			offset_map_offset,
-			field_storage_info.size()*sizeof(decltype(field_storage_info)::size_type),
-			common.size(),pallet.size(),0
-		};
+		dheader h;
+		h.record_count=records.size();
+		h.field_count=fields.size();
+		h.record_size=sizeof(T);
+		h.string_table_size=name.size();
+		h.table_hash=table_hash;             // hash of the table name
+		h.layout_hash=layout_hash;            // this is a hash field that changes only when the structure of the data changes
+		h.min_id=min_id;
+		h.max_id=max_id;
+		h.locale=locale;                 // as seen in TextWowEnum
+		h.copy_table_size=copy_table.size()*sizeof(copy_table_entry);
+		h.flags=flags;                  // possible values are listed in Known Flag Meanings
+		h.id_index=id_index;               // this is the index of the field containing ID values; this is ignored if flags & 0x04 != 0
+		h.total_field_count=fields.size();      // in WDC1 this value seems to always be the same as the 'field_count' value
+		h.bitpacked_data_offset=bitpacked_data_offset;  // relative position in record where bitpacked data begins; not important for parsing the file
+		h.lookup_column_count=lookup_column_count;
+		h.offset_map_offset=offset_map_offset;      // Offset to array of struct {	h.offset; uint16_t size;}[max_id - min_id + 1];
+		h.id_list_size=ids.size();           // List of ids present in the DB file
+		h.field_storage_info_size=field_storages.size()*sizeof(field_storage_info);
+		h.common_data_size=common.size();
+		h.pallet_data_size=pallet.size();
+		h.relationship_data_size=0;
 		r.append(reinterpret_cast<const char*>(&h),reinterpret_cast<const char*>(&h+1));
 		auto lmd([&r](auto &vec)
 		{

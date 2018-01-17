@@ -18,4 +18,3 @@ decltype(auto) operator<<(ostrm& out,const chrraces& e)
 	return out;
 }
 }
-#endif
