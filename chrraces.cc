@@ -1,0 +1,26 @@
+#include<iostream>
+#include<exception>
+#include<fstream>
+#include"chrraces.h"
+#include"wdc1.h"
+
+int main()
+{
+	try
+	{
+		std::ifstream fin("chrraces.db2",std::ifstream::binary);
+		if(!fin)
+			fin.exceptions(std::ifstream::failbit);
+		decltype(auto) rdbuf(*fin.rdbuf());
+		std::string s;
+		for(int ch;(ch=rdbuf.sbumpc())!=EOF;s.push_back(ch));
+		db2::wdc1::wdc1<db2::chrraces> chr(s);
+		auto b(chr.serialize());
+		std::cout<<s.size()<<' '<<b.size()<<'\n';
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr<<e.what()<<'\n';
+		return 1;
+	}	
+}
