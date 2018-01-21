@@ -35,6 +35,12 @@ struct relationship_entry
 	uint32_t foreign_id;
 	uint32_t record_index;
 };
+
+template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const relationship_entry& r)
+{
+	return o<<r.foreign_id<<'\t'<<r.record_index;
+}
 struct relationship_mapping
 {
 	uint32_t            min_id;
@@ -154,7 +160,6 @@ struct wdc1
 		lmd(common,header.common_data_size);
 		if(header.relationship_data_size)
 		{
-//			throw std::logic_error("currently unsupported relationship_data_size :"s+std::to_string(header.relationship_data_size));
 			decltype(auto) rhd(*reinterpret_cast<const relationship_map_header*>(p));
 			relationship_map.min_id=rhd.min_id;
 			relationship_map.max_id=rhd.max_id;

@@ -1,0 +1,1631 @@
+3769 3244	0	0	17[P]	Blood Elf	F	Skin	0	0	0
+3770 3245	0	0	17[P]	Blood Elf	F	Skin	0	1	0
+3771 3246	0	0	17[P]	Blood Elf	F	Skin	0	2	0
+3772 3247	0	0	17[P]	Blood Elf	F	Skin	0	3	0
+3773 3248	0	0	17[P]	Blood Elf	F	Skin	0	4	0
+3774 3249	0	0	17[P]	Blood Elf	F	Skin	0	5	0
+3775 3250	0	0	17[P]	Blood Elf	F	Skin	0	6	0
+3776 3251	0	0	17[P]	Blood Elf	F	Skin	0	7	0
+3777 3252	0	0	17[P]	Blood Elf	F	Skin	0	8	0
+3778 3253	0	0	17[P]	Blood Elf	F	Skin	0	9	0
+4663 3254	0	0	8[NPC]	Blood Elf	F	Skin	0	10	0
+4664 3255	0	0	8[NPC]	Blood Elf	F	Skin	0	11	0
+4665 3256	0	0	8[NPC]	Blood Elf	F	Skin	0	12	0
+4666 3257	0	0	8[NPC]	Blood Elf	F	Skin	0	13	0
+4667 3258	0	0	8[NPC]	Blood Elf	F	Skin	0	14	0
+5096 3259	0	0	8[NPC]	Blood Elf	F	Skin	0	15	0
+8900 54098	0	0	5[P][DK]	Blood Elf	F	Skin	0	16	0
+8905 54099	0	0	5[P][DK]	Blood Elf	F	Skin	0	17	0
+8910 54100	0	0	5[P][DK]	Blood Elf	F	Skin	0	18	0
+25826 207472	0	0	17[P]	Blood Elf	F	HD Skin	0	0	0
+25827 207473	0	0	17[P]	Blood Elf	F	HD Skin	0	1	0
+25828 207474	0	0	17[P]	Blood Elf	F	HD Skin	0	2	0
+25829 207475	0	0	17[P]	Blood Elf	F	HD Skin	0	3	0
+25830 207476	0	0	17[P]	Blood Elf	F	HD Skin	0	4	0
+25831 207477	0	0	17[P]	Blood Elf	F	HD Skin	0	5	0
+25832 207478	0	0	17[P]	Blood Elf	F	HD Skin	0	6	0
+25833 207479	0	0	17[P]	Blood Elf	F	HD Skin	0	7	0
+25834 207480	0	0	17[P]	Blood Elf	F	HD Skin	0	8	0
+25835 207481	0	0	17[P]	Blood Elf	F	HD Skin	0	9	0
+26058 207482	0	0	8[NPC]	Blood Elf	F	HD Skin	0	10	0
+26059 207483	0	0	8[NPC]	Blood Elf	F	HD Skin	0	11	0
+26060 207484	0	0	8[NPC]	Blood Elf	F	HD Skin	0	12	0
+26061 207485	0	0	8[NPC]	Blood Elf	F	HD Skin	0	13	0
+26062 207486	0	0	8[NPC]	Blood Elf	F	HD Skin	0	14	0
+26063 207487	0	0	8[NPC]	Blood Elf	F	HD Skin	0	15	0
+26271 207488	0	0	5[P][DK]	Blood Elf	F	HD Skin	0	16	0
+26276 207489	0	0	5[P][DK]	Blood Elf	F	HD Skin	0	17	0
+26281 207490	0	0	5[P][DK]	Blood Elf	F	HD Skin	0	18	0
+26964 236232	0	0	33[P]	Blood Elf	F	HD Skin	0	19	0
+26965 236233	0	0	33[P]	Blood Elf	F	HD Skin	0	20	0
+26966 236234	0	0	33[P]	Blood Elf	F	HD Skin	0	21	0
+26967 236235	0	0	33[P]	Blood Elf	F	HD Skin	0	22	0
+26968 236674	0	0	33[P]	Blood Elf	F	HD Skin	0	23	0
+26969 236675	0	0	33[P]	Blood Elf	F	HD Skin	0	24	0
+27369 262256	0	0	256	Blood Elf	F	HD Skin	0	25	0
+
+3499 3024	3124	0	65[P][DH]	Blood Elf	F	Face	0	0	0
+3519 3025	3125	0	65[P][DH]	Blood Elf	F	Face	0	1	0
+3520 3026	3126	0	65[P][DH]	Blood Elf	F	Face	0	2	0
+3521 3027	3127	0	65[P][DH]	Blood Elf	F	Face	0	3	0
+3522 3034	3134	0	65[P][DH]	Blood Elf	F	Face	1	0	0
+3523 3035	3135	0	65[P][DH]	Blood Elf	F	Face	1	1	0
+3524 3036	3136	0	65[P][DH]	Blood Elf	F	Face	1	2	0
+3525 3037	3137	0	65[P][DH]	Blood Elf	F	Face	1	3	0
+3526 3044	3144	0	65[P][DH]	Blood Elf	F	Face	2	0	0
+3527 3045	3145	0	65[P][DH]	Blood Elf	F	Face	2	1	0
+3528 3046	3146	0	65[P][DH]	Blood Elf	F	Face	2	2	0
+3529 3047	3147	0	65[P][DH]	Blood Elf	F	Face	2	3	0
+3779 3028	3128	0	65[P][DH]	Blood Elf	F	Face	0	4	0
+3780 3029	3129	0	65[P][DH]	Blood Elf	F	Face	0	5	0
+3781 3030	3130	0	65[P][DH]	Blood Elf	F	Face	0	6	0
+3782 3031	3131	0	65[P][DH]	Blood Elf	F	Face	0	7	0
+3783 3032	3132	0	65[P][DH]	Blood Elf	F	Face	0	8	0
+3784 3033	3133	0	65[P][DH]	Blood Elf	F	Face	0	9	0
+3785 3038	3138	0	65[P][DH]	Blood Elf	F	Face	1	4	0
+3786 3039	3139	0	65[P][DH]	Blood Elf	F	Face	1	5	0
+3787 3040	3140	0	65[P][DH]	Blood Elf	F	Face	1	6	0
+3788 3041	3141	0	65[P][DH]	Blood Elf	F	Face	1	7	0
+3789 3042	3142	0	65[P][DH]	Blood Elf	F	Face	1	8	0
+3790 3043	3143	0	65[P][DH]	Blood Elf	F	Face	1	9	0
+3791 3048	3148	0	65[P][DH]	Blood Elf	F	Face	2	4	0
+3792 3049	3149	0	65[P][DH]	Blood Elf	F	Face	2	5	0
+3793 3050	3150	0	65[P][DH]	Blood Elf	F	Face	2	6	0
+3794 3051	3151	0	65[P][DH]	Blood Elf	F	Face	2	7	0
+3795 3052	3152	0	65[P][DH]	Blood Elf	F	Face	2	8	0
+3796 3053	3153	0	65[P][DH]	Blood Elf	F	Face	2	9	0
+3809 3054	3154	0	65[P][DH]	Blood Elf	F	Face	3	0	0
+3810 3055	3155	0	65[P][DH]	Blood Elf	F	Face	3	1	0
+3811 3056	3156	0	65[P][DH]	Blood Elf	F	Face	3	2	0
+3812 3057	3157	0	65[P][DH]	Blood Elf	F	Face	3	3	0
+3813 3058	3158	0	65[P][DH]	Blood Elf	F	Face	3	4	0
+3814 3059	3159	0	65[P][DH]	Blood Elf	F	Face	3	5	0
+3815 3060	3160	0	65[P][DH]	Blood Elf	F	Face	3	6	0
+3816 3061	3161	0	65[P][DH]	Blood Elf	F	Face	3	7	0
+3817 3062	3162	0	65[P][DH]	Blood Elf	F	Face	3	8	0
+3818 3063	3163	0	65[P][DH]	Blood Elf	F	Face	3	9	0
+3819 3064	3164	0	65[P][DH]	Blood Elf	F	Face	4	0	0
+3820 3065	3165	0	65[P][DH]	Blood Elf	F	Face	4	1	0
+3821 3066	3166	0	65[P][DH]	Blood Elf	F	Face	4	2	0
+3822 3067	3167	0	65[P][DH]	Blood Elf	F	Face	4	3	0
+3823 3068	3168	0	65[P][DH]	Blood Elf	F	Face	4	4	0
+3824 3069	3169	0	65[P][DH]	Blood Elf	F	Face	4	5	0
+3825 3070	3170	0	65[P][DH]	Blood Elf	F	Face	4	6	0
+3826 3071	3171	0	65[P][DH]	Blood Elf	F	Face	4	7	0
+3827 3072	3172	0	65[P][DH]	Blood Elf	F	Face	4	8	0
+3828 3073	3173	0	65[P][DH]	Blood Elf	F	Face	4	9	0
+3829 3074	3174	0	65[P][DH]	Blood Elf	F	Face	5	0	0
+3830 3075	3175	0	65[P][DH]	Blood Elf	F	Face	5	1	0
+3831 3076	3176	0	65[P][DH]	Blood Elf	F	Face	5	2	0
+3832 3077	3177	0	65[P][DH]	Blood Elf	F	Face	5	3	0
+3833 3078	3178	0	65[P][DH]	Blood Elf	F	Face	5	4	0
+3834 3079	3179	0	65[P][DH]	Blood Elf	F	Face	5	5	0
+3835 3080	3180	0	65[P][DH]	Blood Elf	F	Face	5	6	0
+3836 3081	3181	0	65[P][DH]	Blood Elf	F	Face	5	7	0
+3837 3082	3182	0	65[P][DH]	Blood Elf	F	Face	5	8	0
+3838 3083	3183	0	65[P][DH]	Blood Elf	F	Face	5	9	0
+3839 3084	3184	0	65[P][DH]	Blood Elf	F	Face	6	0	0
+3840 3085	3185	0	65[P][DH]	Blood Elf	F	Face	6	1	0
+3841 3086	3186	0	65[P][DH]	Blood Elf	F	Face	6	2	0
+3842 3087	3187	0	65[P][DH]	Blood Elf	F	Face	6	3	0
+3843 3088	3188	0	65[P][DH]	Blood Elf	F	Face	6	4	0
+3844 3089	3189	0	65[P][DH]	Blood Elf	F	Face	6	5	0
+3845 3090	3190	0	65[P][DH]	Blood Elf	F	Face	6	6	0
+3846 3091	3191	0	65[P][DH]	Blood Elf	F	Face	6	7	0
+3847 3092	3192	0	65[P][DH]	Blood Elf	F	Face	6	8	0
+3848 3093	3193	0	65[P][DH]	Blood Elf	F	Face	6	9	0
+3849 3094	3194	0	65[P][DH]	Blood Elf	F	Face	7	0	0
+3850 3095	3195	0	65[P][DH]	Blood Elf	F	Face	7	1	0
+3851 3096	3196	0	65[P][DH]	Blood Elf	F	Face	7	2	0
+3852 3097	3197	0	65[P][DH]	Blood Elf	F	Face	7	3	0
+3853 3098	3198	0	65[P][DH]	Blood Elf	F	Face	7	4	0
+3854 3099	3199	0	65[P][DH]	Blood Elf	F	Face	7	5	0
+3855 3100	3200	0	65[P][DH]	Blood Elf	F	Face	7	6	0
+3856 3101	3201	0	65[P][DH]	Blood Elf	F	Face	7	7	0
+3857 3102	3202	0	65[P][DH]	Blood Elf	F	Face	7	8	0
+3858 3103	3203	0	65[P][DH]	Blood Elf	F	Face	7	9	0
+3859 3104	3204	0	65[P][DH]	Blood Elf	F	Face	8	0	0
+3860 3105	3205	0	65[P][DH]	Blood Elf	F	Face	8	1	0
+3861 3106	3206	0	65[P][DH]	Blood Elf	F	Face	8	2	0
+3862 3107	3207	0	65[P][DH]	Blood Elf	F	Face	8	3	0
+3863 3108	3208	0	65[P][DH]	Blood Elf	F	Face	8	4	0
+3864 3109	3209	0	65[P][DH]	Blood Elf	F	Face	8	5	0
+3865 3110	3210	0	65[P][DH]	Blood Elf	F	Face	8	6	0
+3866 3111	3211	0	65[P][DH]	Blood Elf	F	Face	8	7	0
+3867 3112	3212	0	65[P][DH]	Blood Elf	F	Face	8	8	0
+3868 3113	3213	0	65[P][DH]	Blood Elf	F	Face	8	9	0
+3869 3114	3214	0	65[P][DH]	Blood Elf	F	Face	9	0	0
+3870 3115	3215	0	65[P][DH]	Blood Elf	F	Face	9	1	0
+3871 3116	3216	0	65[P][DH]	Blood Elf	F	Face	9	2	0
+3872 3117	3217	0	65[P][DH]	Blood Elf	F	Face	9	3	0
+3873 3118	3218	0	65[P][DH]	Blood Elf	F	Face	9	4	0
+3874 3119	3219	0	65[P][DH]	Blood Elf	F	Face	9	5	0
+3875 3120	3220	0	65[P][DH]	Blood Elf	F	Face	9	6	0
+3876 3121	3221	0	65[P][DH]	Blood Elf	F	Face	9	7	0
+3877 3122	3222	0	65[P][DH]	Blood Elf	F	Face	9	8	0
+3878 3123	3223	0	65[P][DH]	Blood Elf	F	Face	9	9	0
+7267 51742	53090	0	5[P][DK]	Blood Elf	F	Face	10	0	0
+7268 51743	53091	0	5[P][DK]	Blood Elf	F	Face	10	1	0
+7269 51744	53092	0	5[P][DK]	Blood Elf	F	Face	10	2	0
+7270 51745	53093	0	5[P][DK]	Blood Elf	F	Face	10	3	0
+7271 51746	53094	0	5[P][DK]	Blood Elf	F	Face	10	4	0
+7272 51747	53095	0	5[P][DK]	Blood Elf	F	Face	10	5	0
+7273 51748	53096	0	5[P][DK]	Blood Elf	F	Face	10	6	0
+7274 51749	53097	0	5[P][DK]	Blood Elf	F	Face	10	7	0
+7275 51750	53098	0	5[P][DK]	Blood Elf	F	Face	10	8	0
+7276 51751	53099	0	5[P][DK]	Blood Elf	F	Face	10	9	0
+7277 50708	53100	0	5[P][DK]	Blood Elf	F	Face	11	0	0
+7278 50709	53101	0	5[P][DK]	Blood Elf	F	Face	11	1	0
+7279 50710	53102	0	5[P][DK]	Blood Elf	F	Face	11	2	0
+7280 50711	53103	0	5[P][DK]	Blood Elf	F	Face	11	3	0
+7281 50712	53104	0	5[P][DK]	Blood Elf	F	Face	11	4	0
+7282 50713	53105	0	5[P][DK]	Blood Elf	F	Face	11	5	0
+7283 50714	53106	0	5[P][DK]	Blood Elf	F	Face	11	6	0
+7284 50715	53317	0	5[P][DK]	Blood Elf	F	Face	11	7	0
+7285 50730	53318	0	5[P][DK]	Blood Elf	F	Face	11	8	0
+7286 50731	53319	0	5[P][DK]	Blood Elf	F	Face	11	9	0
+7287 50732	53320	0	5[P][DK]	Blood Elf	F	Face	12	0	0
+7288 50733	53321	0	5[P][DK]	Blood Elf	F	Face	12	1	0
+7289 50734	53322	0	5[P][DK]	Blood Elf	F	Face	12	2	0
+7290 50735	53323	0	5[P][DK]	Blood Elf	F	Face	12	3	0
+7291 50736	53324	0	5[P][DK]	Blood Elf	F	Face	12	4	0
+7292 50737	53325	0	5[P][DK]	Blood Elf	F	Face	12	5	0
+7293 50738	53326	0	5[P][DK]	Blood Elf	F	Face	12	6	0
+7294 50739	53327	0	5[P][DK]	Blood Elf	F	Face	12	7	0
+7295 50740	53328	0	5[P][DK]	Blood Elf	F	Face	12	8	0
+7296 50741	53329	0	5[P][DK]	Blood Elf	F	Face	12	9	0
+7297 50742	53330	0	5[P][DK]	Blood Elf	F	Face	13	0	0
+7298 50743	53331	0	5[P][DK]	Blood Elf	F	Face	13	1	0
+7299 50744	53332	0	5[P][DK]	Blood Elf	F	Face	13	2	0
+7300 50745	53333	0	5[P][DK]	Blood Elf	F	Face	13	3	0
+7301 50746	53334	0	5[P][DK]	Blood Elf	F	Face	13	4	0
+7302 50747	53335	0	5[P][DK]	Blood Elf	F	Face	13	5	0
+7303 50748	53336	0	5[P][DK]	Blood Elf	F	Face	13	6	0
+7304 50749	53337	0	5[P][DK]	Blood Elf	F	Face	13	7	0
+7305 50750	53338	0	5[P][DK]	Blood Elf	F	Face	13	8	0
+7306 50751	53339	0	5[P][DK]	Blood Elf	F	Face	13	9	0
+7307 50752	53340	0	5[P][DK]	Blood Elf	F	Face	14	0	0
+7308 50753	53341	0	5[P][DK]	Blood Elf	F	Face	14	1	0
+7309 50754	53342	0	5[P][DK]	Blood Elf	F	Face	14	2	0
+7310 50755	53343	0	5[P][DK]	Blood Elf	F	Face	14	3	0
+7311 50756	53344	0	5[P][DK]	Blood Elf	F	Face	14	4	0
+7312 50757	53345	0	5[P][DK]	Blood Elf	F	Face	14	5	0
+7313 50758	53346	0	5[P][DK]	Blood Elf	F	Face	14	6	0
+7314 50759	53347	0	5[P][DK]	Blood Elf	F	Face	14	7	0
+7315 50760	53348	0	5[P][DK]	Blood Elf	F	Face	14	8	0
+7316 50761	53349	0	5[P][DK]	Blood Elf	F	Face	14	9	0
+7317 50762	53350	0	5[P][DK]	Blood Elf	F	Face	15	0	0
+7318 50763	53351	0	5[P][DK]	Blood Elf	F	Face	15	1	0
+7319 50764	53352	0	5[P][DK]	Blood Elf	F	Face	15	2	0
+7320 50765	53353	0	5[P][DK]	Blood Elf	F	Face	15	3	0
+7321 50766	53354	0	5[P][DK]	Blood Elf	F	Face	15	4	0
+7322 50767	53355	0	5[P][DK]	Blood Elf	F	Face	15	5	0
+7323 50768	53356	0	5[P][DK]	Blood Elf	F	Face	15	6	0
+7324 50769	53357	0	5[P][DK]	Blood Elf	F	Face	15	7	0
+7325 50770	53358	0	5[P][DK]	Blood Elf	F	Face	15	8	0
+7326 50771	53359	0	5[P][DK]	Blood Elf	F	Face	15	9	0
+7327 50772	53360	0	5[P][DK]	Blood Elf	F	Face	16	0	0
+7328 50773	53361	0	5[P][DK]	Blood Elf	F	Face	16	1	0
+7329 50774	53362	0	5[P][DK]	Blood Elf	F	Face	16	2	0
+7330 50775	53363	0	5[P][DK]	Blood Elf	F	Face	16	3	0
+7331 50776	53364	0	5[P][DK]	Blood Elf	F	Face	16	4	0
+7332 50777	53365	0	5[P][DK]	Blood Elf	F	Face	16	5	0
+7333 50778	53366	0	5[P][DK]	Blood Elf	F	Face	16	6	0
+7334 50779	53367	0	5[P][DK]	Blood Elf	F	Face	16	7	0
+7335 50780	53368	0	5[P][DK]	Blood Elf	F	Face	16	8	0
+7336 50781	53369	0	5[P][DK]	Blood Elf	F	Face	16	9	0
+7337 50782	53370	0	5[P][DK]	Blood Elf	F	Face	17	0	0
+7338 50783	53371	0	5[P][DK]	Blood Elf	F	Face	17	1	0
+7339 50784	53372	0	5[P][DK]	Blood Elf	F	Face	17	2	0
+7340 50785	54402	0	5[P][DK]	Blood Elf	F	Face	17	3	0
+7341 50786	54403	0	5[P][DK]	Blood Elf	F	Face	17	4	0
+7342 50787	54404	0	5[P][DK]	Blood Elf	F	Face	17	5	0
+7343 50788	54405	0	5[P][DK]	Blood Elf	F	Face	17	6	0
+7344 50789	54406	0	5[P][DK]	Blood Elf	F	Face	17	7	0
+7345 50790	54407	0	5[P][DK]	Blood Elf	F	Face	17	8	0
+7346 50791	54408	0	5[P][DK]	Blood Elf	F	Face	17	9	0
+7347 50792	54409	0	5[P][DK]	Blood Elf	F	Face	18	0	0
+7348 50793	54410	0	5[P][DK]	Blood Elf	F	Face	18	1	0
+7349 50794	54411	0	5[P][DK]	Blood Elf	F	Face	18	2	0
+7350 50795	54412	0	5[P][DK]	Blood Elf	F	Face	18	3	0
+7351 50796	54413	0	5[P][DK]	Blood Elf	F	Face	18	4	0
+7352 50797	54414	0	5[P][DK]	Blood Elf	F	Face	18	5	0
+7353 50798	54415	0	5[P][DK]	Blood Elf	F	Face	18	6	0
+7354 50799	54416	0	5[P][DK]	Blood Elf	F	Face	18	7	0
+7355 50800	54417	0	5[P][DK]	Blood Elf	F	Face	18	8	0
+7356 50801	54418	0	5[P][DK]	Blood Elf	F	Face	18	9	0
+7357 50802	54419	0	5[P][DK]	Blood Elf	F	Face	19	0	0
+7358 50803	54420	0	5[P][DK]	Blood Elf	F	Face	19	1	0
+7359 50804	54421	0	5[P][DK]	Blood Elf	F	Face	19	2	0
+7360 50805	54422	0	5[P][DK]	Blood Elf	F	Face	19	3	0
+7361 50806	54423	0	5[P][DK]	Blood Elf	F	Face	19	4	0
+7362 50807	54424	0	5[P][DK]	Blood Elf	F	Face	19	5	0
+7363 53077	54425	0	5[P][DK]	Blood Elf	F	Face	19	6	0
+7364 53078	54426	0	5[P][DK]	Blood Elf	F	Face	19	7	0
+7365 53079	54427	0	5[P][DK]	Blood Elf	F	Face	19	8	0
+7366 53080	54428	0	5[P][DK]	Blood Elf	F	Face	19	9	0
+8901 51586	53081	0	5[P][DK]	Blood Elf	F	Face	0	16	0
+8902 51589	53084	0	5[P][DK]	Blood Elf	F	Face	3	16	0
+8903 51739	53087	0	5[P][DK]	Blood Elf	F	Face	8	16	0
+8906 51587	53082	0	5[P][DK]	Blood Elf	F	Face	0	17	0
+8907 51737	53085	0	5[P][DK]	Blood Elf	F	Face	3	17	0
+8908 51740	53088	0	5[P][DK]	Blood Elf	F	Face	8	17	0
+8911 51588	53083	0	5[P][DK]	Blood Elf	F	Face	0	18	0
+8912 51738	53086	0	5[P][DK]	Blood Elf	F	Face	3	18	0
+8913 51741	53089	0	5[P][DK]	Blood Elf	F	Face	8	18	0
+25798 0	207219	0	65[P][DH]	Blood Elf	F	HD Face	0	0	0
+25801 0	207220	0	65[P][DH]	Blood Elf	F	HD Face	0	1	0
+25802 0	207221	0	65[P][DH]	Blood Elf	F	HD Face	0	2	0
+25803 0	207222	0	65[P][DH]	Blood Elf	F	HD Face	0	3	0
+25804 0	207238	0	65[P][DH]	Blood Elf	F	HD Face	1	0	0
+25805 0	207239	0	65[P][DH]	Blood Elf	F	HD Face	1	1	0
+25806 0	207240	0	65[P][DH]	Blood Elf	F	HD Face	1	2	0
+25807 0	207241	0	65[P][DH]	Blood Elf	F	HD Face	1	3	0
+25808 0	207248	0	65[P][DH]	Blood Elf	F	HD Face	2	0	0
+25809 0	207249	0	65[P][DH]	Blood Elf	F	HD Face	2	1	0
+25810 0	207250	0	65[P][DH]	Blood Elf	F	HD Face	2	2	0
+25811 0	207251	0	65[P][DH]	Blood Elf	F	HD Face	2	3	0
+25836 0	207223	0	65[P][DH]	Blood Elf	F	HD Face	0	4	0
+25837 0	207224	0	65[P][DH]	Blood Elf	F	HD Face	0	5	0
+25838 0	207225	0	65[P][DH]	Blood Elf	F	HD Face	0	6	0
+25839 0	207226	0	65[P][DH]	Blood Elf	F	HD Face	0	7	0
+25840 0	207227	0	65[P][DH]	Blood Elf	F	HD Face	0	8	0
+25841 0	207228	0	65[P][DH]	Blood Elf	F	HD Face	0	9	0
+25842 0	207242	0	65[P][DH]	Blood Elf	F	HD Face	1	4	0
+25843 0	207243	0	65[P][DH]	Blood Elf	F	HD Face	1	5	0
+25844 0	207244	0	65[P][DH]	Blood Elf	F	HD Face	1	6	0
+25845 0	207245	0	65[P][DH]	Blood Elf	F	HD Face	1	7	0
+25846 0	207246	0	65[P][DH]	Blood Elf	F	HD Face	1	8	0
+25847 0	207247	0	65[P][DH]	Blood Elf	F	HD Face	1	9	0
+25848 0	207252	0	65[P][DH]	Blood Elf	F	HD Face	2	4	0
+25849 0	207253	0	65[P][DH]	Blood Elf	F	HD Face	2	5	0
+25850 0	207254	0	65[P][DH]	Blood Elf	F	HD Face	2	6	0
+25851 0	207255	0	65[P][DH]	Blood Elf	F	HD Face	2	7	0
+25852 0	207256	0	65[P][DH]	Blood Elf	F	HD Face	2	8	0
+25853 0	207257	0	65[P][DH]	Blood Elf	F	HD Face	2	9	0
+25860 0	207258	0	65[P][DH]	Blood Elf	F	HD Face	3	0	0
+25861 0	207259	0	65[P][DH]	Blood Elf	F	HD Face	3	1	0
+25862 0	207260	0	65[P][DH]	Blood Elf	F	HD Face	3	2	0
+25863 0	207261	0	65[P][DH]	Blood Elf	F	HD Face	3	3	0
+25864 0	207262	0	65[P][DH]	Blood Elf	F	HD Face	3	4	0
+25865 0	207263	0	65[P][DH]	Blood Elf	F	HD Face	3	5	0
+25866 0	207264	0	65[P][DH]	Blood Elf	F	HD Face	3	6	0
+25867 0	0	0	65[P][DH]	Blood Elf	F	HD Face	3	7	0
+25868 0	207266	0	65[P][DH]	Blood Elf	F	HD Face	3	8	0
+25869 0	207267	0	65[P][DH]	Blood Elf	F	HD Face	3	9	0
+25870 0	207271	0	65[P][DH]	Blood Elf	F	HD Face	4	0	0
+25871 0	207272	0	65[P][DH]	Blood Elf	F	HD Face	4	1	0
+25872 0	207273	0	65[P][DH]	Blood Elf	F	HD Face	4	2	0
+25873 0	207274	0	65[P][DH]	Blood Elf	F	HD Face	4	3	0
+25874 0	207275	0	65[P][DH]	Blood Elf	F	HD Face	4	4	0
+25875 0	207276	0	65[P][DH]	Blood Elf	F	HD Face	4	5	0
+25876 0	207277	0	65[P][DH]	Blood Elf	F	HD Face	4	6	0
+25877 0	207278	0	65[P][DH]	Blood Elf	F	HD Face	4	7	0
+25878 0	207279	0	65[P][DH]	Blood Elf	F	HD Face	4	8	0
+25879 0	207280	0	65[P][DH]	Blood Elf	F	HD Face	4	9	0
+25880 0	207281	0	65[P][DH]	Blood Elf	F	HD Face	5	0	0
+25881 0	207282	0	65[P][DH]	Blood Elf	F	HD Face	5	1	0
+25882 0	207283	0	65[P][DH]	Blood Elf	F	HD Face	5	2	0
+25883 0	207284	0	65[P][DH]	Blood Elf	F	HD Face	5	3	0
+25884 0	207285	0	65[P][DH]	Blood Elf	F	HD Face	5	4	0
+25885 0	207286	0	65[P][DH]	Blood Elf	F	HD Face	5	5	0
+25886 0	207287	0	65[P][DH]	Blood Elf	F	HD Face	5	6	0
+25887 0	207288	0	65[P][DH]	Blood Elf	F	HD Face	5	7	0
+25888 0	207289	0	65[P][DH]	Blood Elf	F	HD Face	5	8	0
+25889 0	207290	0	65[P][DH]	Blood Elf	F	HD Face	5	9	0
+25890 0	207291	0	1[P]	Blood Elf	F	HD Face	6	0	0
+25891 0	207292	0	1[P]	Blood Elf	F	HD Face	6	1	0
+25892 0	207293	0	1[P]	Blood Elf	F	HD Face	6	2	0
+25893 0	207294	0	1[P]	Blood Elf	F	HD Face	6	3	0
+25894 0	207295	0	1[P]	Blood Elf	F	HD Face	6	4	0
+25895 0	207296	0	1[P]	Blood Elf	F	HD Face	6	5	0
+25896 0	207297	0	1[P]	Blood Elf	F	HD Face	6	6	0
+25897 0	207298	0	1[P]	Blood Elf	F	HD Face	6	7	0
+25898 0	207299	0	1[P]	Blood Elf	F	HD Face	6	8	0
+25899 0	207300	0	1[P]	Blood Elf	F	HD Face	6	9	0
+25900 0	207301	0	1[P]	Blood Elf	F	HD Face	7	0	0
+25901 0	207302	0	1[P]	Blood Elf	F	HD Face	7	1	0
+25902 0	207303	0	1[P]	Blood Elf	F	HD Face	7	2	0
+25903 0	207304	0	1[P]	Blood Elf	F	HD Face	7	3	0
+25904 0	207305	0	1[P]	Blood Elf	F	HD Face	7	4	0
+25905 0	207306	0	1[P]	Blood Elf	F	HD Face	7	5	0
+25906 0	207307	0	1[P]	Blood Elf	F	HD Face	7	6	0
+25907 0	207308	0	1[P]	Blood Elf	F	HD Face	7	7	0
+25908 0	207309	0	1[P]	Blood Elf	F	HD Face	7	8	0
+25909 0	207310	0	1[P]	Blood Elf	F	HD Face	7	9	0
+25910 0	207311	0	1[P]	Blood Elf	F	HD Face	8	0	0
+25911 0	207312	0	1[P]	Blood Elf	F	HD Face	8	1	0
+25912 0	207313	0	1[P]	Blood Elf	F	HD Face	8	2	0
+25913 0	207314	0	1[P]	Blood Elf	F	HD Face	8	3	0
+25914 0	207315	0	1[P]	Blood Elf	F	HD Face	8	4	0
+25915 0	207316	0	1[P]	Blood Elf	F	HD Face	8	5	0
+25916 0	207317	0	1[P]	Blood Elf	F	HD Face	8	6	0
+25917 0	207318	0	1[P]	Blood Elf	F	HD Face	8	7	0
+25918 0	207319	0	1[P]	Blood Elf	F	HD Face	8	8	0
+25919 0	207320	0	1[P]	Blood Elf	F	HD Face	8	9	0
+25920 0	207324	0	1[P]	Blood Elf	F	HD Face	9	0	0
+25921 0	207325	0	1[P]	Blood Elf	F	HD Face	9	1	0
+25922 0	207326	0	1[P]	Blood Elf	F	HD Face	9	2	0
+25923 0	207327	0	1[P]	Blood Elf	F	HD Face	9	3	0
+25924 0	207328	0	1[P]	Blood Elf	F	HD Face	9	4	0
+25925 0	207329	0	1[P]	Blood Elf	F	HD Face	9	5	0
+25926 0	207330	0	1[P]	Blood Elf	F	HD Face	9	6	0
+25927 0	207331	0	1[P]	Blood Elf	F	HD Face	9	7	0
+25928 0	207332	0	1[P]	Blood Elf	F	HD Face	9	8	0
+25929 0	207333	0	1[P]	Blood Elf	F	HD Face	9	9	0
+26171 0	207334	0	5[P][DK]	Blood Elf	F	HD Face	10	0	0
+26172 0	207335	0	5[P][DK]	Blood Elf	F	HD Face	10	1	0
+26173 0	207336	0	5[P][DK]	Blood Elf	F	HD Face	10	2	0
+26174 0	207337	0	5[P][DK]	Blood Elf	F	HD Face	10	3	0
+26175 0	207338	0	5[P][DK]	Blood Elf	F	HD Face	10	4	0
+26176 0	207339	0	5[P][DK]	Blood Elf	F	HD Face	10	5	0
+26177 0	207340	0	5[P][DK]	Blood Elf	F	HD Face	10	6	0
+26178 0	207341	0	5[P][DK]	Blood Elf	F	HD Face	10	7	0
+26179 0	207342	0	5[P][DK]	Blood Elf	F	HD Face	10	8	0
+26180 0	207343	0	5[P][DK]	Blood Elf	F	HD Face	10	9	0
+26181 0	207344	0	5[P][DK]	Blood Elf	F	HD Face	11	0	0
+26182 0	207345	0	5[P][DK]	Blood Elf	F	HD Face	11	1	0
+26183 0	207346	0	5[P][DK]	Blood Elf	F	HD Face	11	2	0
+26184 0	207347	0	5[P][DK]	Blood Elf	F	HD Face	11	3	0
+26185 0	207348	0	5[P][DK]	Blood Elf	F	HD Face	11	4	0
+26186 0	207349	0	5[P][DK]	Blood Elf	F	HD Face	11	5	0
+26187 0	207350	0	5[P][DK]	Blood Elf	F	HD Face	11	6	0
+26188 0	207351	0	5[P][DK]	Blood Elf	F	HD Face	11	7	0
+26189 0	207352	0	5[P][DK]	Blood Elf	F	HD Face	11	8	0
+26190 0	207353	0	5[P][DK]	Blood Elf	F	HD Face	11	9	0
+26191 0	207354	0	5[P][DK]	Blood Elf	F	HD Face	12	0	0
+26192 0	207355	0	5[P][DK]	Blood Elf	F	HD Face	12	1	0
+26193 0	207356	0	5[P][DK]	Blood Elf	F	HD Face	12	2	0
+26194 0	207357	0	5[P][DK]	Blood Elf	F	HD Face	12	3	0
+26195 0	207358	0	5[P][DK]	Blood Elf	F	HD Face	12	4	0
+26196 0	207359	0	5[P][DK]	Blood Elf	F	HD Face	12	5	0
+26197 0	207360	0	5[P][DK]	Blood Elf	F	HD Face	12	6	0
+26198 0	207361	0	5[P][DK]	Blood Elf	F	HD Face	12	7	0
+26199 0	207362	0	5[P][DK]	Blood Elf	F	HD Face	12	8	0
+26200 0	207363	0	5[P][DK]	Blood Elf	F	HD Face	12	9	0
+26201 0	207364	0	5[P][DK]	Blood Elf	F	HD Face	13	0	0
+26202 0	207365	0	5[P][DK]	Blood Elf	F	HD Face	13	1	0
+26203 0	207366	0	5[P][DK]	Blood Elf	F	HD Face	13	2	0
+26204 0	207367	0	5[P][DK]	Blood Elf	F	HD Face	13	3	0
+26205 0	207368	0	5[P][DK]	Blood Elf	F	HD Face	13	4	0
+26206 0	207369	0	5[P][DK]	Blood Elf	F	HD Face	13	5	0
+26207 0	207370	0	5[P][DK]	Blood Elf	F	HD Face	13	6	0
+26208 0	207371	0	5[P][DK]	Blood Elf	F	HD Face	13	7	0
+26209 0	207372	0	5[P][DK]	Blood Elf	F	HD Face	13	8	0
+26210 0	207373	0	5[P][DK]	Blood Elf	F	HD Face	13	9	0
+26211 0	207374	0	5[P][DK]	Blood Elf	F	HD Face	14	0	0
+26212 0	207375	0	5[P][DK]	Blood Elf	F	HD Face	14	1	0
+26213 0	207376	0	5[P][DK]	Blood Elf	F	HD Face	14	2	0
+26214 0	207377	0	5[P][DK]	Blood Elf	F	HD Face	14	3	0
+26215 0	207378	0	5[P][DK]	Blood Elf	F	HD Face	14	4	0
+26216 0	207379	0	5[P][DK]	Blood Elf	F	HD Face	14	5	0
+26217 0	207380	0	5[P][DK]	Blood Elf	F	HD Face	14	6	0
+26218 0	207381	0	5[P][DK]	Blood Elf	F	HD Face	14	7	0
+26219 0	207382	0	5[P][DK]	Blood Elf	F	HD Face	14	8	0
+26220 0	207383	0	5[P][DK]	Blood Elf	F	HD Face	14	9	0
+26221 0	207384	0	5[P][DK]	Blood Elf	F	HD Face	15	0	0
+26222 0	207385	0	5[P][DK]	Blood Elf	F	HD Face	15	1	0
+26223 0	207386	0	5[P][DK]	Blood Elf	F	HD Face	15	2	0
+26224 0	207387	0	5[P][DK]	Blood Elf	F	HD Face	15	3	0
+26225 0	207388	0	5[P][DK]	Blood Elf	F	HD Face	15	4	0
+26226 0	207389	0	5[P][DK]	Blood Elf	F	HD Face	15	5	0
+26227 0	207390	0	5[P][DK]	Blood Elf	F	HD Face	15	6	0
+26228 0	207391	0	5[P][DK]	Blood Elf	F	HD Face	15	7	0
+26229 0	207392	0	5[P][DK]	Blood Elf	F	HD Face	15	8	0
+26230 0	207393	0	5[P][DK]	Blood Elf	F	HD Face	15	9	0
+26231 0	207394	0	5[P][DK]	Blood Elf	F	HD Face	16	0	0
+26232 0	207395	0	5[P][DK]	Blood Elf	F	HD Face	16	1	0
+26233 0	207396	0	5[P][DK]	Blood Elf	F	HD Face	16	2	0
+26234 0	207397	0	5[P][DK]	Blood Elf	F	HD Face	16	3	0
+26235 0	207398	0	5[P][DK]	Blood Elf	F	HD Face	16	4	0
+26236 0	207399	0	5[P][DK]	Blood Elf	F	HD Face	16	5	0
+26237 0	207400	0	5[P][DK]	Blood Elf	F	HD Face	16	6	0
+26238 0	207401	0	5[P][DK]	Blood Elf	F	HD Face	16	7	0
+26239 0	207402	0	5[P][DK]	Blood Elf	F	HD Face	16	8	0
+26240 0	207403	0	5[P][DK]	Blood Elf	F	HD Face	16	9	0
+26241 0	207404	0	5[P][DK]	Blood Elf	F	HD Face	17	0	0
+26242 0	207405	0	5[P][DK]	Blood Elf	F	HD Face	17	1	0
+26243 0	207406	0	5[P][DK]	Blood Elf	F	HD Face	17	2	0
+26244 0	207407	0	5[P][DK]	Blood Elf	F	HD Face	17	3	0
+26245 0	207408	0	5[P][DK]	Blood Elf	F	HD Face	17	4	0
+26246 0	207409	0	5[P][DK]	Blood Elf	F	HD Face	17	5	0
+26247 0	207410	0	5[P][DK]	Blood Elf	F	HD Face	17	6	0
+26248 0	207411	0	5[P][DK]	Blood Elf	F	HD Face	17	7	0
+26249 0	207412	0	5[P][DK]	Blood Elf	F	HD Face	17	8	0
+26250 0	207413	0	5[P][DK]	Blood Elf	F	HD Face	17	9	0
+26251 0	207414	0	5[P][DK]	Blood Elf	F	HD Face	18	0	0
+26252 0	207415	0	5[P][DK]	Blood Elf	F	HD Face	18	1	0
+26253 0	207416	0	5[P][DK]	Blood Elf	F	HD Face	18	2	0
+26254 0	207417	0	5[P][DK]	Blood Elf	F	HD Face	18	3	0
+26255 0	207418	0	5[P][DK]	Blood Elf	F	HD Face	18	4	0
+26256 0	207419	0	5[P][DK]	Blood Elf	F	HD Face	18	5	0
+26257 0	207420	0	5[P][DK]	Blood Elf	F	HD Face	18	6	0
+26258 0	207421	0	5[P][DK]	Blood Elf	F	HD Face	18	7	0
+26259 0	207422	0	5[P][DK]	Blood Elf	F	HD Face	18	8	0
+26260 0	207423	0	5[P][DK]	Blood Elf	F	HD Face	18	9	0
+26261 0	207424	0	5[P][DK]	Blood Elf	F	HD Face	19	0	0
+26262 0	207425	0	5[P][DK]	Blood Elf	F	HD Face	19	1	0
+26263 0	207426	0	5[P][DK]	Blood Elf	F	HD Face	19	2	0
+26264 0	207427	0	5[P][DK]	Blood Elf	F	HD Face	19	3	0
+26265 0	207428	0	5[P][DK]	Blood Elf	F	HD Face	19	4	0
+26266 0	207429	0	5[P][DK]	Blood Elf	F	HD Face	19	5	0
+26267 0	207430	0	5[P][DK]	Blood Elf	F	HD Face	19	6	0
+26268 0	207431	0	5[P][DK]	Blood Elf	F	HD Face	19	7	0
+26269 0	207432	0	5[P][DK]	Blood Elf	F	HD Face	19	8	0
+26270 0	207433	0	5[P][DK]	Blood Elf	F	HD Face	19	9	0
+26272 0	207235	0	5[P][DK]	Blood Elf	F	HD Face	0	16	0
+26273 0	207268	0	5[P][DK]	Blood Elf	F	HD Face	3	16	0
+26274 0	207321	0	5[P][DK]	Blood Elf	F	HD Face	8	16	0
+26277 0	207236	0	5[P][DK]	Blood Elf	F	HD Face	0	17	0
+26278 0	207269	0	5[P][DK]	Blood Elf	F	HD Face	3	17	0
+26279 0	207322	0	5[P][DK]	Blood Elf	F	HD Face	8	17	0
+26282 0	207237	0	5[P][DK]	Blood Elf	F	HD Face	0	18	0
+26283 0	207270	0	5[P][DK]	Blood Elf	F	HD Face	3	18	0
+26284 0	207323	0	5[P][DK]	Blood Elf	F	HD Face	8	18	0
+26970 0	236192	0	33[P]	Blood Elf	F	HD Face	0	19	0
+26971 0	236193	0	33[P]	Blood Elf	F	HD Face	0	20	0
+26972 0	236194	0	33[P]	Blood Elf	F	HD Face	0	21	0
+26973 0	236195	0	33[P]	Blood Elf	F	HD Face	0	22	0
+26974 0	236658	0	33[P]	Blood Elf	F	HD Face	0	23	0
+26975 0	236659	0	33[P]	Blood Elf	F	HD Face	0	24	0
+26976 0	236198	0	33[P]	Blood Elf	F	HD Face	1	19	0
+26977 0	236199	0	33[P]	Blood Elf	F	HD Face	1	20	0
+26978 0	236200	0	33[P]	Blood Elf	F	HD Face	1	21	0
+26979 0	236201	0	33[P]	Blood Elf	F	HD Face	1	22	0
+26980 0	236660	0	33[P]	Blood Elf	F	HD Face	1	23	0
+26981 0	236661	0	33[P]	Blood Elf	F	HD Face	1	24	0
+26982 0	236204	0	33[P]	Blood Elf	F	HD Face	2	19	0
+26983 0	236205	0	33[P]	Blood Elf	F	HD Face	2	20	0
+26984 0	236206	0	33[P]	Blood Elf	F	HD Face	2	21	0
+26985 0	236207	0	33[P]	Blood Elf	F	HD Face	2	22	0
+26986 0	236662	0	33[P]	Blood Elf	F	HD Face	2	23	0
+26987 0	236663	0	33[P]	Blood Elf	F	HD Face	2	24	0
+26988 0	236208	0	33[P]	Blood Elf	F	HD Face	3	19	0
+26989 0	236209	0	33[P]	Blood Elf	F	HD Face	3	20	0
+26990 0	236210	0	33[P]	Blood Elf	F	HD Face	3	21	0
+26991 0	236211	0	33[P]	Blood Elf	F	HD Face	3	22	0
+26992 0	236664	0	33[P]	Blood Elf	F	HD Face	3	23	0
+26993 0	236665	0	33[P]	Blood Elf	F	HD Face	3	24	0
+26994 0	236214	0	33[P]	Blood Elf	F	HD Face	4	19	0
+26995 0	236215	0	33[P]	Blood Elf	F	HD Face	4	20	0
+26996 0	236216	0	33[P]	Blood Elf	F	HD Face	4	21	0
+26997 0	236217	0	33[P]	Blood Elf	F	HD Face	4	22	0
+26998 0	236666	0	33[P]	Blood Elf	F	HD Face	4	23	0
+26999 0	236667	0	33[P]	Blood Elf	F	HD Face	4	24	0
+27000 0	236220	0	33[P]	Blood Elf	F	HD Face	5	19	0
+27001 0	236221	0	33[P]	Blood Elf	F	HD Face	5	20	0
+27002 0	236222	0	33[P]	Blood Elf	F	HD Face	5	21	0
+27003 0	236223	0	33[P]	Blood Elf	F	HD Face	5	22	0
+27004 0	236668	0	33[P]	Blood Elf	F	HD Face	5	23	0
+27005 0	236669	0	33[P]	Blood Elf	F	HD Face	5	24	0
+27370 0	262250	0	256	Blood Elf	F	HD Face	0	25	0
+
+11529 0	0	0	17[P]	Blood Elf	F	Facial	0	0	0
+11530 0	0	0	17[P]	Blood Elf	F	Facial	0	1	0
+11531 0	0	0	17[P]	Blood Elf	F	Facial	0	2	0
+11532 0	0	0	17[P]	Blood Elf	F	Facial	0	3	0
+11533 0	0	0	17[P]	Blood Elf	F	Facial	0	4	0
+11534 0	0	0	17[P]	Blood Elf	F	Facial	0	5	0
+11535 0	0	0	17[P]	Blood Elf	F	Facial	0	6	0
+11536 0	0	0	17[P]	Blood Elf	F	Facial	0	7	0
+11537 0	0	0	17[P]	Blood Elf	F	Facial	0	8	0
+11538 0	0	0	17[P]	Blood Elf	F	Facial	0	9	0
+11539 0	0	0	5[P][DK]	Blood Elf	F	Facial	0	10	0
+11540 0	0	0	5[P][DK]	Blood Elf	F	Facial	0	11	0
+11541 0	0	0	5[P][DK]	Blood Elf	F	Facial	0	12	0
+11542 0	0	0	17[P]	Blood Elf	F	Facial	1	0	0
+11543 0	0	0	17[P]	Blood Elf	F	Facial	1	1	0
+11544 0	0	0	17[P]	Blood Elf	F	Facial	1	2	0
+11545 0	0	0	17[P]	Blood Elf	F	Facial	1	3	0
+11546 0	0	0	17[P]	Blood Elf	F	Facial	1	4	0
+11547 0	0	0	17[P]	Blood Elf	F	Facial	1	5	0
+11548 0	0	0	17[P]	Blood Elf	F	Facial	1	6	0
+11549 0	0	0	17[P]	Blood Elf	F	Facial	1	7	0
+11550 0	0	0	17[P]	Blood Elf	F	Facial	1	8	0
+11551 0	0	0	17[P]	Blood Elf	F	Facial	1	9	0
+11552 0	0	0	5[P][DK]	Blood Elf	F	Facial	1	10	0
+11553 0	0	0	5[P][DK]	Blood Elf	F	Facial	1	11	0
+11554 0	0	0	5[P][DK]	Blood Elf	F	Facial	1	12	0
+11555 0	0	0	17[P]	Blood Elf	F	Facial	2	0	0
+11556 0	0	0	17[P]	Blood Elf	F	Facial	2	1	0
+11557 0	0	0	17[P]	Blood Elf	F	Facial	2	2	0
+11558 0	0	0	17[P]	Blood Elf	F	Facial	2	3	0
+11559 0	0	0	17[P]	Blood Elf	F	Facial	2	4	0
+11560 0	0	0	17[P]	Blood Elf	F	Facial	2	5	0
+11561 0	0	0	17[P]	Blood Elf	F	Facial	2	6	0
+11562 0	0	0	17[P]	Blood Elf	F	Facial	2	7	0
+11563 0	0	0	17[P]	Blood Elf	F	Facial	2	8	0
+11564 0	0	0	17[P]	Blood Elf	F	Facial	2	9	0
+11565 0	0	0	5[P][DK]	Blood Elf	F	Facial	2	10	0
+11566 0	0	0	5[P][DK]	Blood Elf	F	Facial	2	11	0
+11567 0	0	0	5[P][DK]	Blood Elf	F	Facial	2	12	0
+11568 0	0	0	17[P]	Blood Elf	F	Facial	3	0	0
+11569 0	0	0	17[P]	Blood Elf	F	Facial	3	1	0
+11570 0	0	0	17[P]	Blood Elf	F	Facial	3	2	0
+11571 0	0	0	17[P]	Blood Elf	F	Facial	3	3	0
+11572 0	0	0	17[P]	Blood Elf	F	Facial	3	4	0
+11573 0	0	0	17[P]	Blood Elf	F	Facial	3	5	0
+11574 0	0	0	17[P]	Blood Elf	F	Facial	3	6	0
+11575 0	0	0	17[P]	Blood Elf	F	Facial	3	7	0
+11576 0	0	0	17[P]	Blood Elf	F	Facial	3	8	0
+11577 0	0	0	17[P]	Blood Elf	F	Facial	3	9	0
+11578 0	0	0	5[P][DK]	Blood Elf	F	Facial	3	10	0
+11579 0	0	0	5[P][DK]	Blood Elf	F	Facial	3	11	0
+11580 0	0	0	5[P][DK]	Blood Elf	F	Facial	3	12	0
+11581 0	0	0	17[P]	Blood Elf	F	Facial	4	0	0
+11582 0	0	0	17[P]	Blood Elf	F	Facial	4	1	0
+11583 0	0	0	17[P]	Blood Elf	F	Facial	4	2	0
+11584 0	0	0	17[P]	Blood Elf	F	Facial	4	3	0
+11585 0	0	0	17[P]	Blood Elf	F	Facial	4	4	0
+11586 0	0	0	17[P]	Blood Elf	F	Facial	4	5	0
+11587 0	0	0	17[P]	Blood Elf	F	Facial	4	6	0
+11588 0	0	0	17[P]	Blood Elf	F	Facial	4	7	0
+11589 0	0	0	17[P]	Blood Elf	F	Facial	4	8	0
+11590 0	0	0	17[P]	Blood Elf	F	Facial	4	9	0
+11591 0	0	0	5[P][DK]	Blood Elf	F	Facial	4	10	0
+11592 0	0	0	5[P][DK]	Blood Elf	F	Facial	4	11	0
+11593 0	0	0	5[P][DK]	Blood Elf	F	Facial	4	12	0
+11594 0	0	0	17[P]	Blood Elf	F	Facial	5	0	0
+11595 0	0	0	17[P]	Blood Elf	F	Facial	5	1	0
+11596 0	0	0	17[P]	Blood Elf	F	Facial	5	2	0
+11597 0	0	0	17[P]	Blood Elf	F	Facial	5	3	0
+11598 0	0	0	17[P]	Blood Elf	F	Facial	5	4	0
+11599 0	0	0	17[P]	Blood Elf	F	Facial	5	5	0
+11600 0	0	0	17[P]	Blood Elf	F	Facial	5	6	0
+11601 0	0	0	17[P]	Blood Elf	F	Facial	5	7	0
+11602 0	0	0	17[P]	Blood Elf	F	Facial	5	8	0
+11603 0	0	0	17[P]	Blood Elf	F	Facial	5	9	0
+11604 0	0	0	5[P][DK]	Blood Elf	F	Facial	5	10	0
+11605 0	0	0	5[P][DK]	Blood Elf	F	Facial	5	11	0
+11606 0	0	0	5[P][DK]	Blood Elf	F	Facial	5	12	0
+11607 0	0	0	17[P]	Blood Elf	F	Facial	6	0	0
+11608 0	0	0	17[P]	Blood Elf	F	Facial	6	1	0
+11609 0	0	0	17[P]	Blood Elf	F	Facial	6	2	0
+11610 0	0	0	17[P]	Blood Elf	F	Facial	6	3	0
+11611 0	0	0	17[P]	Blood Elf	F	Facial	6	4	0
+11612 0	0	0	17[P]	Blood Elf	F	Facial	6	5	0
+11613 0	0	0	17[P]	Blood Elf	F	Facial	6	6	0
+11614 0	0	0	17[P]	Blood Elf	F	Facial	6	7	0
+11615 0	0	0	17[P]	Blood Elf	F	Facial	6	8	0
+11616 0	0	0	17[P]	Blood Elf	F	Facial	6	9	0
+11617 0	0	0	5[P][DK]	Blood Elf	F	Facial	6	10	0
+11618 0	0	0	5[P][DK]	Blood Elf	F	Facial	6	11	0
+11619 0	0	0	5[P][DK]	Blood Elf	F	Facial	6	12	0
+11620 0	0	0	17[P]	Blood Elf	F	Facial	7	0	0
+11621 0	0	0	17[P]	Blood Elf	F	Facial	7	1	0
+11622 0	0	0	17[P]	Blood Elf	F	Facial	7	2	0
+11623 0	0	0	17[P]	Blood Elf	F	Facial	7	3	0
+11624 0	0	0	17[P]	Blood Elf	F	Facial	7	4	0
+11625 0	0	0	17[P]	Blood Elf	F	Facial	7	5	0
+11626 0	0	0	17[P]	Blood Elf	F	Facial	7	6	0
+11627 0	0	0	17[P]	Blood Elf	F	Facial	7	7	0
+11628 0	0	0	17[P]	Blood Elf	F	Facial	7	8	0
+11629 0	0	0	17[P]	Blood Elf	F	Facial	7	9	0
+11630 0	0	0	5[P][DK]	Blood Elf	F	Facial	7	10	0
+11631 0	0	0	5[P][DK]	Blood Elf	F	Facial	7	11	0
+11632 0	0	0	5[P][DK]	Blood Elf	F	Facial	7	12	0
+11633 0	0	0	17[P]	Blood Elf	F	Facial	8	0	0
+11634 0	0	0	17[P]	Blood Elf	F	Facial	8	1	0
+11635 0	0	0	17[P]	Blood Elf	F	Facial	8	2	0
+11636 0	0	0	17[P]	Blood Elf	F	Facial	8	3	0
+11637 0	0	0	17[P]	Blood Elf	F	Facial	8	4	0
+11638 0	0	0	17[P]	Blood Elf	F	Facial	8	5	0
+11639 0	0	0	17[P]	Blood Elf	F	Facial	8	6	0
+11640 0	0	0	17[P]	Blood Elf	F	Facial	8	7	0
+11641 0	0	0	17[P]	Blood Elf	F	Facial	8	8	0
+11642 0	0	0	17[P]	Blood Elf	F	Facial	8	9	0
+11643 0	0	0	5[P][DK]	Blood Elf	F	Facial	8	10	0
+11644 0	0	0	5[P][DK]	Blood Elf	F	Facial	8	11	0
+11645 0	0	0	5[P][DK]	Blood Elf	F	Facial	8	12	0
+11646 0	0	0	17[P]	Blood Elf	F	Facial	9	0	0
+11647 0	0	0	17[P]	Blood Elf	F	Facial	9	1	0
+11648 0	0	0	17[P]	Blood Elf	F	Facial	9	2	0
+11649 0	0	0	17[P]	Blood Elf	F	Facial	9	3	0
+11650 0	0	0	17[P]	Blood Elf	F	Facial	9	4	0
+11651 0	0	0	17[P]	Blood Elf	F	Facial	9	5	0
+11652 0	0	0	17[P]	Blood Elf	F	Facial	9	6	0
+11653 0	0	0	17[P]	Blood Elf	F	Facial	9	7	0
+11654 0	0	0	17[P]	Blood Elf	F	Facial	9	8	0
+11655 0	0	0	17[P]	Blood Elf	F	Facial	9	9	0
+11656 0	0	0	5[P][DK]	Blood Elf	F	Facial	9	10	0
+11657 0	0	0	5[P][DK]	Blood Elf	F	Facial	9	11	0
+11658 0	0	0	5[P][DK]	Blood Elf	F	Facial	9	12	0
+11659 0	0	0	17[P]	Blood Elf	F	Facial	10	0	0
+11660 0	0	0	17[P]	Blood Elf	F	Facial	10	1	0
+11661 0	0	0	17[P]	Blood Elf	F	Facial	10	2	0
+11662 0	0	0	17[P]	Blood Elf	F	Facial	10	3	0
+11663 0	0	0	17[P]	Blood Elf	F	Facial	10	4	0
+11664 0	0	0	17[P]	Blood Elf	F	Facial	10	5	0
+11665 0	0	0	17[P]	Blood Elf	F	Facial	10	6	0
+11666 0	0	0	17[P]	Blood Elf	F	Facial	10	7	0
+11667 0	0	0	17[P]	Blood Elf	F	Facial	10	8	0
+11668 0	0	0	17[P]	Blood Elf	F	Facial	10	9	0
+11669 0	0	0	5[P][DK]	Blood Elf	F	Facial	10	10	0
+11670 0	0	0	5[P][DK]	Blood Elf	F	Facial	10	11	0
+11671 0	0	0	5[P][DK]	Blood Elf	F	Facial	10	12	0
+11672 0	0	0	8[NPC]	Blood Elf	F	Facial	11	0	0
+11673 0	0	0	8[NPC]	Blood Elf	F	Facial	11	1	0
+11674 0	0	0	8[NPC]	Blood Elf	F	Facial	11	2	0
+11675 0	0	0	8[NPC]	Blood Elf	F	Facial	11	3	0
+11676 0	0	0	8[NPC]	Blood Elf	F	Facial	11	4	0
+11677 0	0	0	8[NPC]	Blood Elf	F	Facial	11	5	0
+11678 0	0	0	8[NPC]	Blood Elf	F	Facial	11	6	0
+11679 0	0	0	8[NPC]	Blood Elf	F	Facial	11	7	0
+11680 0	0	0	8[NPC]	Blood Elf	F	Facial	11	8	0
+11681 0	0	0	8[NPC]	Blood Elf	F	Facial	11	9	0
+11682 0	0	0	8[NPC]	Blood Elf	F	Facial	11	10	0
+11683 0	0	0	8[NPC]	Blood Elf	F	Facial	11	11	0
+11684 0	0	0	8[NPC]	Blood Elf	F	Facial	11	12	0
+11685 0	0	0	8[NPC]	Blood Elf	F	Facial	12	0	0
+11686 0	0	0	8[NPC]	Blood Elf	F	Facial	12	1	0
+11687 0	0	0	8[NPC]	Blood Elf	F	Facial	12	2	0
+11688 0	0	0	8[NPC]	Blood Elf	F	Facial	12	3	0
+11689 0	0	0	8[NPC]	Blood Elf	F	Facial	12	4	0
+11690 0	0	0	8[NPC]	Blood Elf	F	Facial	12	5	0
+11691 0	0	0	8[NPC]	Blood Elf	F	Facial	12	6	0
+11692 0	0	0	8[NPC]	Blood Elf	F	Facial	12	7	0
+11693 0	0	0	8[NPC]	Blood Elf	F	Facial	12	8	0
+11694 0	0	0	8[NPC]	Blood Elf	F	Facial	12	9	0
+11695 0	0	0	8[NPC]	Blood Elf	F	Facial	12	10	0
+11696 0	0	0	8[NPC]	Blood Elf	F	Facial	12	11	0
+11697 0	0	0	8[NPC]	Blood Elf	F	Facial	12	12	0
+11698 0	0	0	8[NPC]	Blood Elf	F	Facial	13	0	0
+11699 0	0	0	8[NPC]	Blood Elf	F	Facial	13	1	0
+11700 0	0	0	8[NPC]	Blood Elf	F	Facial	13	2	0
+11701 0	0	0	8[NPC]	Blood Elf	F	Facial	13	3	0
+11702 0	0	0	8[NPC]	Blood Elf	F	Facial	13	4	0
+11703 0	0	0	8[NPC]	Blood Elf	F	Facial	13	5	0
+11704 0	0	0	8[NPC]	Blood Elf	F	Facial	13	6	0
+11705 0	0	0	8[NPC]	Blood Elf	F	Facial	13	7	0
+11706 0	0	0	8[NPC]	Blood Elf	F	Facial	13	8	0
+11707 0	0	0	8[NPC]	Blood Elf	F	Facial	13	9	0
+11708 0	0	0	8[NPC]	Blood Elf	F	Facial	13	10	0
+11709 0	0	0	8[NPC]	Blood Elf	F	Facial	13	11	0
+11710 0	0	0	8[NPC]	Blood Elf	F	Facial	13	12	0
+11711 0	0	0	8[NPC]	Blood Elf	F	Facial	14	0	0
+11712 0	0	0	8[NPC]	Blood Elf	F	Facial	14	1	0
+11713 0	0	0	8[NPC]	Blood Elf	F	Facial	14	2	0
+11714 0	0	0	8[NPC]	Blood Elf	F	Facial	14	3	0
+11715 0	0	0	8[NPC]	Blood Elf	F	Facial	14	4	0
+11716 0	0	0	8[NPC]	Blood Elf	F	Facial	14	5	0
+11717 0	0	0	8[NPC]	Blood Elf	F	Facial	14	6	0
+11718 0	0	0	8[NPC]	Blood Elf	F	Facial	14	7	0
+11719 0	0	0	8[NPC]	Blood Elf	F	Facial	14	8	0
+11720 0	0	0	8[NPC]	Blood Elf	F	Facial	14	9	0
+11721 0	0	0	8[NPC]	Blood Elf	F	Facial	14	10	0
+11722 0	0	0	8[NPC]	Blood Elf	F	Facial	14	11	0
+11723 0	0	0	8[NPC]	Blood Elf	F	Facial	14	12	0
+11724 0	0	0	8[NPC]	Blood Elf	F	Facial	15	0	0
+11725 0	0	0	8[NPC]	Blood Elf	F	Facial	15	1	0
+11726 0	0	0	8[NPC]	Blood Elf	F	Facial	15	2	0
+11727 0	0	0	8[NPC]	Blood Elf	F	Facial	15	3	0
+11728 0	0	0	8[NPC]	Blood Elf	F	Facial	15	4	0
+11729 0	0	0	8[NPC]	Blood Elf	F	Facial	15	5	0
+11730 0	0	0	8[NPC]	Blood Elf	F	Facial	15	6	0
+11731 0	0	0	8[NPC]	Blood Elf	F	Facial	15	7	0
+11732 0	0	0	8[NPC]	Blood Elf	F	Facial	15	8	0
+11733 0	0	0	8[NPC]	Blood Elf	F	Facial	15	9	0
+11734 0	0	0	8[NPC]	Blood Elf	F	Facial	15	10	0
+11735 0	0	0	8[NPC]	Blood Elf	F	Facial	15	11	0
+11736 0	0	0	8[NPC]	Blood Elf	F	Facial	15	12	0
+11737 0	0	0	8[NPC]	Blood Elf	F	Facial	16	0	0
+11738 0	0	0	8[NPC]	Blood Elf	F	Facial	16	1	0
+11739 0	0	0	8[NPC]	Blood Elf	F	Facial	16	2	0
+11740 0	0	0	8[NPC]	Blood Elf	F	Facial	16	3	0
+11741 0	0	0	8[NPC]	Blood Elf	F	Facial	16	4	0
+11742 0	0	0	8[NPC]	Blood Elf	F	Facial	16	5	0
+11743 0	0	0	8[NPC]	Blood Elf	F	Facial	16	6	0
+11744 0	0	0	8[NPC]	Blood Elf	F	Facial	16	7	0
+11745 0	0	0	8[NPC]	Blood Elf	F	Facial	16	8	0
+11746 0	0	0	8[NPC]	Blood Elf	F	Facial	16	9	0
+11747 0	0	0	8[NPC]	Blood Elf	F	Facial	16	10	0
+11748 0	0	0	8[NPC]	Blood Elf	F	Facial	16	11	0
+11749 0	0	0	8[NPC]	Blood Elf	F	Facial	16	12	0
+11750 0	0	0	8[NPC]	Blood Elf	F	Facial	17	0	0
+11751 0	0	0	8[NPC]	Blood Elf	F	Facial	17	1	0
+11752 0	0	0	8[NPC]	Blood Elf	F	Facial	17	2	0
+11753 0	0	0	8[NPC]	Blood Elf	F	Facial	17	3	0
+11754 0	0	0	8[NPC]	Blood Elf	F	Facial	17	4	0
+11755 0	0	0	8[NPC]	Blood Elf	F	Facial	17	5	0
+11756 0	0	0	8[NPC]	Blood Elf	F	Facial	17	6	0
+11757 0	0	0	8[NPC]	Blood Elf	F	Facial	17	7	0
+11758 0	0	0	8[NPC]	Blood Elf	F	Facial	17	8	0
+11759 0	0	0	8[NPC]	Blood Elf	F	Facial	17	9	0
+11760 0	0	0	8[NPC]	Blood Elf	F	Facial	17	10	0
+11761 0	0	0	8[NPC]	Blood Elf	F	Facial	17	11	0
+11762 0	0	0	8[NPC]	Blood Elf	F	Facial	17	12	0
+11763 0	0	0	8[NPC]	Blood Elf	F	Facial	18	0	0
+11764 0	0	0	8[NPC]	Blood Elf	F	Facial	18	1	0
+11765 0	0	0	8[NPC]	Blood Elf	F	Facial	18	2	0
+11766 0	0	0	8[NPC]	Blood Elf	F	Facial	18	3	0
+11767 0	0	0	8[NPC]	Blood Elf	F	Facial	18	4	0
+11768 0	0	0	8[NPC]	Blood Elf	F	Facial	18	5	0
+11769 0	0	0	8[NPC]	Blood Elf	F	Facial	18	6	0
+11770 0	0	0	8[NPC]	Blood Elf	F	Facial	18	7	0
+11771 0	0	0	8[NPC]	Blood Elf	F	Facial	18	8	0
+11772 0	0	0	8[NPC]	Blood Elf	F	Facial	18	9	0
+11773 0	0	0	8[NPC]	Blood Elf	F	Facial	18	10	0
+11774 0	0	0	8[NPC]	Blood Elf	F	Facial	18	11	0
+11775 0	0	0	8[NPC]	Blood Elf	F	Facial	18	12	0
+11776 0	0	0	8[NPC]	Blood Elf	F	Facial	19	0	0
+11777 0	0	0	8[NPC]	Blood Elf	F	Facial	19	1	0
+11778 0	0	0	8[NPC]	Blood Elf	F	Facial	19	2	0
+11779 0	0	0	8[NPC]	Blood Elf	F	Facial	19	3	0
+11780 0	0	0	8[NPC]	Blood Elf	F	Facial	19	4	0
+11781 0	0	0	8[NPC]	Blood Elf	F	Facial	19	5	0
+11782 0	0	0	8[NPC]	Blood Elf	F	Facial	19	6	0
+11783 0	0	0	8[NPC]	Blood Elf	F	Facial	19	7	0
+11784 0	0	0	8[NPC]	Blood Elf	F	Facial	19	8	0
+11785 0	0	0	8[NPC]	Blood Elf	F	Facial	19	9	0
+11786 0	0	0	8[NPC]	Blood Elf	F	Facial	19	10	0
+11787 0	0	0	8[NPC]	Blood Elf	F	Facial	19	11	0
+11788 0	0	0	8[NPC]	Blood Elf	F	Facial	19	12	0
+11789 0	0	0	8[NPC]	Blood Elf	F	Facial	20	0	0
+11790 0	0	0	8[NPC]	Blood Elf	F	Facial	20	1	0
+11791 0	0	0	8[NPC]	Blood Elf	F	Facial	20	2	0
+11792 0	0	0	8[NPC]	Blood Elf	F	Facial	20	3	0
+11793 0	0	0	8[NPC]	Blood Elf	F	Facial	20	4	0
+11794 0	0	0	8[NPC]	Blood Elf	F	Facial	20	5	0
+11795 0	0	0	8[NPC]	Blood Elf	F	Facial	20	6	0
+11796 0	0	0	8[NPC]	Blood Elf	F	Facial	20	7	0
+11797 0	0	0	8[NPC]	Blood Elf	F	Facial	20	8	0
+11798 0	0	0	8[NPC]	Blood Elf	F	Facial	20	9	0
+11799 0	0	0	8[NPC]	Blood Elf	F	Facial	20	10	0
+11800 0	0	0	8[NPC]	Blood Elf	F	Facial	20	11	0
+11801 0	0	0	8[NPC]	Blood Elf	F	Facial	20	12	0
+11802 0	0	0	8[NPC]	Blood Elf	F	Facial	21	0	0
+11803 0	0	0	8[NPC]	Blood Elf	F	Facial	21	1	0
+11804 0	0	0	8[NPC]	Blood Elf	F	Facial	21	2	0
+11805 0	0	0	8[NPC]	Blood Elf	F	Facial	21	3	0
+11806 0	0	0	8[NPC]	Blood Elf	F	Facial	21	4	0
+11807 0	0	0	8[NPC]	Blood Elf	F	Facial	21	5	0
+11808 0	0	0	8[NPC]	Blood Elf	F	Facial	21	6	0
+11809 0	0	0	8[NPC]	Blood Elf	F	Facial	21	7	0
+11810 0	0	0	8[NPC]	Blood Elf	F	Facial	21	8	0
+11811 0	0	0	8[NPC]	Blood Elf	F	Facial	21	9	0
+11812 0	0	0	8[NPC]	Blood Elf	F	Facial	21	10	0
+11813 0	0	0	8[NPC]	Blood Elf	F	Facial	21	11	0
+11814 0	0	0	8[NPC]	Blood Elf	F	Facial	21	12	0
+26299 0	0	0	17[P]	Blood Elf	F	HD Facial	0	0	0
+26300 0	0	0	17[P]	Blood Elf	F	HD Facial	0	1	0
+26301 0	0	0	17[P]	Blood Elf	F	HD Facial	0	2	0
+26302 0	0	0	17[P]	Blood Elf	F	HD Facial	0	3	0
+26303 0	0	0	17[P]	Blood Elf	F	HD Facial	0	4	0
+26304 0	0	0	17[P]	Blood Elf	F	HD Facial	0	5	0
+26305 0	0	0	17[P]	Blood Elf	F	HD Facial	0	6	0
+26306 0	0	0	17[P]	Blood Elf	F	HD Facial	0	7	0
+26307 0	0	0	17[P]	Blood Elf	F	HD Facial	0	8	0
+26308 0	0	0	17[P]	Blood Elf	F	HD Facial	0	9	0
+26309 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	0	10	0
+26310 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	0	11	0
+26311 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	0	12	0
+26312 0	0	0	17[P]	Blood Elf	F	HD Facial	1	0	0
+26313 0	0	0	17[P]	Blood Elf	F	HD Facial	1	1	0
+26314 0	0	0	17[P]	Blood Elf	F	HD Facial	1	2	0
+26315 0	0	0	17[P]	Blood Elf	F	HD Facial	1	3	0
+26316 0	0	0	17[P]	Blood Elf	F	HD Facial	1	4	0
+26317 0	0	0	17[P]	Blood Elf	F	HD Facial	1	5	0
+26318 0	0	0	17[P]	Blood Elf	F	HD Facial	1	6	0
+26319 0	0	0	17[P]	Blood Elf	F	HD Facial	1	7	0
+26320 0	0	0	17[P]	Blood Elf	F	HD Facial	1	8	0
+26321 0	0	0	17[P]	Blood Elf	F	HD Facial	1	9	0
+26322 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	1	10	0
+26323 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	1	11	0
+26324 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	1	12	0
+26325 0	0	0	17[P]	Blood Elf	F	HD Facial	2	0	0
+26326 0	0	0	17[P]	Blood Elf	F	HD Facial	2	1	0
+26327 0	0	0	17[P]	Blood Elf	F	HD Facial	2	2	0
+26328 0	0	0	17[P]	Blood Elf	F	HD Facial	2	3	0
+26329 0	0	0	17[P]	Blood Elf	F	HD Facial	2	4	0
+26330 0	0	0	17[P]	Blood Elf	F	HD Facial	2	5	0
+26331 0	0	0	17[P]	Blood Elf	F	HD Facial	2	6	0
+26332 0	0	0	17[P]	Blood Elf	F	HD Facial	2	7	0
+26333 0	0	0	17[P]	Blood Elf	F	HD Facial	2	8	0
+26334 0	0	0	17[P]	Blood Elf	F	HD Facial	2	9	0
+26335 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	2	10	0
+26336 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	2	11	0
+26337 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	2	12	0
+26338 0	0	0	17[P]	Blood Elf	F	HD Facial	3	0	0
+26339 0	0	0	17[P]	Blood Elf	F	HD Facial	3	1	0
+26340 0	0	0	17[P]	Blood Elf	F	HD Facial	3	2	0
+26341 0	0	0	17[P]	Blood Elf	F	HD Facial	3	3	0
+26342 0	0	0	17[P]	Blood Elf	F	HD Facial	3	4	0
+26343 0	0	0	17[P]	Blood Elf	F	HD Facial	3	5	0
+26344 0	0	0	17[P]	Blood Elf	F	HD Facial	3	6	0
+26345 0	0	0	17[P]	Blood Elf	F	HD Facial	3	7	0
+26346 0	0	0	17[P]	Blood Elf	F	HD Facial	3	8	0
+26347 0	0	0	17[P]	Blood Elf	F	HD Facial	3	9	0
+26348 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	3	10	0
+26349 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	3	11	0
+26350 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	3	12	0
+26351 0	0	0	17[P]	Blood Elf	F	HD Facial	4	0	0
+26352 0	0	0	17[P]	Blood Elf	F	HD Facial	4	1	0
+26353 0	0	0	17[P]	Blood Elf	F	HD Facial	4	2	0
+26354 0	0	0	17[P]	Blood Elf	F	HD Facial	4	3	0
+26355 0	0	0	17[P]	Blood Elf	F	HD Facial	4	4	0
+26356 0	0	0	17[P]	Blood Elf	F	HD Facial	4	5	0
+26357 0	0	0	17[P]	Blood Elf	F	HD Facial	4	6	0
+26358 0	0	0	17[P]	Blood Elf	F	HD Facial	4	7	0
+26359 0	0	0	17[P]	Blood Elf	F	HD Facial	4	8	0
+26360 0	0	0	17[P]	Blood Elf	F	HD Facial	4	9	0
+26361 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	4	10	0
+26362 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	4	11	0
+26363 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	4	12	0
+26364 0	0	0	17[P]	Blood Elf	F	HD Facial	5	0	0
+26365 0	0	0	17[P]	Blood Elf	F	HD Facial	5	1	0
+26366 0	0	0	17[P]	Blood Elf	F	HD Facial	5	2	0
+26367 0	0	0	17[P]	Blood Elf	F	HD Facial	5	3	0
+26368 0	0	0	17[P]	Blood Elf	F	HD Facial	5	4	0
+26369 0	0	0	17[P]	Blood Elf	F	HD Facial	5	5	0
+26370 0	0	0	17[P]	Blood Elf	F	HD Facial	5	6	0
+26371 0	0	0	17[P]	Blood Elf	F	HD Facial	5	7	0
+26372 0	0	0	17[P]	Blood Elf	F	HD Facial	5	8	0
+26373 0	0	0	17[P]	Blood Elf	F	HD Facial	5	9	0
+26374 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	5	10	0
+26375 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	5	11	0
+26376 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	5	12	0
+26377 0	0	0	17[P]	Blood Elf	F	HD Facial	6	0	0
+26378 0	0	0	17[P]	Blood Elf	F	HD Facial	6	1	0
+26379 0	0	0	17[P]	Blood Elf	F	HD Facial	6	2	0
+26380 0	0	0	17[P]	Blood Elf	F	HD Facial	6	3	0
+26381 0	0	0	17[P]	Blood Elf	F	HD Facial	6	4	0
+26382 0	0	0	17[P]	Blood Elf	F	HD Facial	6	5	0
+26383 0	0	0	17[P]	Blood Elf	F	HD Facial	6	6	0
+26384 0	0	0	17[P]	Blood Elf	F	HD Facial	6	7	0
+26385 0	0	0	17[P]	Blood Elf	F	HD Facial	6	8	0
+26386 0	0	0	17[P]	Blood Elf	F	HD Facial	6	9	0
+26387 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	6	10	0
+26388 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	6	11	0
+26389 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	6	12	0
+26390 0	0	0	17[P]	Blood Elf	F	HD Facial	7	0	0
+26391 0	0	0	17[P]	Blood Elf	F	HD Facial	7	1	0
+26392 0	0	0	17[P]	Blood Elf	F	HD Facial	7	2	0
+26393 0	0	0	17[P]	Blood Elf	F	HD Facial	7	3	0
+26394 0	0	0	17[P]	Blood Elf	F	HD Facial	7	4	0
+26395 0	0	0	17[P]	Blood Elf	F	HD Facial	7	5	0
+26396 0	0	0	17[P]	Blood Elf	F	HD Facial	7	6	0
+26397 0	0	0	17[P]	Blood Elf	F	HD Facial	7	7	0
+26398 0	0	0	17[P]	Blood Elf	F	HD Facial	7	8	0
+26399 0	0	0	17[P]	Blood Elf	F	HD Facial	7	9	0
+26400 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	7	10	0
+26401 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	7	11	0
+26402 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	7	12	0
+26403 0	0	0	17[P]	Blood Elf	F	HD Facial	8	0	0
+26404 0	0	0	17[P]	Blood Elf	F	HD Facial	8	1	0
+26405 0	0	0	17[P]	Blood Elf	F	HD Facial	8	2	0
+26406 0	0	0	17[P]	Blood Elf	F	HD Facial	8	3	0
+26407 0	0	0	17[P]	Blood Elf	F	HD Facial	8	4	0
+26408 0	0	0	17[P]	Blood Elf	F	HD Facial	8	5	0
+26409 0	0	0	17[P]	Blood Elf	F	HD Facial	8	6	0
+26410 0	0	0	17[P]	Blood Elf	F	HD Facial	8	7	0
+26411 0	0	0	17[P]	Blood Elf	F	HD Facial	8	8	0
+26412 0	0	0	17[P]	Blood Elf	F	HD Facial	8	9	0
+26413 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	8	10	0
+26414 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	8	11	0
+26415 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	8	12	0
+26416 0	0	0	17[P]	Blood Elf	F	HD Facial	9	0	0
+26417 0	0	0	17[P]	Blood Elf	F	HD Facial	9	1	0
+26418 0	0	0	17[P]	Blood Elf	F	HD Facial	9	2	0
+26419 0	0	0	17[P]	Blood Elf	F	HD Facial	9	3	0
+26420 0	0	0	17[P]	Blood Elf	F	HD Facial	9	4	0
+26421 0	0	0	17[P]	Blood Elf	F	HD Facial	9	5	0
+26422 0	0	0	17[P]	Blood Elf	F	HD Facial	9	6	0
+26423 0	0	0	17[P]	Blood Elf	F	HD Facial	9	7	0
+26424 0	0	0	17[P]	Blood Elf	F	HD Facial	9	8	0
+26425 0	0	0	17[P]	Blood Elf	F	HD Facial	9	9	0
+26426 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	9	10	0
+26427 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	9	11	0
+26428 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	9	12	0
+26429 0	0	0	17[P]	Blood Elf	F	HD Facial	10	0	0
+26430 0	0	0	17[P]	Blood Elf	F	HD Facial	10	1	0
+26431 0	0	0	17[P]	Blood Elf	F	HD Facial	10	2	0
+26432 0	0	0	17[P]	Blood Elf	F	HD Facial	10	3	0
+26433 0	0	0	17[P]	Blood Elf	F	HD Facial	10	4	0
+26434 0	0	0	17[P]	Blood Elf	F	HD Facial	10	5	0
+26435 0	0	0	17[P]	Blood Elf	F	HD Facial	10	6	0
+26436 0	0	0	17[P]	Blood Elf	F	HD Facial	10	7	0
+26437 0	0	0	17[P]	Blood Elf	F	HD Facial	10	8	0
+26438 0	0	0	17[P]	Blood Elf	F	HD Facial	10	9	0
+26439 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	10	10	0
+26440 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	10	11	0
+26441 0	0	0	5[P][DK]	Blood Elf	F	HD Facial	10	12	0
+26442 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	0	0
+26443 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	1	0
+26444 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	2	0
+26445 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	3	0
+26446 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	4	0
+26447 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	5	0
+26448 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	6	0
+26449 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	7	0
+26450 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	8	0
+26451 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	9	0
+26452 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	10	0
+26453 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	11	0
+26454 0	0	0	8[NPC]	Blood Elf	F	HD Facial	11	12	0
+26455 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	0	0
+26456 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	1	0
+26457 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	2	0
+26458 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	3	0
+26459 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	4	0
+26460 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	5	0
+26461 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	6	0
+26462 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	7	0
+26463 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	8	0
+26464 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	9	0
+26465 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	10	0
+26466 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	11	0
+26467 0	0	0	8[NPC]	Blood Elf	F	HD Facial	12	12	0
+26468 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	0	0
+26469 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	1	0
+26470 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	2	0
+26471 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	3	0
+26472 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	4	0
+26473 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	5	0
+26474 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	6	0
+26475 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	7	0
+26476 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	8	0
+26477 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	9	0
+26478 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	10	0
+26479 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	11	0
+26480 0	0	0	8[NPC]	Blood Elf	F	HD Facial	13	12	0
+26481 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	0	0
+26482 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	1	0
+26483 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	2	0
+26484 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	3	0
+26485 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	4	0
+26486 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	5	0
+26487 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	6	0
+26488 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	7	0
+26489 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	8	0
+26490 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	9	0
+26491 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	10	0
+26492 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	11	0
+26493 0	0	0	8[NPC]	Blood Elf	F	HD Facial	14	12	0
+26494 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	0	0
+26495 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	1	0
+26496 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	2	0
+26497 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	3	0
+26498 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	4	0
+26499 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	5	0
+26500 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	6	0
+26501 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	7	0
+26502 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	8	0
+26503 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	9	0
+26504 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	10	0
+26505 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	11	0
+26506 0	0	0	8[NPC]	Blood Elf	F	HD Facial	15	12	0
+26507 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	0	0
+26508 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	1	0
+26509 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	2	0
+26510 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	3	0
+26511 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	4	0
+26512 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	5	0
+26513 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	6	0
+26514 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	7	0
+26515 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	8	0
+26516 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	9	0
+26517 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	10	0
+26518 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	11	0
+26519 0	0	0	8[NPC]	Blood Elf	F	HD Facial	16	12	0
+26520 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	0	0
+26521 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	1	0
+26522 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	2	0
+26523 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	3	0
+26524 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	4	0
+26525 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	5	0
+26526 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	6	0
+26527 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	7	0
+26528 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	8	0
+26529 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	9	0
+26530 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	10	0
+26531 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	11	0
+26532 0	0	0	8[NPC]	Blood Elf	F	HD Facial	17	12	0
+26533 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	0	0
+26534 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	1	0
+26535 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	2	0
+26536 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	3	0
+26537 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	4	0
+26538 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	5	0
+26539 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	6	0
+26540 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	7	0
+26541 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	8	0
+26542 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	9	0
+26543 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	10	0
+26544 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	11	0
+26545 0	0	0	8[NPC]	Blood Elf	F	HD Facial	18	12	0
+26546 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	0	0
+26547 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	1	0
+26548 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	2	0
+26549 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	3	0
+26550 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	4	0
+26551 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	5	0
+26552 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	6	0
+26553 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	7	0
+26554 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	8	0
+26555 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	9	0
+26556 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	10	0
+26557 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	11	0
+26558 0	0	0	8[NPC]	Blood Elf	F	HD Facial	19	12	0
+26559 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	0	0
+26560 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	1	0
+26561 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	2	0
+26562 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	3	0
+26563 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	4	0
+26564 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	5	0
+26565 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	6	0
+26566 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	7	0
+26567 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	8	0
+26568 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	9	0
+26569 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	10	0
+26570 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	11	0
+26571 0	0	0	8[NPC]	Blood Elf	F	HD Facial	20	12	0
+26572 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	0	0
+26573 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	1	0
+26574 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	2	0
+26575 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	3	0
+26576 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	4	0
+26577 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	5	0
+26578 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	6	0
+26579 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	7	0
+26580 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	8	0
+26581 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	9	0
+26582 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	10	0
+26583 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	11	0
+26584 0	0	0	8[NPC]	Blood Elf	F	HD Facial	21	12	0
+
+3500 3260	0	0	17[P]	Blood Elf	F	Hair	0	0	0
+3536 3261	0	0	17[P]	Blood Elf	F	Hair	0	1	0
+3537 3262	0	0	17[P]	Blood Elf	F	Hair	0	2	0
+3538 3263	0	0	17[P]	Blood Elf	F	Hair	0	3	0
+3539 3260	0	0	17[P]	Blood Elf	F	Hair	1	0	0
+3540 3261	0	0	17[P]	Blood Elf	F	Hair	1	1	0
+3541 3262	0	0	17[P]	Blood Elf	F	Hair	1	2	0
+3542 3263	0	0	17[P]	Blood Elf	F	Hair	1	3	0
+3543 3260	0	0	17[P]	Blood Elf	F	Hair	2	0	0
+3544 3261	0	0	17[P]	Blood Elf	F	Hair	2	1	0
+3545 3262	0	0	17[P]	Blood Elf	F	Hair	2	2	0
+3546 3263	0	0	17[P]	Blood Elf	F	Hair	2	3	0
+3879 3264	0	0	17[P]	Blood Elf	F	Hair	0	4	0
+3880 3265	0	0	17[P]	Blood Elf	F	Hair	0	5	0
+3881 3266	0	0	17[P]	Blood Elf	F	Hair	0	6	0
+3882 3267	0	0	17[P]	Blood Elf	F	Hair	0	7	0
+3883 3268	0	0	17[P]	Blood Elf	F	Hair	0	8	0
+3884 3269	0	0	17[P]	Blood Elf	F	Hair	0	9	0
+3885 3264	0	0	17[P]	Blood Elf	F	Hair	1	4	0
+3886 3265	0	0	17[P]	Blood Elf	F	Hair	1	5	0
+3887 3266	0	0	17[P]	Blood Elf	F	Hair	1	6	0
+3888 3267	0	0	17[P]	Blood Elf	F	Hair	1	7	0
+3889 3268	0	0	17[P]	Blood Elf	F	Hair	1	8	0
+3890 3269	0	0	17[P]	Blood Elf	F	Hair	1	9	0
+3891 3264	0	0	17[P]	Blood Elf	F	Hair	2	4	0
+3892 3265	0	0	17[P]	Blood Elf	F	Hair	2	5	0
+3893 3266	0	0	17[P]	Blood Elf	F	Hair	2	6	0
+3894 3267	0	0	17[P]	Blood Elf	F	Hair	2	7	0
+3895 3268	0	0	17[P]	Blood Elf	F	Hair	2	8	0
+3896 3269	0	0	17[P]	Blood Elf	F	Hair	2	9	0
+4455 3260	0	0	17[P]	Blood Elf	F	Hair	3	0	0
+4456 3261	0	0	17[P]	Blood Elf	F	Hair	3	1	0
+4457 3262	0	0	17[P]	Blood Elf	F	Hair	3	2	0
+4458 3263	0	0	17[P]	Blood Elf	F	Hair	3	3	0
+4459 3264	0	0	17[P]	Blood Elf	F	Hair	3	4	0
+4460 3265	0	0	17[P]	Blood Elf	F	Hair	3	5	0
+4461 3266	0	0	17[P]	Blood Elf	F	Hair	3	6	0
+4462 3267	0	0	17[P]	Blood Elf	F	Hair	3	7	0
+4463 3268	0	0	17[P]	Blood Elf	F	Hair	3	8	0
+4464 3269	0	0	17[P]	Blood Elf	F	Hair	3	9	0
+4465 3260	0	0	17[P]	Blood Elf	F	Hair	4	0	0
+4466 3261	0	0	17[P]	Blood Elf	F	Hair	4	1	0
+4467 3262	0	0	17[P]	Blood Elf	F	Hair	4	2	0
+4468 3263	0	0	17[P]	Blood Elf	F	Hair	4	3	0
+4469 3264	0	0	17[P]	Blood Elf	F	Hair	4	4	0
+4470 3265	0	0	17[P]	Blood Elf	F	Hair	4	5	0
+4471 3266	0	0	17[P]	Blood Elf	F	Hair	4	6	0
+4472 3267	0	0	17[P]	Blood Elf	F	Hair	4	7	0
+4473 3268	0	0	17[P]	Blood Elf	F	Hair	4	8	0
+4474 3269	0	0	17[P]	Blood Elf	F	Hair	4	9	0
+4475 3260	0	0	17[P]	Blood Elf	F	Hair	5	0	0
+4476 3261	0	0	17[P]	Blood Elf	F	Hair	5	1	0
+4477 3262	0	0	17[P]	Blood Elf	F	Hair	5	2	0
+4478 3263	0	0	17[P]	Blood Elf	F	Hair	5	3	0
+4479 3264	0	0	17[P]	Blood Elf	F	Hair	5	4	0
+4480 3265	0	0	17[P]	Blood Elf	F	Hair	5	5	0
+4481 3266	0	0	17[P]	Blood Elf	F	Hair	5	6	0
+4482 3267	0	0	17[P]	Blood Elf	F	Hair	5	7	0
+4483 3268	0	0	17[P]	Blood Elf	F	Hair	5	8	0
+4484 3269	0	0	17[P]	Blood Elf	F	Hair	5	9	0
+4485 3260	0	0	17[P]	Blood Elf	F	Hair	6	0	0
+4486 3261	0	0	17[P]	Blood Elf	F	Hair	6	1	0
+4487 3262	0	0	17[P]	Blood Elf	F	Hair	6	2	0
+4488 3263	0	0	17[P]	Blood Elf	F	Hair	6	3	0
+4489 3264	0	0	17[P]	Blood Elf	F	Hair	6	4	0
+4490 3265	0	0	17[P]	Blood Elf	F	Hair	6	5	0
+4491 3266	0	0	17[P]	Blood Elf	F	Hair	6	6	0
+4492 3267	0	0	17[P]	Blood Elf	F	Hair	6	7	0
+4493 3268	0	0	17[P]	Blood Elf	F	Hair	6	8	0
+4494 3269	0	0	17[P]	Blood Elf	F	Hair	6	9	0
+4495 3260	0	0	17[P]	Blood Elf	F	Hair	7	0	0
+4496 3261	0	0	17[P]	Blood Elf	F	Hair	7	1	0
+4497 3262	0	0	17[P]	Blood Elf	F	Hair	7	2	0
+4498 3263	0	0	17[P]	Blood Elf	F	Hair	7	3	0
+4499 3264	0	0	17[P]	Blood Elf	F	Hair	7	4	0
+4500 3265	0	0	17[P]	Blood Elf	F	Hair	7	5	0
+4501 3266	0	0	17[P]	Blood Elf	F	Hair	7	6	0
+4502 3267	0	0	17[P]	Blood Elf	F	Hair	7	7	0
+4503 3268	0	0	17[P]	Blood Elf	F	Hair	7	8	0
+4504 3269	0	0	17[P]	Blood Elf	F	Hair	7	9	0
+4505 3260	0	0	17[P]	Blood Elf	F	Hair	8	0	0
+4506 3261	0	0	17[P]	Blood Elf	F	Hair	8	1	0
+4507 3262	0	0	17[P]	Blood Elf	F	Hair	8	2	0
+4508 3263	0	0	17[P]	Blood Elf	F	Hair	8	3	0
+4509 3264	0	0	17[P]	Blood Elf	F	Hair	8	4	0
+4510 3265	0	0	17[P]	Blood Elf	F	Hair	8	5	0
+4511 3266	0	0	17[P]	Blood Elf	F	Hair	8	6	0
+4512 3267	0	0	17[P]	Blood Elf	F	Hair	8	7	0
+4513 3268	0	0	17[P]	Blood Elf	F	Hair	8	8	0
+4514 3269	0	0	17[P]	Blood Elf	F	Hair	8	9	0
+4515 3260	0	0	17[P]	Blood Elf	F	Hair	9	0	0
+4516 3261	0	0	17[P]	Blood Elf	F	Hair	9	1	0
+4517 3262	0	0	17[P]	Blood Elf	F	Hair	9	2	0
+4518 3263	0	0	17[P]	Blood Elf	F	Hair	9	3	0
+4519 3264	0	0	17[P]	Blood Elf	F	Hair	9	4	0
+4520 3265	0	0	17[P]	Blood Elf	F	Hair	9	5	0
+4521 3266	0	0	17[P]	Blood Elf	F	Hair	9	6	0
+4522 3267	0	0	17[P]	Blood Elf	F	Hair	9	7	0
+4523 3268	0	0	17[P]	Blood Elf	F	Hair	9	8	0
+4524 3269	0	0	17[P]	Blood Elf	F	Hair	9	9	0
+4525 3260	0	0	17[P]	Blood Elf	F	Hair	10	0	0
+4526 3261	0	0	17[P]	Blood Elf	F	Hair	10	1	0
+4527 3262	0	0	17[P]	Blood Elf	F	Hair	10	2	0
+4528 3263	0	0	17[P]	Blood Elf	F	Hair	10	3	0
+4529 3264	0	0	17[P]	Blood Elf	F	Hair	10	4	0
+4530 3265	0	0	17[P]	Blood Elf	F	Hair	10	5	0
+4531 3266	0	0	17[P]	Blood Elf	F	Hair	10	6	0
+4532 3267	0	0	17[P]	Blood Elf	F	Hair	10	7	0
+4533 3268	0	0	17[P]	Blood Elf	F	Hair	10	8	0
+4534 3269	0	0	17[P]	Blood Elf	F	Hair	10	9	0
+4535 3260	0	0	17[P]	Blood Elf	F	Hair	11	0	0
+4536 3261	0	0	17[P]	Blood Elf	F	Hair	11	1	0
+4537 3262	0	0	17[P]	Blood Elf	F	Hair	11	2	0
+4538 3263	0	0	17[P]	Blood Elf	F	Hair	11	3	0
+4539 3264	0	0	17[P]	Blood Elf	F	Hair	11	4	0
+4540 3265	0	0	17[P]	Blood Elf	F	Hair	11	5	0
+4541 3266	0	0	17[P]	Blood Elf	F	Hair	11	6	0
+4542 3267	0	0	17[P]	Blood Elf	F	Hair	11	7	0
+4543 3268	0	0	17[P]	Blood Elf	F	Hair	11	8	0
+4544 3269	0	0	17[P]	Blood Elf	F	Hair	11	9	0
+4545 3260	0	0	17[P]	Blood Elf	F	Hair	12	0	0
+4546 3261	0	0	17[P]	Blood Elf	F	Hair	12	1	0
+4547 3262	0	0	17[P]	Blood Elf	F	Hair	12	2	0
+4548 3263	0	0	17[P]	Blood Elf	F	Hair	12	3	0
+4549 3264	0	0	17[P]	Blood Elf	F	Hair	12	4	0
+4550 3265	0	0	17[P]	Blood Elf	F	Hair	12	5	0
+4551 3266	0	0	17[P]	Blood Elf	F	Hair	12	6	0
+4552 3267	0	0	17[P]	Blood Elf	F	Hair	12	7	0
+4553 3268	0	0	17[P]	Blood Elf	F	Hair	12	8	0
+4554 3269	0	0	17[P]	Blood Elf	F	Hair	12	9	0
+4555 3260	0	0	17[P]	Blood Elf	F	Hair	13	0	0
+4556 3261	0	0	17[P]	Blood Elf	F	Hair	13	1	0
+4557 3262	0	0	17[P]	Blood Elf	F	Hair	13	2	0
+4558 3263	0	0	17[P]	Blood Elf	F	Hair	13	3	0
+4559 3264	0	0	17[P]	Blood Elf	F	Hair	13	4	0
+4560 3265	0	0	17[P]	Blood Elf	F	Hair	13	5	0
+4561 3266	0	0	17[P]	Blood Elf	F	Hair	13	6	0
+4562 3267	0	0	17[P]	Blood Elf	F	Hair	13	7	0
+4563 3268	0	0	17[P]	Blood Elf	F	Hair	13	8	0
+4564 3269	0	0	17[P]	Blood Elf	F	Hair	13	9	0
+5189 3260	0	0	18[B]	Blood Elf	F	Hair	15	0	0
+5190 3261	0	0	18[B]	Blood Elf	F	Hair	15	1	0
+5191 3262	0	0	18[B]	Blood Elf	F	Hair	15	2	0
+5192 3263	0	0	18[B]	Blood Elf	F	Hair	15	3	0
+5193 3264	0	0	18[B]	Blood Elf	F	Hair	15	4	0
+5194 3265	0	0	18[B]	Blood Elf	F	Hair	15	5	0
+5195 3266	0	0	18[B]	Blood Elf	F	Hair	15	6	0
+5196 3267	0	0	18[B]	Blood Elf	F	Hair	15	7	0
+5197 3268	0	0	18[B]	Blood Elf	F	Hair	15	8	0
+5198 3269	0	0	18[B]	Blood Elf	F	Hair	15	9	0
+5199 3260	0	0	18[B]	Blood Elf	F	Hair	16	0	0
+5200 3261	0	0	18[B]	Blood Elf	F	Hair	16	1	0
+5201 3262	0	0	18[B]	Blood Elf	F	Hair	16	2	0
+5202 3263	0	0	18[B]	Blood Elf	F	Hair	16	3	0
+5203 3264	0	0	18[B]	Blood Elf	F	Hair	16	4	0
+5204 3265	0	0	18[B]	Blood Elf	F	Hair	16	5	0
+5205 3266	0	0	18[B]	Blood Elf	F	Hair	16	6	0
+5206 3267	0	0	18[B]	Blood Elf	F	Hair	16	7	0
+5207 3268	0	0	18[B]	Blood Elf	F	Hair	16	8	0
+5208 3269	0	0	18[B]	Blood Elf	F	Hair	16	9	0
+5209 3260	0	0	18[B]	Blood Elf	F	Hair	17	0	0
+5210 3261	0	0	18[B]	Blood Elf	F	Hair	17	1	0
+5211 3262	0	0	18[B]	Blood Elf	F	Hair	17	2	0
+5212 3263	0	0	18[B]	Blood Elf	F	Hair	17	3	0
+5213 3264	0	0	18[B]	Blood Elf	F	Hair	17	4	0
+5214 3265	0	0	18[B]	Blood Elf	F	Hair	17	5	0
+5215 3266	0	0	18[B]	Blood Elf	F	Hair	17	6	0
+5216 3267	0	0	18[B]	Blood Elf	F	Hair	17	7	0
+5217 3268	0	0	18[B]	Blood Elf	F	Hair	17	8	0
+5218 3269	0	0	18[B]	Blood Elf	F	Hair	17	9	0
+5219 3260	0	0	18[B]	Blood Elf	F	Hair	18	0	0
+5220 3261	0	0	18[B]	Blood Elf	F	Hair	18	1	0
+5221 3262	0	0	18[B]	Blood Elf	F	Hair	18	2	0
+5222 3263	0	0	18[B]	Blood Elf	F	Hair	18	3	0
+5223 3264	0	0	18[B]	Blood Elf	F	Hair	18	4	0
+5224 3265	0	0	18[B]	Blood Elf	F	Hair	18	5	0
+5225 3266	0	0	18[B]	Blood Elf	F	Hair	18	6	0
+5226 3267	0	0	18[B]	Blood Elf	F	Hair	18	7	0
+5227 3268	0	0	18[B]	Blood Elf	F	Hair	18	8	0
+5228 3269	0	0	18[B]	Blood Elf	F	Hair	18	9	0
+6011 3260	0	0	18[B]	Blood Elf	F	Hair	14	0	0
+6012 3261	0	0	18[B]	Blood Elf	F	Hair	14	1	0
+6013 3262	0	0	18[B]	Blood Elf	F	Hair	14	2	0
+6014 3263	0	0	18[B]	Blood Elf	F	Hair	14	3	0
+6015 3264	0	0	18[B]	Blood Elf	F	Hair	14	4	0
+6016 3265	0	0	18[B]	Blood Elf	F	Hair	14	5	0
+6017 3266	0	0	18[B]	Blood Elf	F	Hair	14	6	0
+6018 3267	0	0	18[B]	Blood Elf	F	Hair	14	7	0
+6019 3268	0	0	18[B]	Blood Elf	F	Hair	14	8	0
+6020 3269	0	0	18[B]	Blood Elf	F	Hair	14	9	0
+6075 50448	0	0	5[P][DK]	Blood Elf	F	Hair	0	10	0
+6076 50448	0	0	5[P][DK]	Blood Elf	F	Hair	1	10	0
+6077 50448	0	0	5[P][DK]	Blood Elf	F	Hair	2	10	0
+6078 50448	0	0	5[P][DK]	Blood Elf	F	Hair	3	10	0
+6079 50448	0	0	5[P][DK]	Blood Elf	F	Hair	4	10	0
+6080 50448	0	0	5[P][DK]	Blood Elf	F	Hair	5	10	0
+6081 50448	0	0	5[P][DK]	Blood Elf	F	Hair	6	10	0
+6082 50448	0	0	5[P][DK]	Blood Elf	F	Hair	7	10	0
+6083 50448	0	0	5[P][DK]	Blood Elf	F	Hair	8	10	0
+6084 50448	0	0	5[P][DK]	Blood Elf	F	Hair	9	10	0
+6085 50448	0	0	5[P][DK]	Blood Elf	F	Hair	10	10	0
+6086 50448	0	0	5[P][DK]	Blood Elf	F	Hair	11	10	0
+6087 50448	0	0	5[P][DK]	Blood Elf	F	Hair	12	10	0
+6088 50448	0	0	5[P][DK]	Blood Elf	F	Hair	13	10	0
+6089 50448	0	0	6[B][DK]	Blood Elf	F	Hair	14	10	0
+6090 50448	0	0	6[B][DK]	Blood Elf	F	Hair	15	10	0
+6091 50448	0	0	6[B][DK]	Blood Elf	F	Hair	16	10	0
+6092 50448	0	0	6[B][DK]	Blood Elf	F	Hair	17	10	0
+6093 50448	0	0	6[B][DK]	Blood Elf	F	Hair	18	10	0
+6094 50449	0	0	5[P][DK]	Blood Elf	F	Hair	0	11	0
+6095 50449	0	0	5[P][DK]	Blood Elf	F	Hair	1	11	0
+6096 50449	0	0	5[P][DK]	Blood Elf	F	Hair	2	11	0
+6097 50449	0	0	5[P][DK]	Blood Elf	F	Hair	3	11	0
+6098 50449	0	0	5[P][DK]	Blood Elf	F	Hair	4	11	0
+6099 50449	0	0	5[P][DK]	Blood Elf	F	Hair	5	11	0
+6100 50449	0	0	5[P][DK]	Blood Elf	F	Hair	6	11	0
+6101 50449	0	0	5[P][DK]	Blood Elf	F	Hair	7	11	0
+6102 50449	0	0	5[P][DK]	Blood Elf	F	Hair	8	11	0
+6103 50449	0	0	5[P][DK]	Blood Elf	F	Hair	9	11	0
+6104 50449	0	0	5[P][DK]	Blood Elf	F	Hair	10	11	0
+6105 50449	0	0	5[P][DK]	Blood Elf	F	Hair	11	11	0
+6106 50449	0	0	5[P][DK]	Blood Elf	F	Hair	12	11	0
+6107 50449	0	0	5[P][DK]	Blood Elf	F	Hair	13	11	0
+6108 50449	0	0	6[B][DK]	Blood Elf	F	Hair	14	11	0
+6109 50449	0	0	6[B][DK]	Blood Elf	F	Hair	15	11	0
+6110 50449	0	0	6[B][DK]	Blood Elf	F	Hair	16	11	0
+6111 50449	0	0	6[B][DK]	Blood Elf	F	Hair	17	11	0
+6112 50449	0	0	6[B][DK]	Blood Elf	F	Hair	18	11	0
+6113 50450	0	0	5[P][DK]	Blood Elf	F	Hair	0	12	0
+6114 50450	0	0	5[P][DK]	Blood Elf	F	Hair	1	12	0
+6115 50450	0	0	5[P][DK]	Blood Elf	F	Hair	2	12	0
+6116 50450	0	0	5[P][DK]	Blood Elf	F	Hair	3	12	0
+6117 50450	0	0	5[P][DK]	Blood Elf	F	Hair	4	12	0
+6118 50450	0	0	5[P][DK]	Blood Elf	F	Hair	5	12	0
+6119 50450	0	0	5[P][DK]	Blood Elf	F	Hair	6	12	0
+6120 50450	0	0	5[P][DK]	Blood Elf	F	Hair	7	12	0
+6121 50450	0	0	5[P][DK]	Blood Elf	F	Hair	8	12	0
+6122 50450	0	0	5[P][DK]	Blood Elf	F	Hair	9	12	0
+6123 50450	0	0	5[P][DK]	Blood Elf	F	Hair	10	12	0
+6124 50450	0	0	5[P][DK]	Blood Elf	F	Hair	11	12	0
+6125 50450	0	0	5[P][DK]	Blood Elf	F	Hair	12	12	0
+6126 50450	0	0	5[P][DK]	Blood Elf	F	Hair	13	12	0
+6127 50450	0	0	6[B][DK]	Blood Elf	F	Hair	14	12	0
+6128 50450	0	0	6[B][DK]	Blood Elf	F	Hair	15	12	0
+6129 50450	0	0	6[B][DK]	Blood Elf	F	Hair	16	12	0
+6130 50450	0	0	6[B][DK]	Blood Elf	F	Hair	17	12	0
+6131 50450	0	0	6[B][DK]	Blood Elf	F	Hair	18	12	0
+11271 3260	0	0	18[B]	Blood Elf	F	Hair	19	0	0
+11272 3261	0	0	18[B]	Blood Elf	F	Hair	19	1	0
+11273 3262	0	0	18[B]	Blood Elf	F	Hair	19	2	0
+11274 3263	0	0	18[B]	Blood Elf	F	Hair	19	3	0
+11275 3264	0	0	18[B]	Blood Elf	F	Hair	19	4	0
+11276 3265	0	0	18[B]	Blood Elf	F	Hair	19	5	0
+11277 3266	0	0	18[B]	Blood Elf	F	Hair	19	6	0
+11278 3267	0	0	18[B]	Blood Elf	F	Hair	19	7	0
+11279 3268	0	0	18[B]	Blood Elf	F	Hair	19	8	0
+11280 3269	0	0	18[B]	Blood Elf	F	Hair	19	9	0
+11281 50448	0	0	6[B][DK]	Blood Elf	F	Hair	19	10	0
+11282 50449	0	0	6[B][DK]	Blood Elf	F	Hair	19	11	0
+11283 50450	0	0	6[B][DK]	Blood Elf	F	Hair	19	12	0
+25799 208006	0	214823	17[P]	Blood Elf	F	HD Hair	0	0	0
+25815 208052	0	214824	17[P]	Blood Elf	F	HD Hair	0	1	0
+25816 208053	0	214825	17[P]	Blood Elf	F	HD Hair	0	2	0
+25817 208054	0	214826	17[P]	Blood Elf	F	HD Hair	0	3	0
+25818 208006	0	214823	17[P]	Blood Elf	F	HD Hair	1	0	0
+25819 208052	0	214824	17[P]	Blood Elf	F	HD Hair	1	1	0
+25820 208053	0	214825	17[P]	Blood Elf	F	HD Hair	1	2	0
+25821 208054	0	214826	17[P]	Blood Elf	F	HD Hair	1	3	0
+25822 208006	0	214823	17[P]	Blood Elf	F	HD Hair	2	0	0
+25823 208052	0	214824	17[P]	Blood Elf	F	HD Hair	2	1	0
+25824 208053	0	214825	17[P]	Blood Elf	F	HD Hair	2	2	0
+25825 208054	0	214826	17[P]	Blood Elf	F	HD Hair	2	3	0
+25930 208055	0	214827	17[P]	Blood Elf	F	HD Hair	0	4	0
+25931 208056	0	214828	17[P]	Blood Elf	F	HD Hair	0	5	0
+25932 208057	0	214829	17[P]	Blood Elf	F	HD Hair	0	6	0
+25933 208058	0	214830	17[P]	Blood Elf	F	HD Hair	0	7	0
+25934 208059	0	214831	17[P]	Blood Elf	F	HD Hair	0	8	0
+25935 208060	0	214832	17[P]	Blood Elf	F	HD Hair	0	9	0
+25936 208055	0	214827	17[P]	Blood Elf	F	HD Hair	1	4	0
+25937 208056	0	214828	17[P]	Blood Elf	F	HD Hair	1	5	0
+25938 208057	0	214829	17[P]	Blood Elf	F	HD Hair	1	6	0
+25939 208058	0	214830	17[P]	Blood Elf	F	HD Hair	1	7	0
+25940 208059	0	214831	17[P]	Blood Elf	F	HD Hair	1	8	0
+25941 208060	0	214832	17[P]	Blood Elf	F	HD Hair	1	9	0
+25942 208055	0	214827	17[P]	Blood Elf	F	HD Hair	2	4	0
+25943 208056	0	214828	17[P]	Blood Elf	F	HD Hair	2	5	0
+25944 208057	0	214829	17[P]	Blood Elf	F	HD Hair	2	6	0
+25945 208058	0	214830	17[P]	Blood Elf	F	HD Hair	2	7	0
+25946 208059	0	214831	17[P]	Blood Elf	F	HD Hair	2	8	0
+25947 208060	0	214832	17[P]	Blood Elf	F	HD Hair	2	9	0
+25948 208006	0	214823	17[P]	Blood Elf	F	HD Hair	3	0	0
+25949 208052	0	214824	17[P]	Blood Elf	F	HD Hair	3	1	0
+25950 208053	0	214825	17[P]	Blood Elf	F	HD Hair	3	2	0
+25951 208054	0	214826	17[P]	Blood Elf	F	HD Hair	3	3	0
+25952 208055	0	214827	17[P]	Blood Elf	F	HD Hair	3	4	0
+25953 208056	0	214828	17[P]	Blood Elf	F	HD Hair	3	5	0
+25954 208057	0	214829	17[P]	Blood Elf	F	HD Hair	3	6	0
+25955 208058	0	214830	17[P]	Blood Elf	F	HD Hair	3	7	0
+25956 208059	0	214831	17[P]	Blood Elf	F	HD Hair	3	8	0
+25957 208060	0	214832	17[P]	Blood Elf	F	HD Hair	3	9	0
+25958 208006	0	214823	17[P]	Blood Elf	F	HD Hair	4	0	0
+25959 208052	0	214824	17[P]	Blood Elf	F	HD Hair	4	1	0
+25960 208053	0	214825	17[P]	Blood Elf	F	HD Hair	4	2	0
+25961 208054	0	214826	17[P]	Blood Elf	F	HD Hair	4	3	0
+25962 208055	0	214827	17[P]	Blood Elf	F	HD Hair	4	4	0
+25963 208056	0	214828	17[P]	Blood Elf	F	HD Hair	4	5	0
+25964 208057	0	214829	17[P]	Blood Elf	F	HD Hair	4	6	0
+25965 208058	0	214830	17[P]	Blood Elf	F	HD Hair	4	7	0
+25966 208059	0	214831	17[P]	Blood Elf	F	HD Hair	4	8	0
+25967 208060	0	214832	17[P]	Blood Elf	F	HD Hair	4	9	0
+25968 208006	0	214823	17[P]	Blood Elf	F	HD Hair	5	0	0
+25969 208052	0	214824	17[P]	Blood Elf	F	HD Hair	5	1	0
+25970 208053	0	214825	17[P]	Blood Elf	F	HD Hair	5	2	0
+25971 208054	0	214826	17[P]	Blood Elf	F	HD Hair	5	3	0
+25972 208055	0	214827	17[P]	Blood Elf	F	HD Hair	5	4	0
+25973 208056	0	214828	17[P]	Blood Elf	F	HD Hair	5	5	0
+25974 208057	0	214829	17[P]	Blood Elf	F	HD Hair	5	6	0
+25975 208058	0	214830	17[P]	Blood Elf	F	HD Hair	5	7	0
+25976 208059	0	214831	17[P]	Blood Elf	F	HD Hair	5	8	0
+25977 208060	0	214832	17[P]	Blood Elf	F	HD Hair	5	9	0
+25978 208006	0	214823	17[P]	Blood Elf	F	HD Hair	6	0	0
+25979 208052	0	214824	17[P]	Blood Elf	F	HD Hair	6	1	0
+25980 208053	0	214825	17[P]	Blood Elf	F	HD Hair	6	2	0
+25981 208054	0	214826	17[P]	Blood Elf	F	HD Hair	6	3	0
+25982 208055	0	214827	17[P]	Blood Elf	F	HD Hair	6	4	0
+25983 208056	0	214828	17[P]	Blood Elf	F	HD Hair	6	5	0
+25984 208057	0	214829	17[P]	Blood Elf	F	HD Hair	6	6	0
+25985 208058	0	214830	17[P]	Blood Elf	F	HD Hair	6	7	0
+25986 208059	0	214831	17[P]	Blood Elf	F	HD Hair	6	8	0
+25987 208060	0	214832	17[P]	Blood Elf	F	HD Hair	6	9	0
+25988 208006	0	214823	17[P]	Blood Elf	F	HD Hair	7	0	0
+25989 208052	0	214824	17[P]	Blood Elf	F	HD Hair	7	1	0
+25990 208053	0	214825	17[P]	Blood Elf	F	HD Hair	7	2	0
+25991 208054	0	214826	17[P]	Blood Elf	F	HD Hair	7	3	0
+25992 208055	0	214827	17[P]	Blood Elf	F	HD Hair	7	4	0
+25993 208056	0	214828	17[P]	Blood Elf	F	HD Hair	7	5	0
+25994 208057	0	214829	17[P]	Blood Elf	F	HD Hair	7	6	0
+25995 208058	0	214830	17[P]	Blood Elf	F	HD Hair	7	7	0
+25996 208059	0	214831	17[P]	Blood Elf	F	HD Hair	7	8	0
+25997 208060	0	214832	17[P]	Blood Elf	F	HD Hair	7	9	0
+25998 208006	0	214823	17[P]	Blood Elf	F	HD Hair	8	0	0
+25999 208052	0	214824	17[P]	Blood Elf	F	HD Hair	8	1	0
+26000 208053	0	214825	17[P]	Blood Elf	F	HD Hair	8	2	0
+26001 208054	0	214826	17[P]	Blood Elf	F	HD Hair	8	3	0
+26002 208055	0	214827	17[P]	Blood Elf	F	HD Hair	8	4	0
+26003 208056	0	214828	17[P]	Blood Elf	F	HD Hair	8	5	0
+26004 208057	0	214829	17[P]	Blood Elf	F	HD Hair	8	6	0
+26005 208058	0	214830	17[P]	Blood Elf	F	HD Hair	8	7	0
+26006 208059	0	214831	17[P]	Blood Elf	F	HD Hair	8	8	0
+26007 208060	0	214832	17[P]	Blood Elf	F	HD Hair	8	9	0
+26008 208006	0	214823	17[P]	Blood Elf	F	HD Hair	9	0	0
+26009 208052	0	214824	17[P]	Blood Elf	F	HD Hair	9	1	0
+26010 208053	0	214825	17[P]	Blood Elf	F	HD Hair	9	2	0
+26011 208054	0	214826	17[P]	Blood Elf	F	HD Hair	9	3	0
+26012 208055	0	214827	17[P]	Blood Elf	F	HD Hair	9	4	0
+26013 208056	0	214828	17[P]	Blood Elf	F	HD Hair	9	5	0
+26014 208057	0	214829	17[P]	Blood Elf	F	HD Hair	9	6	0
+26015 208058	0	214830	17[P]	Blood Elf	F	HD Hair	9	7	0
+26016 208059	0	214831	17[P]	Blood Elf	F	HD Hair	9	8	0
+26017 208060	0	214832	17[P]	Blood Elf	F	HD Hair	9	9	0
+26018 208006	0	214823	17[P]	Blood Elf	F	HD Hair	10	0	0
+26019 208052	0	214824	17[P]	Blood Elf	F	HD Hair	10	1	0
+26020 208053	0	214825	17[P]	Blood Elf	F	HD Hair	10	2	0
+26021 208054	0	214826	17[P]	Blood Elf	F	HD Hair	10	3	0
+26022 208055	0	214827	17[P]	Blood Elf	F	HD Hair	10	4	0
+26023 208056	0	214828	17[P]	Blood Elf	F	HD Hair	10	5	0
+26024 208057	0	214829	17[P]	Blood Elf	F	HD Hair	10	6	0
+26025 208058	0	214830	17[P]	Blood Elf	F	HD Hair	10	7	0
+26026 208059	0	214831	17[P]	Blood Elf	F	HD Hair	10	8	0
+26027 208060	0	214832	17[P]	Blood Elf	F	HD Hair	10	9	0
+26028 208006	0	214823	17[P]	Blood Elf	F	HD Hair	11	0	0
+26029 208052	0	214824	17[P]	Blood Elf	F	HD Hair	11	1	0
+26030 208053	0	214825	17[P]	Blood Elf	F	HD Hair	11	2	0
+26031 208054	0	214826	17[P]	Blood Elf	F	HD Hair	11	3	0
+26032 208055	0	214827	17[P]	Blood Elf	F	HD Hair	11	4	0
+26033 208056	0	214828	17[P]	Blood Elf	F	HD Hair	11	5	0
+26034 208057	0	214829	17[P]	Blood Elf	F	HD Hair	11	6	0
+26035 208058	0	214830	17[P]	Blood Elf	F	HD Hair	11	7	0
+26036 208059	0	214831	17[P]	Blood Elf	F	HD Hair	11	8	0
+26037 208060	0	214832	17[P]	Blood Elf	F	HD Hair	11	9	0
+26038 208006	0	214823	17[P]	Blood Elf	F	HD Hair	12	0	0
+26039 208052	0	214824	17[P]	Blood Elf	F	HD Hair	12	1	0
+26040 208053	0	214825	17[P]	Blood Elf	F	HD Hair	12	2	0
+26041 208054	0	214826	17[P]	Blood Elf	F	HD Hair	12	3	0
+26042 208055	0	214827	17[P]	Blood Elf	F	HD Hair	12	4	0
+26043 208056	0	214828	17[P]	Blood Elf	F	HD Hair	12	5	0
+26044 208057	0	214829	17[P]	Blood Elf	F	HD Hair	12	6	0
+26045 208058	0	214830	17[P]	Blood Elf	F	HD Hair	12	7	0
+26046 208059	0	214831	17[P]	Blood Elf	F	HD Hair	12	8	0
+26047 208060	0	214832	17[P]	Blood Elf	F	HD Hair	12	9	0
+26048 208006	0	214823	17[P]	Blood Elf	F	HD Hair	13	0	0
+26049 208052	0	214824	17[P]	Blood Elf	F	HD Hair	13	1	0
+26050 208053	0	214825	17[P]	Blood Elf	F	HD Hair	13	2	0
+26051 208054	0	214826	17[P]	Blood Elf	F	HD Hair	13	3	0
+26052 208055	0	214827	17[P]	Blood Elf	F	HD Hair	13	4	0
+26053 208056	0	214828	17[P]	Blood Elf	F	HD Hair	13	5	0
+26054 208057	0	214829	17[P]	Blood Elf	F	HD Hair	13	6	0
+26055 208058	0	214830	17[P]	Blood Elf	F	HD Hair	13	7	0
+26056 208059	0	214831	17[P]	Blood Elf	F	HD Hair	13	8	0
+26057 208060	0	214832	17[P]	Blood Elf	F	HD Hair	13	9	0
+26064 208006	0	214823	18[B]	Blood Elf	F	HD Hair	15	0	0
+26065 208052	0	214824	18[B]	Blood Elf	F	HD Hair	15	1	0
+26066 208053	0	214825	18[B]	Blood Elf	F	HD Hair	15	2	0
+26067 208054	0	214826	18[B]	Blood Elf	F	HD Hair	15	3	0
+26068 208055	0	214827	18[B]	Blood Elf	F	HD Hair	15	4	0
+26069 208056	0	214828	18[B]	Blood Elf	F	HD Hair	15	5	0
+26070 208057	0	214829	18[B]	Blood Elf	F	HD Hair	15	6	0
+26071 208058	0	214830	18[B]	Blood Elf	F	HD Hair	15	7	0
+26072 208059	0	214831	18[B]	Blood Elf	F	HD Hair	15	8	0
+26073 208060	0	214832	18[B]	Blood Elf	F	HD Hair	15	9	0
+26074 208006	0	214823	18[B]	Blood Elf	F	HD Hair	16	0	0
+26075 208052	0	214824	18[B]	Blood Elf	F	HD Hair	16	1	0
+26076 208053	0	214825	18[B]	Blood Elf	F	HD Hair	16	2	0
+26077 208054	0	214826	18[B]	Blood Elf	F	HD Hair	16	3	0
+26078 208055	0	214827	18[B]	Blood Elf	F	HD Hair	16	4	0
+26079 208056	0	214828	18[B]	Blood Elf	F	HD Hair	16	5	0
+26080 208057	0	214829	18[B]	Blood Elf	F	HD Hair	16	6	0
+26081 208058	0	214830	18[B]	Blood Elf	F	HD Hair	16	7	0
+26082 208059	0	214831	18[B]	Blood Elf	F	HD Hair	16	8	0
+26083 208060	0	214832	18[B]	Blood Elf	F	HD Hair	16	9	0
+26084 208006	0	214823	18[B]	Blood Elf	F	HD Hair	17	0	0
+26085 208052	0	214824	18[B]	Blood Elf	F	HD Hair	17	1	0
+26086 208053	0	214825	18[B]	Blood Elf	F	HD Hair	17	2	0
+26087 208054	0	214826	18[B]	Blood Elf	F	HD Hair	17	3	0
+26088 208055	0	214827	18[B]	Blood Elf	F	HD Hair	17	4	0
+26089 208056	0	214828	18[B]	Blood Elf	F	HD Hair	17	5	0
+26090 208057	0	214829	18[B]	Blood Elf	F	HD Hair	17	6	0
+26091 208058	0	214830	18[B]	Blood Elf	F	HD Hair	17	7	0
+26092 208059	0	214831	18[B]	Blood Elf	F	HD Hair	17	8	0
+26093 208060	0	214832	18[B]	Blood Elf	F	HD Hair	17	9	0
+26094 208006	0	214823	18[B]	Blood Elf	F	HD Hair	18	0	0
+26095 208052	0	214824	18[B]	Blood Elf	F	HD Hair	18	1	0
+26096 208053	0	214825	18[B]	Blood Elf	F	HD Hair	18	2	0
+26097 208054	0	214826	18[B]	Blood Elf	F	HD Hair	18	3	0
+26098 208055	0	214827	18[B]	Blood Elf	F	HD Hair	18	4	0
+26099 208056	0	214828	18[B]	Blood Elf	F	HD Hair	18	5	0
+26100 208057	0	214829	18[B]	Blood Elf	F	HD Hair	18	6	0
+26101 208058	0	214830	18[B]	Blood Elf	F	HD Hair	18	7	0
+26102 208059	0	214831	18[B]	Blood Elf	F	HD Hair	18	8	0
+26103 208060	0	214832	18[B]	Blood Elf	F	HD Hair	18	9	0
+26104 208006	0	214823	18[B]	Blood Elf	F	HD Hair	14	0	0
+26105 208052	0	214824	18[B]	Blood Elf	F	HD Hair	14	1	0
+26106 208053	0	214825	18[B]	Blood Elf	F	HD Hair	14	2	0
+26107 208054	0	214826	18[B]	Blood Elf	F	HD Hair	14	3	0
+26108 208055	0	214827	18[B]	Blood Elf	F	HD Hair	14	4	0
+26109 208056	0	214828	18[B]	Blood Elf	F	HD Hair	14	5	0
+26110 208057	0	214829	18[B]	Blood Elf	F	HD Hair	14	6	0
+26111 208058	0	214830	18[B]	Blood Elf	F	HD Hair	14	7	0
+26112 208059	0	214831	18[B]	Blood Elf	F	HD Hair	14	8	0
+26113 208060	0	214832	18[B]	Blood Elf	F	HD Hair	14	9	0
+26114 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	0	10	0
+26115 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	1	10	0
+26116 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	2	10	0
+26117 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	3	10	0
+26118 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	4	10	0
+26119 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	5	10	0
+26120 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	6	10	0
+26121 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	7	10	0
+26122 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	8	10	0
+26123 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	9	10	0
+26124 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	10	10	0
+26125 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	11	10	0
+26126 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	12	10	0
+26127 208061	0	214833	5[P][DK]	Blood Elf	F	HD Hair	13	10	0
+26128 208061	0	214833	6[B][DK]	Blood Elf	F	HD Hair	14	10	0
+26129 208061	0	214833	6[B][DK]	Blood Elf	F	HD Hair	15	10	0
+26130 208061	0	214833	6[B][DK]	Blood Elf	F	HD Hair	16	10	0
+26131 208061	0	214833	6[B][DK]	Blood Elf	F	HD Hair	17	10	0
+26132 208061	0	214833	6[B][DK]	Blood Elf	F	HD Hair	18	10	0
+26133 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	0	11	0
+26134 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	1	11	0
+26135 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	2	11	0
+26136 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	3	11	0
+26137 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	4	11	0
+26138 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	5	11	0
+26139 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	6	11	0
+26140 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	7	11	0
+26141 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	8	11	0
+26142 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	9	11	0
+26143 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	10	11	0
+26144 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	11	11	0
+26145 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	12	11	0
+26146 208062	0	214834	5[P][DK]	Blood Elf	F	HD Hair	13	11	0
+26147 208062	0	214834	6[B][DK]	Blood Elf	F	HD Hair	14	11	0
+26148 208062	0	214834	6[B][DK]	Blood Elf	F	HD Hair	15	11	0
+26149 208062	0	214834	6[B][DK]	Blood Elf	F	HD Hair	16	11	0
+26150 208062	0	214834	6[B][DK]	Blood Elf	F	HD Hair	17	11	0
+26151 208062	0	214834	6[B][DK]	Blood Elf	F	HD Hair	18	11	0
+26152 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	0	12	0
+26153 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	1	12	0
+26154 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	2	12	0
+26155 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	3	12	0
+26156 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	4	12	0
+26157 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	5	12	0
+26158 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	6	12	0
+26159 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	7	12	0
+26160 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	8	12	0
+26161 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	9	12	0
+26162 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	10	12	0
+26163 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	11	12	0
+26164 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	12	12	0
+26165 208063	0	214835	5[P][DK]	Blood Elf	F	HD Hair	13	12	0
+26166 208063	0	214835	6[B][DK]	Blood Elf	F	HD Hair	14	12	0
+26167 208063	0	214835	6[B][DK]	Blood Elf	F	HD Hair	15	12	0
+26168 208063	0	214835	6[B][DK]	Blood Elf	F	HD Hair	16	12	0
+26169 208063	0	214835	6[B][DK]	Blood Elf	F	HD Hair	17	12	0
+26170 208063	0	214835	6[B][DK]	Blood Elf	F	HD Hair	18	12	0
+26286 208006	0	214823	18[B]	Blood Elf	F	HD Hair	19	0	0
+26287 208052	0	214824	18[B]	Blood Elf	F	HD Hair	19	1	0
+26288 208053	0	214825	18[B]	Blood Elf	F	HD Hair	19	2	0
+26289 208054	0	214826	18[B]	Blood Elf	F	HD Hair	19	3	0
+26290 208055	0	214827	18[B]	Blood Elf	F	HD Hair	19	4	0
+26291 208056	0	214828	18[B]	Blood Elf	F	HD Hair	19	5	0
+26292 208057	0	214829	18[B]	Blood Elf	F	HD Hair	19	6	0
+26293 208058	0	214830	18[B]	Blood Elf	F	HD Hair	19	7	0
+26294 208059	0	214831	18[B]	Blood Elf	F	HD Hair	19	8	0
+26295 208060	0	214832	18[B]	Blood Elf	F	HD Hair	19	9	0
+26296 208061	0	214833	6[B][DK]	Blood Elf	F	HD Hair	19	10	0
+26297 208062	0	214834	6[B][DK]	Blood Elf	F	HD Hair	19	11	0
+26298 208063	0	214835	6[B][DK]	Blood Elf	F	HD Hair	19	12	0
+27640 271263	0	271261	256	Blood Elf	F	HD Hair	1	13	0
+
+3501 3224	3234	0	17[P]	Blood Elf	F	Underwear	0	0	0
+3530 3225	3235	0	17[P]	Blood Elf	F	Underwear	0	1	0
+3531 3226	3236	0	17[P]	Blood Elf	F	Underwear	0	2	0
+3532 3227	3237	0	17[P]	Blood Elf	F	Underwear	0	3	0
+3797 3228	3238	0	17[P]	Blood Elf	F	Underwear	0	4	0
+3798 3229	3239	0	17[P]	Blood Elf	F	Underwear	0	5	0
+3799 3230	3240	0	17[P]	Blood Elf	F	Underwear	0	6	0
+3800 3231	3241	0	17[P]	Blood Elf	F	Underwear	0	7	0
+3801 3232	3242	0	17[P]	Blood Elf	F	Underwear	0	8	0
+3802 3233	3243	0	17[P]	Blood Elf	F	Underwear	0	9	0
+8904 54429	54432	0	5[P][DK]	Blood Elf	F	Underwear	0	16	0
+8909 54430	54096	0	5[P][DK]	Blood Elf	F	Underwear	0	17	0
+8914 54431	54097	0	5[P][DK]	Blood Elf	F	Underwear	0	18	0
+25800 207434	207453	0	17[P]	Blood Elf	F	HD Underwear	0	0	0
+25812 207435	207454	0	17[P]	Blood Elf	F	HD Underwear	0	1	0
+25813 207436	207455	0	17[P]	Blood Elf	F	HD Underwear	0	2	0
+25814 207437	207456	0	17[P]	Blood Elf	F	HD Underwear	0	3	0
+25854 207438	207457	0	17[P]	Blood Elf	F	HD Underwear	0	4	0
+25855 207439	207458	0	17[P]	Blood Elf	F	HD Underwear	0	5	0
+25856 207440	207459	0	17[P]	Blood Elf	F	HD Underwear	0	6	0
+25857 207441	207460	0	17[P]	Blood Elf	F	HD Underwear	0	7	0
+25858 207442	207461	0	17[P]	Blood Elf	F	HD Underwear	0	8	0
+25859 207443	207462	0	17[P]	Blood Elf	F	HD Underwear	0	9	0
+26275 207450	207469	0	5[P][DK]	Blood Elf	F	HD Underwear	0	16	0
+26280 207451	207470	0	5[P][DK]	Blood Elf	F	HD Underwear	0	17	0
+26285 207452	207471	0	5[P][DK]	Blood Elf	F	HD Underwear	0	18	0
+27180 236224	236228	0	33[P]	Blood Elf	F	HD Underwear	0	19	0
+27181 236225	236229	0	33[P]	Blood Elf	F	HD Underwear	0	20	0
+27182 236226	236230	0	33[P]	Blood Elf	F	HD Underwear	0	21	0
+27183 236227	236231	0	33[P]	Blood Elf	F	HD Underwear	0	22	0
+27184 236670	236672	0	33[P]	Blood Elf	F	HD Underwear	0	23	0
+27185 236671	236673	0	33[P]	Blood Elf	F	HD Underwear	0	24	0
+27371 262252	262254	0	256	Blood Elf	F	HD Underwear	0	25	0
+
