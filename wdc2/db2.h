@@ -18,7 +18,7 @@ struct db2
 	std::vector<field_storage_info> field_storages;
 	std::vector<section_header> section_headers;
 	std::vector<section<T>> sections;
-	std::vector<char> pallet,common;
+	std::vector<std::byte> pallet,common;
 	db2(const std::string &str)
 	{
 		using namespace std::string_literals;
@@ -34,10 +34,8 @@ struct db2
 		section_headers=cvs<section_header>(str,p,hd.section_count);
 		fields=cvs<field_structure>(str,p,hd.total_field_count);
 		field_storages=cvs<field_storage_info>(str,p,hd.field_storage_info_size/sizeof(field_storage_info));
-
-		pallet=cvs<char>(str,p,hd.pallet_data_size);
-		common=cvs<char>(str,p,hd.common_data_size);
-		
+		pallet=cvs<std::byte>(str,p,hd.pallet_data_size);
+		common=cvs<std::byte>(str,p,hd.common_data_size);
 		for(const auto &ele : section_headers)
 			sections.emplace_back(str,p,ele);
 		if(str.data()+str.size()!=p)
@@ -50,16 +48,25 @@ inline auto serialize(const db2<T> &d)
 {
 	using namespace std::string_literals;
 	auto s("WDC2"s);
-	decltype(auto) header(svc(s,d.header));
+	decltype(auto) header(svc(s,d.hd));
+	if(header.flags&1)
+		throw std::runtime_error("offset records not implemented, flags is "s+std::to_string(header.flags));
 	decltype(auto) secheader(svcs<section_header>(s,d.sections.size()));
-	decltype(auto) fields(svc(s,d.fields,header.fields));
-	decltype(auto) field_storages(svc(s,d.field_storages,header.field_storages));
-	decltype(auto) pallet(svc(s,d.field_storages,header.pallet));
-	decltype(auto) common(svc(s,d.common,header.common));
-	
-//	std::vector<section_header> sec_hds;
-//	for(const )
-//	svc(s,d.hd);
+	decltype(auto) fields(svc(s,d.fields,header.total_field_count));
+	decltype(auto) field_storages(svc(s,d.field_storages,header.field_storage_info_size));
+	header.field_storage_info_size=header.field_storage_info_size*sizeof(field_storage_info);
+	decltype(auto) pallet(svc(s,d.pallet,header.pallet_data_size));
+	decltype(auto) common(svc(s,d.common,header.common_data_size));
+	std::size_t record_count(0),string_table_size(0);
+	for(std::size_t i(0);i!=d.sections.size();++i)
+	{
+		decltype(auto) ele(d.sections[i]);
+		secheader.at(i)=svc(s,ele);
+		record_count+=ele.records.size();
+		string_table_size+=ele.string_table.size();
+	}
+	header.record_count=record_count;
+	header.string_table_size=string_table_size;
 	return s;
 }
 

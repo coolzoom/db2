@@ -13,7 +13,7 @@ struct section
 	std::vector<T> records;
 	std::vector<char> string_table;
 	std::vector<copy_table_entry> copy_table;
-	std::vector<offset_map_entry> offsets;
+//	std::vector<offset_map_entry> offsets;
 	std::vector<std::uint32_t> ids;
 //	relationship_mapping relationship_map;
 	template<typename Q>
@@ -29,9 +29,17 @@ struct section
 };
 
 template<typename T>
-void svc(std::string& str,const section<T>& sct,const span<section_header>& span)
+auto svc(std::string& str,const section<T>& sct)
 {
-	
+	section_header h{};
+	h.file_offset=str.size();
+	svc(str,sct.records,h.record_count);
+	svc(str,sct.string_table,h.string_table_size);
+	svc(str,sct.ids);
+	h.id_list_size=sct.ids.size()*4;
+	svc(str,sct.copy_table);
+	h.copy_table_size=sct.copy_table.size()*sizeof(copy_table_entry);
+	return h;
 }
 
 }

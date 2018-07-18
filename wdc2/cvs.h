@@ -40,7 +40,7 @@ template<typename T>
 inline decltype(auto) svcs(std::string &str,std::size_t t)
 {
 	std::size_t size(str.size());
-	str.append(t,0);
+	str.append(sizeof(T)*t,0);
 	return make_span(reinterpret_cast<T*>(str.data()+size),t);
 }
 
@@ -53,10 +53,11 @@ inline decltype(auto) svc(std::string &str,const std::vector<T>& t)
 }
 
 template<typename T>
-inline decltype(auto) svc(std::string &str,const std::vector<T>& t,std::size_t &s)
+inline decltype(auto) svc(std::string &str,const std::vector<T>& t,std::uint32_t &s)
 {
 	std::size_t size(str.size());
-	str.append(reinterpret_cast<const char*>(t.data()),reinterpret_cast<const char*>(t.data()+(s=t.size())));
+	s=t.size();
+	str.append(reinterpret_cast<const char*>(t.data()),reinterpret_cast<const char*>(t.data()+t.size()));
 	return make_span(reinterpret_cast<T*>(str.data()+size),t.size());
 }
 
