@@ -5,7 +5,6 @@
 #include<string>
 #include<stdexcept>
 #include<vector>
-#include<iostream>
 
 namespace wdc2
 {
@@ -48,6 +47,7 @@ inline auto serialize(const db2<T> &d)
 {
 	using namespace std::string_literals;
 	auto s("WDC2"s);
+	s.reserve(10000000);
 	decltype(auto) header(svc(s,d.hd));
 	if(header.flags&1)
 		throw std::runtime_error("offset records not implemented, flags is "s+std::to_string(header.flags));

@@ -41,6 +41,21 @@ struct section_header
 	std::uint32_t relationship_data_size;
 };
 
+/*template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const section_header& fs)
+{
+	using namespace std::string_literals;
+	return o<<"wdc2_unk_header1:"s<<fs.wdc2_unk_header1
+			<<"\nwdc2_unk_header2:"s<<fs.wdc2_unk_header2
+			<<"\nfile_offset:"s<<fs.file_offset
+			<<"\nrecord_count:"s<<fs.record_count
+			<<"\nstring_table_size:"s<<fs.string_table_size
+			<<"\ncopy_table_size:"s<<fs.copy_table_size
+			<<"\noffset_map_offset:"s<<fs.offset_map_offset
+			<<"\nid_list_size:"s<<fs.id_list_size
+			<<"\nrelationship_data_size:"s<<fs.relationship_data_size;
+}*/
+
 template<typename T>
 inline decltype(auto) check_section_validity(const std::string& str,const char * &p,const section_header& s)
 {
@@ -95,6 +110,22 @@ enum class field_compression
 	bitpacked_signed
 };
 
+template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const field_compression& fs)
+{
+	using namespace std::string_literals;
+	switch(fs)
+	{
+		case field_compression::none: return o<<"none"s;
+		case field_compression::bitpacked: return o<<"bitpacked"s;
+		case field_compression::common_data: return o<<"common data"s;
+		case field_compression::bitpacked_indexed: return o<<"bitpacked_indexed"s;
+		case field_compression::bitpacked_indexed_array: return o<<"bitpacked_indexed_array"s;
+		case field_compression::bitpacked_signed: return o<<"bitpacked_signed"s;
+		default: return o<<"unknown("s<<static_cast<unsigned>(fs)<<')';
+	}
+}
+
 struct field_storage_info
 {
 	std::uint16_t offset_bits;
@@ -103,6 +134,43 @@ struct field_storage_info
 	field_compression type;
 	std::array<std::uint32_t,3> values;
 };
+
+template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const field_storage_info& fs)
+{
+	using namespace std::string_literals;
+	o<<"offset_bits\t"s<<fs.offset_bits<<
+		"\nfield_size\t"s<<fs.field_size<<
+		"\nadditional_data_size\t"s<<fs.additional_data_size<<
+		"\ntype\t"s<<fs.type;
+	switch(fs.type)
+	{
+	case field_compression::none:break;
+//	case field_compression::signed_immediate:
+	case field_compression::bitpacked:
+		o<<"\n\nbitpacking_offset_bits\t"s<<fs.values.front();
+		o<<"\nbitpacking_size_bits\t"s<<fs.values[1];
+		o<<"\nflags\t"s<<fs.values[2];
+	break;
+	case field_compression::common_data:
+		o<<"\n\ndefault_value\t"s<<fs.values.front();
+	break;
+	case field_compression::bitpacked_indexed:
+		o<<"\n\nbitpacking_offset_bits\t"s<<fs.values.front();
+		o<<"\nbitpacking_size_bits\t"s<<fs.values[1];
+	break;
+	case field_compression::bitpacked_indexed_array:
+		o<<"\n\nbitpacking_offset_bits\t"s<<fs.values.front();
+		o<<"\nbitpacking_size_bits\t"s<<fs.values[1];
+		o<<"\narray_count\t"s<<fs.values[2];
+	break;
+	default:
+		o<<"\n\n"s;
+		for(std::size_t i(0);i!=fs.values.size();++i)
+			o<<fs.values[i]<<'\t';
+	}
+	return (o);
+}
 
 struct relationship_entry
 {

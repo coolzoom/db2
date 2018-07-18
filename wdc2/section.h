@@ -11,7 +11,7 @@ template<typename T>
 struct section
 {
 	std::vector<T> records;
-	std::vector<char> string_table;
+	std::string string_table;
 	std::vector<copy_table_entry> copy_table;
 //	std::vector<offset_map_entry> offsets;
 	std::vector<std::uint32_t> ids;

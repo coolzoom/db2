@@ -1,26 +1,41 @@
 #pragma once
 #include<array>
+#include<bitset>
 
 namespace wdc2
 {
 
 struct chrraces
 {
-	std::array<uint32_t,7> bf;
-	std::int32_t flags;
-	std::array<uint32_t,25> after;
-	std::array<uint8_t,26> com;
+	std::array<std::uint32_t,40> a;
 };
+
+inline constexpr decltype(auto) flags(chrraces& c)
+{
+	return c.a[7];
+}
+
+inline constexpr void enable_old_model(chrraces& c)
+{
+	flags(c)&=~0x80u;
+}
+
+inline constexpr decltype(auto) flags(const chrraces& c)
+{
+	return c.a[7];
+}
 
 template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const chrraces& e)
 {
-	
-/*	out<<' '<<ele;
-	for(const auto &ele:e.bf)
-	out<<e.flags;
-	if(e.m_flags&0x80)
-		out<<" (Old models are disabled)";*/
+
+	out<<flags(e);
+//	for(const auto &ele:e.a)
+//		out<<ele<<' ';
+	if(flags(e)&0x8)
+		out<<" (Playable)";
+	if(flags(e)&0x80)
+		out<<" (Old models are disabled)";
 	return out;
 }
 }

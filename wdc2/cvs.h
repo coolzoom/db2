@@ -28,6 +28,17 @@ inline auto cvs(const std::string &str,const char * &cstr,std::size_t count)
 	return vec;
 }
 
+template<>
+inline auto cvs<char>(const std::string &str,const char * &cstr,std::size_t count)
+{
+	using namespace std::string_literals;
+	if(str.data()+str.size()<cstr+count)
+		throw std::out_of_range("out of range: (size: "s+std::to_string(str.size())+") (oor: "s+std::to_string(cstr+count-str.data())+") count:("s+std::to_string(count)+")"s);
+	std::string r(cstr,cstr+count);
+	cstr+=count;
+	return r;
+}
+
 template<typename T>
 inline decltype(auto) svc(std::string &str,const T& t)
 {
@@ -40,6 +51,8 @@ template<typename T>
 inline decltype(auto) svcs(std::string &str,std::size_t t)
 {
 	std::size_t size(str.size());
+	if(str.capacity()<=str.size()+t*sizeof(T))
+		throw std::out_of_range("out_of_range");
 	str.append(sizeof(T)*t,0);
 	return make_span(reinterpret_cast<T*>(str.data()+size),t);
 }
@@ -48,6 +61,8 @@ template<typename T>
 inline decltype(auto) svc(std::string &str,const std::vector<T>& t)
 {
 	std::size_t size(str.size());
+	if(str.capacity()<=size+t.size()*sizeof(T))
+		throw std::out_of_range("out_of_range");
 	str.append(reinterpret_cast<const char*>(t.data()),reinterpret_cast<const char*>(t.data()+t.size()));
 	return make_span(reinterpret_cast<T*>(str.data()+size),t.size());
 }
@@ -57,8 +72,20 @@ inline decltype(auto) svc(std::string &str,const std::vector<T>& t,std::uint32_t
 {
 	std::size_t size(str.size());
 	s=t.size();
+	if(str.capacity()<=size+t.size()*sizeof(T))
+		throw std::out_of_range("out_of_range");
 	str.append(reinterpret_cast<const char*>(t.data()),reinterpret_cast<const char*>(t.data()+t.size()));
 	return make_span(reinterpret_cast<T*>(str.data()+size),t.size());
+}
+
+inline decltype(auto) svc(std::string &str,const std::string& t,std::uint32_t &s)
+{
+	std::size_t size(str.size());
+	s=t.size();
+	if(str.capacity()<=size+t.size())
+		throw std::out_of_range("out_of_range");
+	str.append(t.data(),t.data()+t.size());
+	return make_span(reinterpret_cast<char*>(str.data()+size),t.size());
 }
 
 }
