@@ -5,7 +5,7 @@
 #include"db2.h"
 #include"chrraces.h"
 #include"creaturedisplayinfoextra.h"
-
+#include<random>
 
 int main()
 try
@@ -30,14 +30,14 @@ try
 	else
 	{
 		std::cout<<"NO\nRaw:"<<raw.size()<<" Ser:"<<ser.size()<<'\n';
-/*		if(raw.size()==ser.size())
+		if(raw.size()==ser.size())
 		{
 			for(std::size_t i(0);i!=raw.size();++i)
 				if(raw[i]!=ser[i])
 				{
 					std::cout<<i<<' '<<static_cast<int>(raw[i])<<' '<<static_cast<int>(ser[i])<<'\n';
 				}
-		}*/
+		}
 	}
 }
 {

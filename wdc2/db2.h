@@ -65,7 +65,7 @@ inline auto serialize(const db2<T> &d)
 		record_count+=ele.records.size();
 		string_table_size+=ele.string_table.size();
 	}
-	header.record_count=record_count;
+ 	header.record_count=record_count;
 	header.string_table_size=string_table_size;
 	return s;
 }

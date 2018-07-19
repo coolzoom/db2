@@ -41,7 +41,7 @@ struct section_header
 	std::uint32_t relationship_data_size;
 };
 
-/*template<typename ostrm>
+template<typename ostrm>
 decltype(auto) operator<<(ostrm& o,const section_header& fs)
 {
 	using namespace std::string_literals;
@@ -54,7 +54,7 @@ decltype(auto) operator<<(ostrm& o,const section_header& fs)
 			<<"\noffset_map_offset:"s<<fs.offset_map_offset
 			<<"\nid_list_size:"s<<fs.id_list_size
 			<<"\nrelationship_data_size:"s<<fs.relationship_data_size;
-}*/
+}
 
 template<typename T>
 inline decltype(auto) check_section_validity(const std::string& str,const char * &p,const section_header& s)
@@ -146,7 +146,6 @@ decltype(auto) operator<<(ostrm& o,const field_storage_info& fs)
 	switch(fs.type)
 	{
 	case field_compression::none:break;
-//	case field_compression::signed_immediate:
 	case field_compression::bitpacked:
 		o<<"\n\nbitpacking_offset_bits\t"s<<fs.values.front();
 		o<<"\nbitpacking_size_bits\t"s<<fs.values[1];
