@@ -22,8 +22,8 @@ try
 		for(std::size_t i(0);i!=ele.records.size();++i)
 		{
 			std::cout<<i<<' '<<ele.records[i]<<'\n';
-		}*/
-	std::cout<<db2.sections.front().records.size()<<'\n';
+		}
+	std::cout<<db2.sections.front().records.size()<<'\n';*/
 	auto ser(serialize(db2));
 	if(raw==ser)
 		std::cout<<"OK\n";
@@ -55,21 +55,6 @@ try
 		}
 	auto ser(serialize(db2));*/
 }
-	
-/*	if(raw==ser)
-		std::cout<<"OK\n";
-	else
-	{
-		std::cout<<"NO\nRaw:"<<raw.size()<<" Ser:"<<ser.size()<<'\n';
-		if(raw.size()==ser.size())
-		{
-			for(std::size_t i(0);i!=raw.size();++i)
-				if(raw[i]!=ser[i])
-				{
-					std::cout<<i<<' '<<static_cast<std::size_t>(raw[i])<<' '<<static_cast<std::size_t>(ser[i])<<'\n';
-				}
-		}
-	}*/
 }
 catch(const std::exception& e)
 {

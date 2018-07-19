@@ -12,9 +12,9 @@ struct section
 {
 	std::vector<T> records;
 	std::string string_table;
+	std::vector<std::uint32_t> ids;
 	std::vector<copy_table_entry> copy_table;
 //	std::vector<offset_map_entry> offsets;
-	std::vector<std::uint32_t> ids;
 //	relationship_mapping relationship_map;
 	template<typename Q>
 	section(const std::string &str,Q& p,const section_header& header):records(check_section_validity<T>(str,p,header)),
