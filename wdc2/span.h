@@ -30,13 +30,13 @@ public:
 	typedef std::reverse_iterator<const_iterator> const_reverse_iterator;
 	reference at(size_type i)
 	{
-		if(i<e-b)
+		if(i<static_cast<std::size_t>(e-b))
 			return b[i];
 		throw std::out_of_range("span<T> out of range");
 	}
 	const_reference at(size_type i) const
 	{
-		if(i<e-b)
+		if(i<static_cast<std::size_t>(e-b))
 			return b[i];
 		throw std::out_of_range("span<T> out of range");
 	}

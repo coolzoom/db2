@@ -18,27 +18,19 @@ try
 	wdc2::db2<wdc2::creaturedisplayinfoextra> db2(raw);
 //	for(std::size_t i(0);i!=creaturedisplayinfoextra.field_storages.size();++i)
 //		std::cout<<i<<'\n'<<creaturedisplayinfoextra.field_storages[i]<<"\n\n\n";
-/*	for(const auto &ele : db2.sections)
-		for(std::size_t i(0);i!=ele.records.size();++i)
+	std::size_t pos(0),counter(0);
+	for(auto &ele : db2.sections)
+		for(auto &ele1 : ele.records)
 		{
-			std::cout<<i<<' '<<ele.records[i]<<'\n';
+			if(ele1.sd==0&&ele1.hd!=0)
+			{
+				std::cout<<pos<<' '<<ele1<<'\n';
+				++counter;
+			}
+			++pos;
 		}
-	std::cout<<db2.sections.front().records.size()<<'\n';*/
+	std::cout<<"total: "<<pos<<" broken old model references:"<<counter<<'\n';
 	auto ser(serialize(db2));
-	if(raw==ser)
-		std::cout<<"OK\n";
-	else
-	{
-		std::cout<<"NO\nRaw:"<<raw.size()<<" Ser:"<<ser.size()<<'\n';
-		if(raw.size()==ser.size())
-		{
-			for(std::size_t i(0);i!=raw.size();++i)
-				if(raw[i]!=ser[i])
-				{
-					std::cout<<i<<' '<<static_cast<int>(raw[i])<<' '<<static_cast<int>(ser[i])<<'\n';
-				}
-		}
-	}
 }
 {
 	std::ifstream fin("chrraces.db2",std::ifstream::binary);
