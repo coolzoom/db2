@@ -4,7 +4,7 @@ namespace wdc2
 {
 enum class race : std::uint8_t
 {
-	human=1,orc,dwarf,nightelf,undead,tauren,gnome,troll,goblin,bloodelf,draenei,felorc,naga,broken,worgen=22,pandaren=24,alliance_traitor,horde_traitor
+	human,orc,dwarf,nightelf,undead,tauren,gnome,troll,goblin,bloodelf,draenei,felorc,naga,broken,worgen=22,pandaren=24,alliance_traitor,horde_traitor
 };
 template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const race& e)
@@ -86,7 +86,7 @@ decltype(auto) operator<<(ostrm& out,const sex& e)
 		out.put('F');
 	break;
 	default:
-		throw std::runtime_error("unknown sex");
+		out<<"Unknown("<<static_cast<std::uint32_t>(e)<<") ";
 	}
 	return (out);
 }
