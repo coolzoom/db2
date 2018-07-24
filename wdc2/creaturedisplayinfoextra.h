@@ -7,16 +7,15 @@ namespace wdc2
 {
 struct creaturedisplayinfoextra
 {
-	std::uint8_t idk;
-	std::uint8_t flags;
-	std::array<std::uint8_t,2> c;
+//	std::uint8_t idk;
+//	std::uint8_t flags;
 	struct
 	{
-		race r : 6;
-		std::byte:3;
-	//	std::byte r;
-		sex s:1;
-	}cn;
+		uint8_t r:6;
+		uint8_t s:2;		
+	}a;
+	std::array<std::uint8_t,5> c;
+
 	std::uint16_t sd;
 /*	race r;
 	sex s;
@@ -28,6 +27,10 @@ struct creaturedisplayinfoextra
 template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const creaturedisplayinfoextra& e)
 {
-	return out<<"idk:"<<e.idk<<"\tflags:"<<static_cast<std::uint16_t>(e.flags)<<"\trace:"<<e.cn.r<<"\tsex:"<<e.cn.s<<"\tsd:"<<e.sd<<"\thd:"<<e.hd<<"\tunk:"<<e.unk;
+	out<<rc(e.a.r)<<'\t'<<sx(e.a.s)<<"\tsd:"<<e.sd<<"\thd:"<<e.hd;
+//	for(const auto &ele : e.c)
+//		out<<static_cast<std::uint16_t>(ele)<<' ';
+	return (out);
+//	return out<<"idk:"<<e.idk<<"\tflags:"<<static_cast<std::uint16_t>(e.flags)<<"\trace:"<<e.cn.r<<"\tsex:"<<e.cn.s<<"\t"<<<<"\tunk:"<<e.unk;
 }
 }

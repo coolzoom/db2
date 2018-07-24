@@ -35,7 +35,6 @@ int main()
 			if(ele.race==db2::race::tauren)
 			{
 				places.emplace_back(i);
-//				std::cout<<i<<' '<<ele<<'\n';
 			}
 		}
 		std::vector<db2::charsections> bloodelves;
@@ -86,11 +85,8 @@ int main()
 				cvec.emplace_back(chr.records[i]);
 			}
 		}
-//		chr.records[]
-//		vec[i]=
 		cvec.insert(cvec.end(),vec.cbegin(),vec.cend());
 		chr.records=std::move(cvec);
-//		chr.records[]
 		for(std::uint8_t i(0);i!=5;++i)
 			lmd(static_cast<db2::charsections::field_type>(i));
 		std::ofstream fout("D:\\blizzard\\World of Warcraft\\dbfilesclient\\charsections.db2",std::ofstream::binary);

@@ -6,6 +6,12 @@ enum class race : std::uint8_t
 {
 	human,orc,dwarf,nightelf,undead,tauren,gnome,troll,goblin,bloodelf,draenei,felorc,naga,broken,worgen=22,pandaren=24,alliance_traitor,horde_traitor
 };
+
+inline auto rc(std::uint8_t r)
+{
+	return static_cast<race>(r);
+}
+
 template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const race& e)
 {
@@ -74,6 +80,12 @@ decltype(auto) operator<<(ostrm& out,const race& e)
 
 enum class sex : std::uint8_t
 {male,female};
+
+inline auto sx(std::uint8_t r)
+{
+	return static_cast<sex>(r);
+}
+
 template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const sex& e)
 {

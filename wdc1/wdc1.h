@@ -19,8 +19,51 @@ struct copy_table_entry
 
 enum class field_compression
 {
-	none,bitpacked,common_data,indexed,indexed_array
+	// None -- the field is a 8-, 16-, 32-, or 64-bit integer in the record data
+	none,
+	// Bitpacked -- the field is a bitpacked integer in the record data.  It
+	// is field_size_bits long and starts at field_offset_bits.
+	// A bitpacked value occupies
+	//   (field_size_bits + (field_offset_bits & 7) + 7) / 8
+	// bytes starting at byte
+	//   field_offset_bits / 8
+	// in the record data.  These bytes should be read as a little-endian value,
+	// then the value is shifted to the right by (field_offset_bits & 7) and
+	// masked with ((1ull << field_size_bits) - 1).
+	bitpacked,
+	// Common data -- the field is assumed to be a default value, and exceptions
+	// from that default value are stored in the corresponding section in
+	// common_data as pairs of { std::uint32_t record_id; std::uint32_t value; }.
+	common_data,
+	// Bitpacked indexed -- the field has a bitpacked index in the record data.
+	// This index is used as an index into the corresponding section in
+	// pallet_data.  The pallet_data section is an array of std::uint32_t, so the index
+	// should be multiplied by 4 to obtain a byte offset.
+	bitpacked_indexed,
+	// Bitpacked indexed array -- the field has a bitpacked index in the record
+	// data.  This index is used as an index into the corresponding section in
+	// pallet_data.  The pallet_data section is an array of std::uint32_t[array_count],
+	//
+	bitpacked_indexed_array,
+	// Same as field_compression_bitpacked
+	bitpacked_signed
 };
+
+template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const field_compression& fs)
+{
+	using namespace std::string_literals;
+	switch(fs)
+	{
+		case field_compression::none: return o<<"none"s;
+		case field_compression::bitpacked: return o<<"bitpacked"s;
+		case field_compression::common_data: return o<<"common data"s;
+		case field_compression::bitpacked_indexed: return o<<"bitpacked_indexed"s;
+		case field_compression::bitpacked_indexed_array: return o<<"bitpacked_indexed_array"s;
+		case field_compression::bitpacked_signed: return o<<"bitpacked_signed"s;
+		default: return o<<"unknown("s<<static_cast<unsigned>(fs)<<')';
+	}
+}
 
 struct field_storage_info
 {
@@ -30,6 +73,43 @@ struct field_storage_info
 	field_compression type;
 	std::array<std::uint32_t,3> values;
 };
+
+template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const field_storage_info& fs)
+{
+	using namespace std::string_literals;
+	o<<"offset_bits\t"s<<fs.offset_bits<<
+		"\nfield_size\t"s<<fs.field_size<<
+		"\nadditional_data_size\t"s<<fs.additional_data_size<<
+		"\ntype\t"s<<fs.type;
+	switch(fs.type)
+	{
+	case field_compression::none:break;
+	case field_compression::bitpacked:
+		o<<"\n\nbitpacking_offset_bits\t"s<<fs.values.front();
+		o<<"\nbitpacking_size_bits\t"s<<fs.values[1];
+		o<<"\nflags\t"s<<fs.values[2];
+	break;
+	case field_compression::common_data:
+		o<<"\n\ndefault_value\t"s<<fs.values.front();
+	break;
+	case field_compression::bitpacked_indexed:
+		o<<"\n\nbitpacking_offset_bits\t"s<<fs.values.front();
+		o<<"\nbitpacking_size_bits\t"s<<fs.values[1];
+	break;
+	case field_compression::bitpacked_indexed_array:
+		o<<"\n\nbitpacking_offset_bits\t"s<<fs.values.front();
+		o<<"\nbitpacking_size_bits\t"s<<fs.values[1];
+		o<<"\narray_count\t"s<<fs.values[2];
+	break;
+	default:
+		o<<"\n\n"s;
+		for(std::size_t i(0);i!=fs.values.size();++i)
+			o<<fs.values[i]<<'\t';
+	}
+	return (o);
+}
+
 struct relationship_entry
 {
 	uint32_t foreign_id;
