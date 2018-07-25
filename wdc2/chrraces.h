@@ -78,11 +78,11 @@ template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const chrraces& e)
 {
 //	out<<flags(e);
-/*	if(flags(e)&0x8)
+	if(flags(e)&0x8)
 		out<<" (Playable)";
 	if(flags(e)&0x80)
-		out<<" (Old models are disabled)";*/
-	out<<"a:";
+		out<<" (Old models are disabled)";
+/*	out<<"a:";
 	for(std::size_t i(0);i<e.a.size();++i)
 		out<<' '<<e.a[i];
 	out<<"\nb:";
@@ -90,7 +90,7 @@ decltype(auto) operator<<(ostrm& out,const chrraces& e)
 		out<<' '<<e.b[i];
 	out<<"\nc:";
 	for(std::size_t i(0);i!=e.c.size();++i)
-		out<<' '<<static_cast<std::int16_t>(e.c[i]);
+		out<<' '<<static_cast<std::int16_t>(e.c[i]);*/
 	return out;
 }
 }

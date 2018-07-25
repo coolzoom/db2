@@ -9,9 +9,10 @@
 #include<random>
 #include<unordered_map>
 
-int main()
+int main(int argc,char **argv)
 try
 {
+	std::string cre;
 {
 	std::ifstream fin("creaturedisplayinfoextra.db2",std::ifstream::binary);
 	if(!fin)
@@ -63,21 +64,18 @@ try
 					const auto &f(m.at(wdc2::get<std::uint8_t>(ele,0,8)));
 					std::uniform_int_distribution<std::size_t> b(0,f.size()-1);
 					wdc2::set(ele,41,20,f[b(eng)]);
-					std::cout<<i<<ele<<'\n';
+//					std::cout<<i<<ele<<'\n';
 				}
 				else
 				{
 					std::uniform_int_distribution<std::size_t> b(0,cit->second.size()-1);
 					wdc2::set(ele,41,20,cit->second[b(eng)]);
-					std::cout<<i<<" class "<<ele<<'\n';
+//					std::cout<<i<<" class "<<ele<<'\n';
 				}
 			}
 		}
-	std::cout<<"fixed "<<count<<" broken SD textures\n";
-	auto serializer(serialize(db2));
-	std::ofstream fout("creaturedisplayinfoextra.db2.fixed",std::ofstream::binary);
-	fout.rdbuf()->sputn(serializer.data(),serializer.size());
-
+//	std::cout<<"fixed "<<count<<" broken SD textures\n";
+	cre.assign(serialize(db2));
 }
 {
 	std::ifstream fin("chrraces.db2",std::ifstream::binary);
@@ -104,9 +102,17 @@ try
 	auto &ele = db2.sections.at(0).records.at(0);
 	enable_old_model(ele);
 	std::cout<<ele<<'\n';
+//	std::cout<<db2.sections.at(0).records.at(22)<<'\n';
+	enable_old_model(db2.sections.at(0).records.at(22));
 	auto serializer(serialize(db2));
+	{
+	std::ofstream fout("creaturedisplayinfoextra.db2.fixed",std::ofstream::binary);
+	fout.rdbuf()->sputn(serializer.data(),serializer.size());
+	}
+	{
 	std::ofstream fout("chrraces.db2.fixed",std::ofstream::binary);
 	fout.rdbuf()->sputn(serializer.data(),serializer.size());
+	}
 }
 }
 catch(const std::exception& e)
