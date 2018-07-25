@@ -77,8 +77,9 @@ try
 		fin.exceptions(std::ifstream::failbit);
 	std::string raw((std::istreambuf_iterator<char>(fin)),std::istreambuf_iterator<char>());
 	wdc2::db2<wdc2::chrraces> db2(raw);
-	decltype(auto) records(db2.sections.at(0).records);
-	for(std::size_t i(1);i<argc;++i)
+//	std::cout<<db2.sections.at(0).string_table<<'\n';
+	auto &records(db2.sections.at(0).records);
+	for(std::size_t i(1),argc_s(argc);i<argc_s;++i)
 	{
 		std::string s(argv[i]);
 		for(auto &ele : s)
@@ -89,11 +90,15 @@ try
 			enable_old_model(records.at(22));	//enable worgen since they share same files		
 		}
 		else if(s=="dwarf")
-			enable_old_model(records.at(2));	//enable ne
+			enable_old_model(records.at(2));	//enable dwarf
 		else if(s=="ne")
 			enable_old_model(records.at(3));	//enable ne
+		else if(s=="tauren")
+			enable_old_model(records.at(5));	//enable tauren
 		else if(s=="gnome")
-			enable_old_model(records.at(6));	//enable ne
+			enable_old_model(records.at(6));	//enable gnome
+		else if(s=="troll")
+			enable_old_model(records.at(7));	//enable troll
 		else if(s=="bloodelf")
 			enable_old_model(records.at(9));	//enable be
 		else if(s=="draenei")
