@@ -89,12 +89,14 @@ try
 			enable_old_model(records.at(0));	//enable human
 			enable_old_model(records.at(22));	//enable worgen since they share same files		
 		}
+//		else if(s=="orc")
+//			enable_old_model(records.at(1));	//enable orc NOT USABLE
 		else if(s=="dwarf")
 			enable_old_model(records.at(2));	//enable dwarf
 		else if(s=="ne")
 			enable_old_model(records.at(3));	//enable ne
-		else if(s=="tauren")
-			enable_old_model(records.at(5));	//enable tauren
+//		else if(s=="tauren")
+//			enable_old_model(records.at(5));	//enable tauren NOT USABLE
 		else if(s=="gnome")
 			enable_old_model(records.at(6));	//enable gnome
 		else if(s=="troll")
