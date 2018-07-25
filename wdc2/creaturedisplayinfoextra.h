@@ -1,36 +1,52 @@
 #pragma once
-#include"race.h"
+#include"racesex.h"
 #include<array>
 #include<bitset>
+#include"unknown.h"
+#include"wclass.h"
 
 namespace wdc2
 {
+
 struct creaturedisplayinfoextra
 {
-//	std::uint8_t idk;
-//	std::uint8_t flags;
-	struct
-	{
-		uint8_t r:6;
-		uint8_t s:2;		
-	}a;
-	std::array<std::uint8_t,5> c;
-
-	std::uint16_t sd;
-/*	race r;
-	sex s;
-	std::array<std::uint8_t,2> a;*/
-	std::uint16_t hd;
-	std::uint16_t unk;
+	std::array<std::uint8_t,12> a;
 };
+
+
+template<typename T>
+auto get(const creaturedisplayinfoextra& unk,std::size_t B,std::size_t size)
+{
+	union
+	{
+		creaturedisplayinfoextra un;
+		std::bitset<8*sizeof(creaturedisplayinfoextra)> b;
+	}u{};
+	u.un=unk;
+	T v(0);
+	for(std::size_t i(0);i!=size;++i)
+		v|=(u.b.test(i+B)<<i);
+	return v;
+}
+
+template<typename T>
+void set(creaturedisplayinfoextra& unk,std::size_t B,std::size_t size,T t)
+{
+	union
+	{
+		creaturedisplayinfoextra un;
+		std::bitset<8*sizeof(creaturedisplayinfoextra)> b;
+	}u{unk};
+	for(std::size_t i(B),e(B+size);i!=e;++i,(t>>=1))
+		u.b.set(i,t&1);
+	unk=u.un;
+}
 
 template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const creaturedisplayinfoextra& e)
 {
-	out<<rc(e.a.r)<<'\t'<<sx(e.a.s)<<"\tsd:"<<e.sd<<"\thd:"<<e.hd;
-//	for(const auto &ele : e.c)
-//		out<<static_cast<std::uint16_t>(ele)<<' ';
+	out<<rcsx(get<std::uint8_t>(e,0,8))<<'\t'<<cls(get<std::uint8_t>(e,8,4))<<"\tsd:"<<get<std::uint32_t>(e,41,20)<<"\thd:"<<get<std::uint32_t>(e,61,20);
 	return (out);
-//	return out<<"idk:"<<e.idk<<"\tflags:"<<static_cast<std::uint16_t>(e.flags)<<"\trace:"<<e.cn.r<<"\tsex:"<<e.cn.s<<"\t"<<<<"\tunk:"<<e.unk;
 }
+
 }

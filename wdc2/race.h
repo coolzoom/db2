@@ -4,7 +4,7 @@ namespace wdc2
 {
 enum class race : std::uint8_t
 {
-	human,orc,dwarf,nightelf,undead,tauren,gnome,troll,goblin,bloodelf,draenei,felorc,naga,broken,worgen=22,pandaren=24,alliance_traitor,horde_traitor
+	human,orc,dwarf,nightelf,undead,tauren,gnome,troll,bloodelf,goblin,naga,felorc,draenei,broken,worgen=22,pandaren=24,alliance_traitor,horde_traitor
 };
 
 inline auto rc(std::uint8_t r)
