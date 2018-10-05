@@ -84,11 +84,10 @@ try
 		std::string s(argv[i]);
 		for(auto &ele : s)
 			ele=std::tolower(ele);
-		if(s=="human"||s=="worgen")
-		{
+		if(s=="human")
 			enable_old_model(records.at(0));	//enable human
+		else if(s=="worgen")
 			enable_old_model(records.at(22));	//enable worgen since they share same files		
-		}
 //		else if(s=="orc")
 //			enable_old_model(records.at(1));	//enable orc NOT USABLE
 		else if(s=="dwarf")
