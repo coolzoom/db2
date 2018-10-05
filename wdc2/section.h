@@ -16,6 +16,11 @@ struct section
 	std::vector<copy_table_entry> copy_table;
 //	std::vector<offset_map_entry> offsets;
 //	relationship_mapping relationship_map;
+	struct relationship_mapping
+	{
+		std::uint32_t min_id,max_id;
+		std::vector<relationship_entry>  entries;
+	}relationship_map;
 	template<typename Q>
 	section(const std::string &str,Q& p,const section_header& header):records(check_section_validity<T>(str,p,header)),
 		string_table(cvs<char>(str,p,header.string_table_size)),
@@ -24,7 +29,12 @@ struct section
 	{
 		using namespace std::string_literals;
 		if(header.relationship_data_size)
-			throw std::runtime_error("not support relationship_map"s);
+		{
+			decltype(auto) rmh(cvs<relationship_mapping_header>(str,p));
+			relationship_map.min_id=rmh.min_id;
+			relationship_map.max_id=rmh.max_id;
+			relationship_map.entries=cvs<relationship_entry>(str,p,rmh.num_entries);
+		}
 	}
 };
 
@@ -39,6 +49,13 @@ auto svc(std::string& str,const section<T>& sct)
 	h.id_list_size=sct.ids.size()*4;
 	svc(str,sct.copy_table);
 	h.copy_table_size=sct.copy_table.size()*sizeof(copy_table_entry);
+	if(sct.relationship_map.entries.size())
+	{
+		h.relationship_data_size=sct.relationship_map.entries.size()*sizeof(relationship_entry)+12;
+		relationship_mapping_header rmh{static_cast<std::uint32_t>(sct.relationship_map.entries.size()),sct.relationship_map.min_id,sct.relationship_map.max_id};
+		svc(str,rmh);
+		svc(str,sct.relationship_map.entries);
+	}
 	return h;
 }
 

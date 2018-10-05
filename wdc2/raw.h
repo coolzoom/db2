@@ -171,12 +171,6 @@ decltype(auto) operator<<(ostrm& o,const field_storage_info& fs)
 	return (o);
 }
 
-struct relationship_entry
-{
-	std::uint32_t foreign_id;
-	std::uint32_t record_index;
-};
-
 struct copy_table_entry
 {
 	std::uint32_t id_of_new_row;
@@ -189,5 +183,27 @@ struct offset_map_entry
 	std::uint16_t length;                                          // this is the length of the record located at the specified offset
 };
 
+struct relationship_entry
+{
+	// This is the id of the foreign key for the record, e.g. SpellID in
+	// SpellX* tables.
+	std::uint32_t foreign_id;
+	// This is the index of the record in record_data.  Note that this is
+	// *not* the record's own ID.
+	std::uint32_t record_index;
+};
+
+template<typename ostrm>
+decltype(auto) operator<<(ostrm& o,const relationship_entry& fs)
+{
+	return o<<fs.foreign_id<<' '<<fs.record_index;
+}
+
+struct relationship_mapping_header
+{
+	std::uint32_t num_entries;
+	std::uint32_t min_id;
+	std::uint32_t max_id;
+};
 
 }
