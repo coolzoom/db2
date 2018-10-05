@@ -9,22 +9,22 @@ namespace wdc2
 
 struct modelfiledata:unknown<5>{};
 
-std::uint32_t file_id(const modelfiledata& e)
+inline auto file_id(const modelfiledata& e)
 {
 	return get<std::uint32_t>(e,0,23);
 }
 
-std::uint32_t model_id(const modelfiledata& e)
+inline auto model_id(const modelfiledata& e)
 {
 	return get<std::uint16_t>(e,23,16);
 }
 
-void file_id(modelfiledata& e,std::uint32_t u)
+inline void file_id(modelfiledata& e,std::uint32_t u)
 {
 	set(e,0,23,u);
 }
 
-void model_id(modelfiledata& e,std::uint16_t u)
+inline void model_id(modelfiledata& e,std::uint16_t u)
 {
 	 set(e,23,16,u);
 }

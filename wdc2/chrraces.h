@@ -79,9 +79,10 @@ decltype(auto) operator<<(ostrm& out,const chrraces& e)
 {
 //	out<<flags(e);
 	if(flags(e)&0x8)
-		out<<" (Playable)";
+		out<<"(Playable)";
 	if(flags(e)&0x80)
-		out<<" (Old models are disabled)";
+		out<<"(Old models are disabled)";
+	out<<"\tsd male:"<<sd_male(e)<<" sd female:"<<sd_female(e)<<"\thd male:"<<hd_male(e)<<"\thd female:"<<hd_female(e);
 /*	out<<"a:";
 	for(std::size_t i(0);i<e.a.size();++i)
 		out<<' '<<e.a[i];

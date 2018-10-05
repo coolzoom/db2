@@ -17,8 +17,14 @@ try
 /*	for(const auto &ele : db2.field_storages)
 			std::cout<<ele<<'\n';
 	std::cout<<db2.sections.size()<<'\n';*/
-	for(const auto &ele : db2.sections.front().records)
-		std::cout<<ele<<'\n';
+	for(const auto &e1 : db2.sections)
+		for(std::size_t i(0);i!=e1.records.size();++i)
+		{
+			if(file_id(e1.records[i])==119563)
+				std::cout<<"sd:"<<i<<' '<<e1.records[i]<<'\n';
+			else if(file_id(e1.records[i])==1000764)
+				std::cout<<"hd:"<<i<<' '<<e1.records[i]<<'\n';
+		}
 }
 catch(const std::exception &e)
 {
