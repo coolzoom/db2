@@ -3,7 +3,7 @@
 #include<cstdint>
 #include<bitset>
 
-namespace wdc2
+namespace wdc3
 {
 template<std::size_t size>
 struct unknown

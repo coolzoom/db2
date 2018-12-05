@@ -4,7 +4,7 @@
 #include<stdexcept>
 #include"span.h"
 
-namespace wdc2
+namespace wdc3
 {
 template<typename T>
 inline decltype(auto) cvs(const std::string &str,const char * &cstr)

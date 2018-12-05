@@ -4,7 +4,7 @@
 #include<stdexcept>
 #include<utility>
 
-namespace wdc2
+namespace wdc3
 {
 
 template<typename T>

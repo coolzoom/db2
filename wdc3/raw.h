@@ -45,15 +45,16 @@ template<typename ostrm>
 decltype(auto) operator<<(ostrm& o,const section_header& fs)
 {
 	using namespace std::string_literals;
-	return o<<"wdc2_unk_header1:"s<<fs.wdc2_unk_header1
-			<<"\nwdc2_unk_header2:"s<<fs.wdc2_unk_header2
+	return o<<"tact_key_hash:"s<<fs.tact_key_hash
 			<<"\nfile_offset:"s<<fs.file_offset
 			<<"\nrecord_count:"s<<fs.record_count
 			<<"\nstring_table_size:"s<<fs.string_table_size
-			<<"\ncopy_table_size:"s<<fs.copy_table_size
-			<<"\noffset_map_offset:"s<<fs.offset_map_offset
+			<<"\noffset_records_end:"s<<fs.offset_records_end
+			<<"\noffset_records_end:"s<<fs.offset_records_end
 			<<"\nid_list_size:"s<<fs.id_list_size
-			<<"\nrelationship_data_size:"s<<fs.relationship_data_size;
+			<<"\nrelationship_data_size:"s<<fs.relationship_data_size
+			<<"\noffset_map_id_count:"s<<fs.offset_map_id_count
+			<<"\ncopy_table_count:"s<<fs.copy_table_count;
 }
 
 template<typename T>
