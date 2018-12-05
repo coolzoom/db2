@@ -4,7 +4,7 @@ namespace wdc2
 {
 enum class race : std::uint8_t
 {
-	human,orc,dwarf,nightelf,undead,tauren,gnome,troll,bloodelf,goblin,naga,felorc,draenei,broken,worgen=22,pandaren=24,alliance_traitor,horde_traitor
+	human,orc,dwarf,nightelf,undead,tauren,gnome,troll,bloodelf,goblin,naga,felorc,draenei,broken,worgen=22,worgenhuman=23,pandaren,alliance_traitor,horde_traitor
 };
 
 inline auto rc(std::uint8_t r)
@@ -61,6 +61,9 @@ decltype(auto) operator<<(ostrm& out,const race& e)
 	break;
 	case race::worgen:
 		out<<"Worgen";
+	break;
+	case race::worgenhuman:
+		out<<"WorgenHuman";
 	break;
 	case race::pandaren:
 		out<<"Pandaren";

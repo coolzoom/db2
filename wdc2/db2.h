@@ -70,4 +70,20 @@ inline auto serialize(const db2<T> &d)
 	return s;
 }
 
+template<typename ostrm,typename T>
+decltype(auto) operator<<(ostrm &out,db2<T> const& t)
+{
+	for(std::size_t i(0);i!=t.field_storages.size();++i)
+	{
+		if(i)
+		{
+			out.put('\n');
+			out.put('\n');
+		}
+		(out<<i).put('\n');
+		out<<t.field_storages[i];
+	}
+	return (out);
+}
+
 }

@@ -30,8 +30,7 @@ auto get(const unknown<N>& unk,std::size_t B,std::size_t size)
 	{
 		unknown<N> un;
 		std::bitset<8*N> b;
-	}u{};
-	u.un=unk;
+	}u{unk};
 	T v(0);
 	for(std::size_t i(0);i!=size;++i)
 		v|=(u.b.test(i+B)<<i);
@@ -45,7 +44,7 @@ void set(unknown<N>& unk,std::size_t B,std::size_t size,T t)
 	{
 		unknown<N> un;
 		std::bitset<8*N> b;
-	}u{};
+	}u{unk};
 	for(std::size_t i(B),e(B+size);i!=e;++i,(t>>=1))
 		u.b.set(i,t&1);
 	unk=u.un;
