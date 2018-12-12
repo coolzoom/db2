@@ -43,7 +43,7 @@ struct db2
 };
 
 template<typename T>
-inline auto serialize(const db2<T> &d)
+inline auto serialize(db2<T> const&d)
 {
 	using namespace std::string_literals;
 	auto s("WDC3"s);

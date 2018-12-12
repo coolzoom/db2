@@ -16,7 +16,7 @@ inline auto read_db2(std::string const& str)
 {
 	std::ifstream fin(str,std::ifstream::binary);
 	if(!fin)
-		fin.exceptions(std::ifstream::failbit);
+		throw std::runtime_error("open "+str+" failed")
 	return std::string(std::istreambuf_iterator<char>(fin),std::istreambuf_iterator<char>());
 }
 
@@ -96,7 +96,7 @@ try
 		std::string s(argv[i]);
 		for(auto &ele : s)
 			ele=std::tolower(ele);
-		if(s=="human"||s=="worgen")
+		if(s=="hum"||s=="human"||s=="worgen")
 		{
 			enable_old_model(records.at(0));	//enable human
 			enable_old_model(records.at(22));	//enable worgen since they share same files		
@@ -108,7 +108,7 @@ try
 //		}
 		else if(s=="dwarf")
 			enable_old_model(records.at(2));	//enable dwarf
-		else if(s=="ne")
+		else if(s=="ne"||s=="nightelf")
 			enable_old_model(records.at(3));	//enable ne
 //		else if(s=="tauren")
 //			enable_old_model(records.at(5));	//enable tauren NOT USABLE
@@ -116,7 +116,7 @@ try
 			enable_old_model(records.at(6));	//enable gnome
 		else if(s=="troll")
 			enable_old_model(records.at(7));	//enable troll
-		else if(s=="bloodelf")
+		else if(s=="bloodelf"||s=="be")
 			enable_old_model(records.at(9));	//enable be
 		else if(s=="draenei")
 			enable_old_model(records.at(10));	//enable draenei
