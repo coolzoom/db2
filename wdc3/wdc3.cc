@@ -31,6 +31,7 @@ try
 	wdc3::db2<wdc3::creaturedisplayinfo> creaturedisplayinfo(wdc3::read_db2("creaturedisplayinfo.db2"));
 	auto creature_id_to_index(convert(creaturedisplayinfo.sections.at(0).records));
 	std::unordered_set<std::uint32_t> uset;
+	std::unordered_set<std::uint32_t> both;
 	{
 		decltype(auto) sec(creaturedisplayinfoextra.sections.at(0));
 		for(std::size_t i(0);i!=sec.records.size();++i)
@@ -41,8 +42,13 @@ try
 				sd(ele,hd(ele));
 				uset.emplace(sec.ids.at(i));
 			}
+			else if(sd(ele)&&hd(ele))
+			{
+				both.emplace(sec.ids.at(i));
+			}
 		}
 	}
+	std::unordered_map<std::uint32_t,std::uint32_t> new_to_old_map;
 	std::unordered_map<std::uint32_t,std::uint32_t> old_to_new_map;
 	wdc3::db2<wdc3::chrraces> chrraces(wdc3::read_db2("chrraces.db2"));
 	{
@@ -52,10 +58,36 @@ try
 	{
 		auto hdm(hd_male(e)),hdfm(hd_female(e));
 		if(hdm)
-			old_to_new_map[model(cr.at(creature_id_to_index.at(sd_male(e))))]=model(cr.at(creature_id_to_index.at(hdm)));
+		{
+			auto sd(model(cr.at(creature_id_to_index.at(sd_male(e)))));
+			auto hd(model(cr.at(creature_id_to_index.at(hdm))));
+			old_to_new_map[sd]=hd;
+			new_to_old_map[hd]=sd;
+		}
 		if(hdfm)
-			old_to_new_map[model(cr.at(creature_id_to_index.at(sd_female(e))))]=model(cr.at(creature_id_to_index.at(hdfm)));
+		{
+			auto sd(model(cr.at(creature_id_to_index.at(sd_female(e)))));
+			auto hd(model(cr.at(creature_id_to_index.at(hdfm))));
+			old_to_new_map[sd]=hd;
+			new_to_old_map[hd]=sd;
+		}
 	}
+	std::size_t incorrect_hd_sd_textures(0);
+	for(std::size_t i(0);i!=cr.size();++i)
+	{
+		auto &e(cr.at(i));
+		auto ex(extra(e));
+		if(ex&&both.count(ex))
+		{
+			auto it(new_to_old_map.find(model(e)));
+			if(it!=new_to_old_map.cend())
+			{
+				model(e,it->second);
+				++incorrect_hd_sd_textures;
+			}
+		}
+	}
+	std::cout<<"fixed "<<incorrect_hd_sd_textures<<" incorrect hd sd textures \n";
 	for(auto &e : cr)
 	{
 		auto ex(extra(e));
@@ -68,7 +100,7 @@ try
 			}
 		}
 	}
-	
+
 	for(std::size_t i(1),argc_s(argc);i<argc_s;++i)
 	{
 		std::string s(argv[i]);
