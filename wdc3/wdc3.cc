@@ -27,6 +27,7 @@ try
 		return 1;
 	}
 	wdc3::db2<wdc3::creaturedisplayinfoextra> creaturedisplayinfoextra(wdc3::read_db2("creaturedisplayinfoextra.db2"));
+	std::size_t gg(0);
 	wdc3::db2<wdc3::creaturedisplayinfo> creaturedisplayinfo(wdc3::read_db2("creaturedisplayinfo.db2"));
 	auto creature_id_to_index(convert(creaturedisplayinfo.sections.at(0).records));
 	std::unordered_set<std::uint32_t> uset;

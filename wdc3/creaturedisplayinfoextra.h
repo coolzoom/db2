@@ -27,23 +27,23 @@ inline void sexid(creaturedisplayinfoextra& e,std::uint32_t u)
 }
 inline auto sd(creaturedisplayinfoextra const& e)
 {
-	return get<std::uint32_t>(e,41,20);
+	return get<std::uint32_t>(e,42,21);
 }
 
 inline void sd(creaturedisplayinfoextra& e,std::uint32_t u)
 {
-	set(e,41,20,u);
+	set(e,42,21,u);
 }
 
 
 inline auto hd(creaturedisplayinfoextra const& e)
 {
-	return get<std::uint32_t>(e,61,20);
+	return get<std::uint32_t>(e,63,21);
 }
 
 inline void hd(creaturedisplayinfoextra& e,std::uint32_t u)
 {
-	set(e,61,20,u);
+	set(e,63,21,u);
 }
 
 template<typename ostrm>
