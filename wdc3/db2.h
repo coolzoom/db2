@@ -2,7 +2,7 @@
 #include<cstdint>
 #include"cvs.h"
 #include"section.h"
-#include<string>
+#include<string_view>
 #include<stdexcept>
 #include<vector>
 
@@ -12,13 +12,14 @@ namespace wdc3
 template<typename T>
 struct db2
 {
+	using value_type = T;
 	header hd;
 	std::vector<field_structure> fields;
 	std::vector<field_storage_info> field_storages;
 	std::vector<section_header> section_headers;
 	std::vector<section<T>> sections;
 	std::vector<std::byte> pallet,common;
-	db2(const std::string &str)
+	db2(std::string const &str)
 	{
 		using namespace std::string_literals;
 		auto magic(str.substr(0,4));

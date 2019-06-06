@@ -16,6 +16,18 @@ struct chrraces
 //	std::array<std::uint32_t,40> a;
 };
 
+
+inline constexpr decltype(auto) raceid(chrraces const& c)
+{
+	return c.a[6];
+}
+
+inline constexpr decltype(auto) raceid(chrraces& c)
+{
+	return c.a[6];
+}
+
+
 inline constexpr decltype(auto) hd_male(const chrraces& c)
 {
 	return c.a[10];
@@ -77,7 +89,7 @@ inline constexpr decltype(auto) flags(const chrraces& c)
 template<typename ostrm>
 decltype(auto) operator<<(ostrm& out,const chrraces& e)
 {
-//	out<<flags(e);
+	out<<raceid(e)<<" ";
 	if(flags(e)&0x8)
 		out<<"(Playable)";
 	if(flags(e)&0x80)
