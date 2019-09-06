@@ -7,100 +7,39 @@
 #include<unordered_map>
 #include<unordered_set>
 #include<vector>
+#include<random>
 
-inline auto convert(std::vector<wdc3::creaturedisplayinfo> &records)
+inline auto stage1()
 {
-	std::unordered_map<std::uint32_t,std::size_t> um;
+	wdc3::db2<wdc3::creaturedisplayinfoextra> creaturedisplayinfoextra(wdc3::read_db2<wdc3::creaturedisplayinfoextra>("creaturedisplayinfoextra.db2"));
+	std::unordered_map<std::uint8_t,std::vector<std::size_t>> racesex_lookup;
+	auto &records(creaturedisplayinfoextra.sections.front().records);
 	for(std::size_t i(0);i!=records.size();++i)
 	{
-		auto &ele(records[i]);
-		um[id(ele)]=i;
+		auto const &e (records[i]);
+		if(sd(e)&&hd(e))
+			racesex_lookup[race_sex(e)].emplace_back(i);
 	}
-	return um;
+	std::random_device device;
+	std::size_t count(0);
+	for(auto & e : records)
+	{
+		if(!sd(e)&&hd(e))
+		{
+			auto lookup_vector(racesex_lookup.at(race_sex(e)));
+			std::uniform_int_distribution<std::size_t> distribution(0,lookup_vector.size()-1);
+			sd(e,sd(records.at(lookup_vector[distribution(device)])));
+			++count;
+		}
+	}
+	std::cout<<"Stage 1 Done: SD Textures which does not exist in creaturedisplayinfoextra: "<<count<<'\n';
+	return creaturedisplayinfoextra;
 }
-int main(int argc,char** argv)
-try
-{
-	if(argc==1)
-	{
-		std::cerr<<"Usage: "<<*argv<<" <race name1> <race name2>...\n";
-		return 1;
-	}
-	wdc3::db2<wdc3::creaturedisplayinfoextra> creaturedisplayinfoextra(wdc3::read_db2("creaturedisplayinfoextra.db2"));
-	std::size_t gg(0);
-	wdc3::db2<wdc3::creaturedisplayinfo> creaturedisplayinfo(wdc3::read_db2("creaturedisplayinfo.db2"));
-	auto creature_id_to_index(convert(creaturedisplayinfo.sections.at(0).records));
-	std::unordered_set<std::uint32_t> uset;
-	std::unordered_set<std::uint32_t> both;
-	{
-		decltype(auto) sec(creaturedisplayinfoextra.sections.at(0));
-		for(std::size_t i(0);i!=sec.records.size();++i)
-		{
-			auto &ele(sec.records[i]);
-			if(!sd(ele)&&hd(ele))
-			{
-				sd(ele,hd(ele));
-				uset.emplace(sec.ids.at(i));
-			}
-			else if(sd(ele)&&hd(ele))
-			{
-				both.emplace(sec.ids.at(i));
-			}
-		}
-	}
-	std::unordered_map<std::uint32_t,std::uint32_t> new_to_old_map;
-	std::unordered_map<std::uint32_t,std::uint32_t> old_to_new_map;
-	wdc3::db2<wdc3::chrraces> chrraces(wdc3::read_db2("chrraces.db2"));
-	{
-	auto &records(chrraces.sections.at(0).records);
-	auto &cr(creaturedisplayinfo.sections.at(0).records);
-	for(auto const &e : records)
-	{
-		auto hdm(hd_male(e)),hdfm(hd_female(e));
-		if(hdm)
-		{
-			auto sd(model(cr.at(creature_id_to_index.at(sd_male(e)))));
-			auto hd(model(cr.at(creature_id_to_index.at(hdm))));
-			old_to_new_map[sd]=hd;
-			new_to_old_map[hd]=sd;
-		}
-		if(hdfm)
-		{
-			auto sd(model(cr.at(creature_id_to_index.at(sd_female(e)))));
-			auto hd(model(cr.at(creature_id_to_index.at(hdfm))));
-			old_to_new_map[sd]=hd;
-			new_to_old_map[hd]=sd;
-		}
-	}
-	std::size_t incorrect_hd_sd_textures(0);
-	for(std::size_t i(0);i!=cr.size();++i)
-	{
-		auto &e(cr.at(i));
-		auto ex(extra(e));
-		if(ex&&both.count(ex))
-		{
-			auto it(new_to_old_map.find(model(e)));
-			if(it!=new_to_old_map.cend())
-			{
-				model(e,it->second);
-				++incorrect_hd_sd_textures;
-			}
-		}
-	}
-	std::cout<<"fixed "<<incorrect_hd_sd_textures<<" incorrect hd sd textures \n";
-	for(auto &e : cr)
-	{
-		auto ex(extra(e));
-		if(ex&&uset.count(ex))
-		{
-			auto it(old_to_new_map.find(model(e)));
-			if(it!=old_to_new_map.cend())
-			{
-				model(e,it->second);
-			}
-		}
-	}
 
+inline auto stage3(int argc,char **argv)
+{
+	wdc3::db2<wdc3::chrraces> chrraces(wdc3::read_db2<wdc3::chrraces>("chrraces.db2"));
+	auto &records(chrraces.sections.front().records);
 	for(std::size_t i(1),argc_s(argc);i<argc_s;++i)
 	{
 		std::string s(argv[i]);
@@ -130,20 +69,26 @@ try
 			enable_old_model(records.at(9));	//enable be
 		else if(s=="draenei")
 			enable_old_model(records.at(10));	//enable draenei
-//		else if(s=="undead")
-//			enable_old_model(records.at(4));	//enable undead
+		else if(s=="undead")
+			enable_old_model(records.at(4));	//enable undead
 		else
-		{
-			std::cerr<<"race: "<<s<<" does not exist\n";
-			return 1;
-		}
-		std::cout<<s<<'\n';
+			throw std::runtime_error("race: "+s+" does not exist");
 	}
+	std::cout<<"Stage 3 Done: Deflagging SD model disable toggle inside chrraces.db2\n";
+	return chrraces;
+}
+
+int main(int argc,char** argv)
+try
+{
+	if(argc==1)
+	{
+		std::cerr<<"Usage: "<<*argv<<" <race name1> <race name2>...\n";
+		return 1;
 	}
-	std::cout<<"fixed "<<uset.size()<<" broken SD textures\n";
-	wdc3::write_db2("chrraces.db2.fixed",chrraces);
-	wdc3::write_db2("creaturedisplayinfo.db2.fixed",creaturedisplayinfo);
-	wdc3::write_db2("creaturedisplayinfoextra.db2.fixed",creaturedisplayinfoextra);
+	std::cout<<"Notice that the arctium wow launcher does neither support adding custom filedataids nor modifying creaturedisplayinfo. It would be a huge problem here.\n";
+	write_db2("creaturedisplayinfoextra.db2.fixed",stage1());
+	write_db2("chrraces.db2.fixed",stage3(argc,argv));
 }
 catch(std::exception const&ex)
 {
