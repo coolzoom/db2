@@ -9,6 +9,8 @@
 #include<vector>
 #include<random>
 
+std::unordered_set<std::uint32_t> both;
+
 inline auto stage1()
 {
 	wdc3::db2<wdc3::creaturedisplayinfoextra> creaturedisplayinfoextra(wdc3::read_db2<wdc3::creaturedisplayinfoextra>("creaturedisplayinfoextra.db2"));
@@ -18,7 +20,10 @@ inline auto stage1()
 	{
 		auto const &e (records[i]);
 		if(sd(e)&&hd(e))
+		{
 			racesex_lookup[race_sex(e)].emplace_back(i);
+			both.emplace(creaturedisplayinfoextra.sections.front().ids.at(i));
+		}
 	}
 	std::random_device device;
 	std::size_t count(0);
@@ -34,6 +39,64 @@ inline auto stage1()
 	}
 	std::cout<<"Stage 1 Done: SD Textures which does not exist in creaturedisplayinfoextra: "<<count<<'\n';
 	return creaturedisplayinfoextra;
+}
+
+inline auto convert(std::vector<wdc3::creaturedisplayinfo> &records)
+{
+	std::unordered_map<std::uint32_t,std::size_t> um;
+	for(std::size_t i(0);i!=records.size();++i)
+	{
+		auto &ele(records[i]);
+		um[id(ele)]=i;
+	}
+	return um;
+}
+
+inline auto stage2()
+{
+	auto chrraces(wdc3::read_db2<wdc3::chrraces>("chrraces.db2"));
+	auto &records(chrraces.sections.at(0).records);
+	std::unordered_map<std::uint32_t,std::uint32_t> new_to_old_map;
+	std::unordered_map<std::uint32_t,std::uint32_t> old_to_new_map;
+	auto creaturedisplayinfo(wdc3::read_db2<wdc3::creaturedisplayinfo>("creaturedisplayinfo.db2"));
+
+	auto creature_id_to_index(convert(creaturedisplayinfo.sections.at(0).records));
+	auto &cr(creaturedisplayinfo.sections.at(0).records);
+
+	for(auto const & e : records)
+	{
+		auto hdm(hd_male(e)),hdfm(hd_female(e));
+		if(hdm)
+		{
+			auto sd(model(cr.at(creature_id_to_index.at(sd_male(e)))));
+			auto hd(model(cr.at(creature_id_to_index.at(hdm))));
+			old_to_new_map[sd]=hd;
+			new_to_old_map[hd]=sd;
+		}
+		if(hdfm)
+		{
+			auto sd(model(cr.at(creature_id_to_index.at(sd_female(e)))));
+			auto hd(model(cr.at(creature_id_to_index.at(hdfm))));
+			old_to_new_map[sd]=hd;
+			new_to_old_map[hd]=sd;
+		}
+	}
+	std::size_t incorrect_hd_sd_textures(0);
+	for(auto & e : creaturedisplayinfo.sections.at(0).records)
+	{
+		auto ex(extra(e));
+		if(ex&&both.count(ex))
+		{
+			auto it(new_to_old_map.find(model(e)));
+			if(it!=new_to_old_map.cend())
+			{
+				model(e,it->second);
+				++incorrect_hd_sd_textures;
+			}
+		}
+	}
+	std::cout<<"Stage 2 : fixed "<<incorrect_hd_sd_textures<<" incorrect hd sd textures \n";
+	return creaturedisplayinfo;
 }
 
 inline auto stage3(int argc,char **argv)
@@ -89,6 +152,7 @@ try
 	std::cout<<"Notice that the arctium wow launcher does neither support adding custom filedataids nor modifying creaturedisplayinfo. It would be a huge problem here.\n";
 	write_db2("creaturedisplayinfoextra.db2.fixed",stage1());
 	write_db2("chrraces.db2.fixed",stage3(argc,argv));
+	write_db2("creaturedisplayinfo.db2.fixed",stage2());
 }
 catch(std::exception const&ex)
 {
