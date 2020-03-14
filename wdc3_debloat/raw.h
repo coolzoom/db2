@@ -42,9 +42,9 @@ struct section_header
 };
 
 template<fast_io::buffer_output_stream ostrm>
-decltype(auto) print_define(ostrm& o,const section_header& fs)
+inline constexpr void print_define(ostrm& o,const section_header& fs)
 {
-	return print(o,u8"tact_key_hash:",fs.tact_key_hash,
+	print(o,u8"tact_key_hash:",fs.tact_key_hash,
 			u8"\nfile_offset:",fs.file_offset,
 			u8"\nrecord_count:",fs.record_count,
 			u8"\nstring_table_size:",fs.string_table_size,
@@ -58,10 +58,9 @@ decltype(auto) print_define(ostrm& o,const section_header& fs)
 template<typename T>
 inline decltype(auto) check_section_validity(const std::string& str,const char * &p,const section_header& s)
 {
-	using namespace std::string_literals;
 	if(str.data()+s.file_offset!=p)
-		throw std::runtime_error("offset error size: "s+std::to_string(str.size())+" pos: "s+std::to_string(p-str.data())+
-						" should be: "s+std::to_string(s.file_offset));
+		throw std::runtime_error(fast_io::concat<>("offset error size: ",str.size()," pos: ",p-str.data(),
+						" should be: ",s.file_offset));
 	return cvs<T>(str,p,s.record_count);
 }
 
