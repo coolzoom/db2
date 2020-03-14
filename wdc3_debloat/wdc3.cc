@@ -135,7 +135,7 @@ inline auto stage3(int argc,char **argv)
 		else if(s=="undead")
 			enable_old_model(records.at(4));	//enable undead
 		else
-			throw std::runtime_error("race: "+s+" does not exist");
+			throw std::runtime_error(fast_io::concat<>("race: ",s," does not exist"));
 	}
 	print("Stage 3 Done: Deflagging SD model disable toggle inside chrraces.db2\n");
 	return chrraces;
