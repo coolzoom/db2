@@ -62,7 +62,7 @@ inline auto serialize(db2<T> const&d)
 	for(std::size_t i(0);i!=d.sections.size();++i)
 	{
 		decltype(auto) ele(d.sections[i]);
-		secheader.at(i)=svc(s,ele);
+		secheader[i]=svc(s,ele);
 		record_count+=ele.records.size();
 		string_table_size+=ele.string_table.size();
 	}

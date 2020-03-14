@@ -1,3 +1,4 @@
+#include<span>
 #include"db2_io.h"
 #include<exception>
 #include<iostream>
